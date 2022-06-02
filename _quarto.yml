@@ -46,7 +46,7 @@ format:
     include-in-header: plausible.html
     highlight-style: nord
 comments:
-  utterances:
+    giscus:
     repo: shmuhammad2004/shmuhammadblog
     repo-id: "R_kgDOHb5q2A"
     category: "Comments"
