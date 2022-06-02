@@ -10,7 +10,7 @@ website:
     giscus:
       repo: "shmuhammad2004/shmuhammadblog"
       repo-id: "R_kgDOHb5q2A"
-      category: "Comments"
+      category: "Announcements"
       category-id: "DIC_kwDOHb5q2M4CPbHo"
       mapping: "pathname"
       reactions-enabled	: true
