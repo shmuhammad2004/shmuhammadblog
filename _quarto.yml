@@ -13,10 +13,10 @@ website:
       category: "Comments"
       category-id: "DIC_kwDOHb5q2M4CPbHo"
       mapping: "pathname"
-      reactions-enabled	: "1"
+      reactions-enabled	: true
       input-position: "top" 
       theme: "light"
-      language: en
+      language: "en"
   google-analytics: "UA-124900795-1"
   title: "Shamsuddeen Hassan Muhammad's Blog"
   site-url: https://shmuhammadblog.github.io
