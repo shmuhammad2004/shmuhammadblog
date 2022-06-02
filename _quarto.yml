@@ -8,7 +8,7 @@ project:
 website:
   comments:
     giscus:
-      repo: shmuhammad2004/shmuhammadblog
+      repo: "shmuhammad2004/shmuhammadblog"
       repo-id: "R_kgDOHb5q2A"
       category: "Comments"
       category-id: "DIC_kwDOHb5q2M4CPbHo"
