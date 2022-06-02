@@ -1,0 +1,47 @@
+project:
+  type: website
+  output-dir: docs
+  reader-mode: true 
+  resources:
+    - "_redirects.txt"
+
+website:
+  google-analytics: "UA-124900795-1"
+  title: "Shamsuddeen Hassan Muhammad's Blog"
+  site-url: https://shmuhammadblog.github.io
+  description: "Shamsuddeen Muhammad Blog"
+  twitter-card:
+     site : "@shmuhammadd"
+     creator : "Shamsuddeen Hassan Muhammad"
+  opengraph: true
+  navbar:
+    title: "Shamsuddeen Hassan Muhammad"
+    background: "#000000"
+    foreground: "#FFFFFF"
+    pinned: true
+    left:
+      - text: "NLP Researcher and Data Scientist"
+    right:
+      - text: "Navigation"
+        menu:
+          - text: "About"
+            file: about.qmd
+          - text: "Blog"
+            file: index.qmd
+      - icon: twitter
+        href: https://twitter.com/Shmuhammadd
+      - icon: github
+        href: https://github.com/shmuhammad2004
+      - icon: linkedin
+        href: https://www.linkedin.com/in/shmuhammad/
+      - icon: rss
+        href: index.xml
+  page-footer:
+    left: 
+      - href: license.qmd
+        text: License
+format:
+  html:
+    theme: [litera, styles.scss]
+    include-in-header: plausible.html
+    highlight-style: nord
