@@ -1,5 +1,5 @@
 ---
-title: "High and Low Varience Algorithms"
+title: "Bias and Varience in Machine Learning Algorithms"
 date: '2022-05-10'
 image: varience.png
 output: html_document
