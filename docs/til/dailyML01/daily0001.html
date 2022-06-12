@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2022-05-10">
 
-<title>Shamsuddeen Hassan Muhammad’s Blog - About</title>
+<title>Shamsuddeen Hassan Muhammad’s Blog - High and Low Varience Algorithms</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -18,20 +19,21 @@ ul.task-list{list-style: none;}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,10 +70,13 @@ ga('send', {
 <script defer="" data-domain="ivelasq.rbind.io" src="https://plausible.io/js/plausible.js"></script>
 
 
-<meta name="twitter:title" content="Shamsuddeen Hassan Muhammad’s Blog - About">
-<meta name="twitter:description" content="I am a PhD student at the University of Porto, Portugal. I am interested in low-resource natural language processing (NLP). I write stuff related to NLP and data science.">
+<meta name="twitter:title" content="Shamsuddeen Hassan Muhammad’s Blog - High and Low Varience Algorithms">
+<meta name="twitter:description" content="The accuracy of a any prediction depends on two quantities: reducible error and irreducible error. irreducible error is an error.">
+<meta name="twitter:image" content="https://shmuhammadblog.github.io/til/dailyML01/varience.png">
 <meta name="twitter:creator" content="Shamsuddeen Hassan Muhammad">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:image-height" content="954">
+<meta name="twitter:image-width" content="1400">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -80,7 +85,7 @@ ga('send', {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="./index.html">
+      <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Shamsuddeen Hassan Muhammad</span>
   </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -93,13 +98,13 @@ ga('send', {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page">About</a>
+    <a class="nav-link" href="../../about.html">About</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">Blog</a>
+    <a class="nav-link" href="../../index.html">Blog</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./til.html">Today I Learned</a>
+    <a class="nav-link" href="../../til.html">Today I Learned</a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/Shmuhammadd"><i class="bi bi-twitter" role="img">
@@ -117,7 +122,7 @@ ga('send', {
  </a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="./index.xml"><i class="bi bi-rss" role="img">
+    <a class="nav-link" href="../../index.xml"><i class="bi bi-rss" role="img">
 </i> 
  </a>
   </li>  
@@ -133,39 +138,68 @@ ga('send', {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-jolla">
-  <img src="my_pic.jpg" class="about-image
-  rectangle " style="width: 15em;">
- <header id="title-block-header" class="quarto-title-block default">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">High and Low Varience Algorithms</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 10, 2022</p>
+    </div>
   </div>
-</header><main class="content" id="quarto-document-content">
-<p>I am a PhD student at the University of Porto, Portugal. I am interested in low-resource natural language processing (NLP). I write stuff related to NLP and data science. You can reach out to me via shamsuddeen2004@gmail.com.</p>
+    
+  </div>
+  
+
+</header>
+
+<p><img src="./varience.png" class="img-fluid"></p>
+<p>The accuracy of a any prediction depends on two quantities: reducible error and irreducible error. irreducible error is an error. Irreducible error is an error that is not reducible while reducible error is an error that is reducible.</p>
+<p>In general, predictive error of machine learning models can be divided into three categories: Irreducible error, Bias error, and Variene Error.</p>
+<section id="irreducible-error" class="level3">
+<h3 class="anchored" data-anchor-id="irreducible-error">Irreducible error</h3>
+<p>As the name suggest, irreducible error is an error that is not reducible due to the unknown variables. Unlike reducible error, which we can reduce by using appropriate learning algorithms. On the other hand, variene error and bias error are errors that are reducible.</p>
+</section>
+<section id="bias-error" class="level3">
+<h3 class="anchored" data-anchor-id="bias-error">Bias error</h3>
+<p>Bias are the prior assumptions made by a model to make the target function easier to learn. For example, linear algorithm assumes that the target function is linear. If the target function is non-linear, then the model will have bias error. Though, they are easy to learn and understand, but they are not flexible and have low lower predictive performance compare to complex or flexible algorithms.</p>
+<p>Therefore, less-flexible algorithms (e.g., Linear Regression, Linear Discriminant Analysis and Logistic Regression) have higher bias than complex or flexible algorithms (e.g., Neural Networks, Decision Trees, k-Nearest Neighbors and Support Vector Machines.).</p>
+</section>
+<section id="variance-error" class="level2">
+<h2 class="anchored" data-anchor-id="variance-error">Variance Error</h2>
+<p>Assume we train the same model with a two different training dataset: N and M. Variance refers to the changes in the model when different training data set is used. Certainly, the model will have variance error when the training dataset is different. But, the error should not be too high between different training datasets.</p>
+<p>Therefore, low-varience algorithms have small changes when different training dataset is used and high-varience algorithms have large changes when different training dataset is used. Flexible or complex algorithms have a high variance (e.g SVM, Decision Trees, Neural Networks, k-Nearest Neighbors). However, non-flexible algorithms have a low variance (e.g., Linear Regression, Linear Discriminant Analysis and Logistic Regression).</p>
+<p>Finally, the goal of any supervised learning algorithm is to achieve low-bias and low-variance error. Achieveing these goals is the key to the success of any supervised learning algorithm. But, how can we achieve these goals? That is where the idea of Bias-Variance Tradeoff comes into play.</p>
+</section>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<ul>
+<li>Non-complex machine learning algorithms have high bias and low variance.</li>
+<li>Complex/flexible machine learning algorithms have a low bias but a high variance</li>
+</ul>
 
 
-</main> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://twitter.com/Shmuhammadd" class="about-link">
-    <i class="bi bi-twitter"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://www.linkedin.com/in/shmuhammad/" class="about-link">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://github.com/shmuhammad2004" class="about-link">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text"></span>
-  </a>
-</div>
-</div>
- <!-- /main -->
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const clipboard = new window.ClipboardJS('.code-copy-button', {
     target: function(trigger) {
       return trigger.previousElementSibling;
@@ -244,7 +278,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="./license.html">License</a>
+    <a class="nav-link" href="../../license.html">License</a>
   </li>  
 </ul>
     </div>   
