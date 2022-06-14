@@ -32,6 +32,7 @@ There are two ways to connect independent clauses: using coordinating conjunctio
 
 ### Using coordinating conjunctions 
 
+
 There are seven types of coordinating conjunctions: and, but, for, or, nor, so, and yet. When two independent clauses are connected by a coordinating conjunction, the comma is necessary before the coordinating conjunction.
 
 1. I went to school today, but I forgot my bag at the airport.
