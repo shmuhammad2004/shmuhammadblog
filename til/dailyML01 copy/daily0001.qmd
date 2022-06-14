@@ -12,6 +12,10 @@ Let us start with the general definition of what is clause and the two types of 
 
 > A clause is a group of words containing a subject and a verb or verb phrase. 
 
+
+![](two_clauses.png)
+
+
 An independent clause is a clause that can stand alone as a sentence (i.e., it expresses a complete thought). The following are examples of independent clauses:
 
 1. The professor always comes to class fully prepared. (contain a subject and a verb)
@@ -22,7 +26,6 @@ A dependent clauses (or subordinate clause) is one that cannot stand alone as a 
 1. Musa won’t be able to attend a class today **because he injured his foot**.(Because he injured his foot is a dependent clause. It contains the subject he and the verb injured. The clause does not express a complete thought and cannot stand on its own as a sentence)
 
 2. I forgot where I put the bicycle keys.(Where I put the bicycle keys is a dependent clause. It contains the subject I and the verb put. The clause does not express a complete thought and cannot stand on its own as a sentence.)
-
 
 ## Connecting independent clauses
 
