@@ -1,7 +1,7 @@
 ---
 title: " How to connect two Indpendent Clauses "
-date: '2022-05-10'
-image: academic_writting.png
+date: '2022-05-11'
+image: aca_02.jpeg
 output: html_document
 ---
 
