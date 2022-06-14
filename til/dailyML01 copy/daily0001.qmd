@@ -1,5 +1,5 @@
 ---
-title: " How to connect two Indpendent Clauses "
+title: " Connecting two Indpendent Clauses "
 date: '2022-05-11'
 image: aca_02.jpeg
 output: html_document
