@@ -4,7 +4,7 @@
     "href": "til.html",
     "title": "Today I Learned",
     "section": "",
-    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\n\nHow to connect two Indpendent Clauses\n\n\nMay 11, 2022\n\n\n\n\n\n\n\nBias and Varience in Machine Learning Algorithms\n\n\nMay 10, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\n\nHow to connect two Indpendent Clauses\n\n\nMay 11, 2022\n\n\n\n\n\n\n\nConnecting two Indpendent Clauses with Comma and Semicolons\n\n\nMay 11, 2022\n\n\n\n\n\n\n\nBias and Varience in Machine Learning Algorithms\n\n\nMay 10, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -180,5 +180,33 @@
     "title": "License",
     "section": "",
     "text": "This is my personal website. Content on this site is provided under a Creative Commons (CC-BY) 4.0 license. You may reuse this content as long as you indicate my authorship and provide a link back to the original material. Source code of the site is provided under the MIT license and may be reused without restriction."
+  },
+  {
+    "objectID": "til/dailyML01 copy/daily0001.html",
+    "href": "til/dailyML01 copy/daily0001.html",
+    "title": "Connecting two Indpendent Clauses with Comma and Semicolons",
+    "section": "",
+    "text": "To use a comma or not before “but” always trips me up. For future reference, I am documenting the general rules for connecting two indepå`endent clauses using coordinating conjunctions (e.g., but and is) and Independent Marker Words (e.g., however and also).\nLet us start with the general definition of what is clause and the two types of clauses."
+  },
+  {
+    "objectID": "til/dailyML01 copy/daily0001.html#connecting-independent-clauses",
+    "href": "til/dailyML01 copy/daily0001.html#connecting-independent-clauses",
+    "title": "Connecting two Indpendent Clauses with Comma and Semicolons",
+    "section": "Connecting independent clauses",
+    "text": "Connecting independent clauses\nThere are two ways to connect independent clauses: using coordinating conjunctions and using conjunctive adverbs (connecting words).\n\nUsing coordinating conjunctions\nThere are seven types of coordinating conjunctions: and, but, for, or, nor, so, and yet. When two independent clauses are connected by a coordinating conjunction, the comma is necessary before the coordinating conjunction.\n\nI went to school today, but I forgot my bag at the airport.\nShe invited me to the party, but they all gave her excuses for not coming.\nToday is a rainy day, but I will go to the park to see him.\nThe beach is a lot of fun, yet the mountains are better.\n\n\n\nUsing conjunctive adverb or a transitional expression/connecting words\nAn independent marker word is a word (e.g., also, consequently, furthermore, however, moreover, nevertheless, and therefore.) that can be used to connect two independent clauses. If the second independent clause has an independent marker word, a semicolon is needed before the independent marker word.\n\nUse a semicolon to join two related independent clauses in place of a comma and a coordinating conjunction.\n\n\nI am going out; however, I’ll be home by nine.\nI am going to the store; however, I’ll be back in an hour.\nKathleen worked for many hours on all her homework; nevertheless, she was unable to finish all of it. (Conjunctive Adverb is used to connect two independent clauses. e.g nevertheless)\nHarvey is a good driver; moreover, he is a friendly one.\nTony finished reading three novels this week; in contrast, Joan finished only one novel (Transitional Expression: e.g In contrast, on the other hand)."
+  },
+  {
+    "objectID": "til/dailyML01 copy/daily0001.html#common-mistakes-when-connecting-independent-clauses",
+    "href": "til/dailyML01 copy/daily0001.html#common-mistakes-when-connecting-independent-clauses",
+    "title": "Connecting two Indpendent Clauses with Comma and Semicolons",
+    "section": "Common mistakes when connecting independent clauses",
+    "text": "Common mistakes when connecting independent clauses\nSemicolons join ideas that are related and equal in grammatical structure. For example, the following is a wrong sentence:\n\nThis assignment is extra credit only; but we still need to hand it in.\n\nThe problem is that though the two clauses are related, we are not accurately connecting them. We cannot use a semicolon there because the clauses are joined by the coordinating conjunction but. We can use either the semicolon there or the conjunction, but not both. The following two options are correct:\n\nThis assignment is extra credit only, but we still need to hand it in.\n\n\nThis assignment is extra credit only; however, we still need to hand it in.\n\nAnother issue is that semicolons should not be used between a dependent clause and an independent clause.\n\nAlthough Nate is a kind employee; that new guy is not (incorrect). Although Nate is a kind employee, that new guy is not (correct).\n\nSometimes, you can replace the comma and coordinating conjunction with a semicolon since the connection between the two independent clauses is clear without the coordinating conjunction.\n\nJohn finished all his homework, but Kathleen did not finish hers (correct using coordinating conjunction and comma).\n\n\nJohn finished all his homework; Kathleen did not finish hers."
+  },
+  {
+    "objectID": "til/dailyML01 copy/daily0001.html#semicolons-can-replace-commas",
+    "href": "til/dailyML01 copy/daily0001.html#semicolons-can-replace-commas",
+    "title": "Connecting two Indpendent Clauses with Comma and Semicolons",
+    "section": "Semicolons can replace commas",
+    "text": "Semicolons can replace commas\nUse a semicolon to replace a comma when you use a coordinating conjunction to link independent clauses that already contain commas.\nThe comma in the example below makes these independent clauses difficult to read because of the other commas in the clauses:\n\nMy dog is sick. She won’t eat, run around, or jump, nor will she go for a walk with me (incorrect).\n\nUsing a semicolon makes it easier to read the two independent clauses on either side of the coordinating conjunction:\n\nMy dog is sick. She won’t eat, run around, or jump; nor will she go for a walk with me.\n\nThank you for reading my note! Please feel free to contact me if you have any questions."
   }
 ]
