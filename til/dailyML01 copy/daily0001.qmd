@@ -5,7 +5,7 @@ image: aca_02.jpeg
 output: html_document
 ---
 
-When to use a comma before "but" always trips me up. For future reference, I am documenting the general rules for connecting two independent clauses using coordinating conjunctions (e.g., but and is) and Independent Marker Words (e.g., however and also). 
+To use a comma or not before "but" always trips me up. For future reference, I am documenting the general rules for connecting two independent clauses using coordinating conjunctions (e.g., but and is) and Independent Marker Words (e.g., however and also). 
 
 Let us start with the general definition of what is clause and the two types of clauses.
 
@@ -55,7 +55,7 @@ An independent marker word is a word (e.g., also, consequently, furthermore, how
 
 2. I am going to the store; however, I'll be back in an hour.
 
-3. Kathleen worked for many hours on all her homework; nevertheless, she was unable to finish all of it.(Conjunctive Adverb is used to connect two independent clauses. e.g nevertheless)
+3. Kathleen worked for many hours on all her homework; nevertheless, she was unable to finish all of it. (Conjunctive Adverb is used to connect two independent clauses. e.g nevertheless)
 
 4. Harvey is a good driver; moreover, he is a friendly one.
 
@@ -68,7 +68,7 @@ Semicolons join ideas that are related and equal in grammatical structure. For e
 
 > This assignment is extra credit only; but we still need to hand it in.
 
-The problem is that though the two clauses are related, we are not connecting them in the correct way. We cannot use a semicolon there because the clauses are joined by the coordinating conjunction but. We can use either the semicolon there or the conjunction, but not both. The following two options are correct:
+The problem is that though the two clauses are related, we are not accurately connecting them. We cannot use a semicolon there because the clauses are joined by the coordinating conjunction but. We can use either the semicolon there or the conjunction, but not both. The following two options are correct:
 
 > This assignment is extra credit only, but we still need to hand it in.
 
