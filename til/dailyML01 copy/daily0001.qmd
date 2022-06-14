@@ -44,7 +44,7 @@ There are seven types of coordinating conjunctions: and, but, for, or, nor, so, 
 4. The beach is a lot of fun, yet the mountains are better.
 
 
-### Using Independent Marker Word (conjunctive adverb or a transitional expression)
+### Using independent marker word (conjunctive adverb or a transitional expression)
 
 
 An independent marker word is a word (e.g., also, consequently, furthermore, however, moreover, nevertheless, and therefore.) that can be used to connect two independent clauses. If the second independent clause has an independent marker word, a semicolon is needed before the independent marker word.
@@ -62,7 +62,7 @@ An independent marker word is a word (e.g., also, consequently, furthermore, how
 5. Tony finished reading three novels this week; in contrast, Joan finished only one novel (Transitional Expression: e.g In contrast, on the other hand).
 
 
-## Some common mistakes when connecting independent clauses
+## Common mistakes when connecting independent clauses
 
 Semicolons join ideas that are related and equal in grammatical structure. For example, the following is a wrong  sentence:
 
@@ -85,7 +85,7 @@ Sometimes, you can replace the comma and coordinating conjunction with a semicol
 
 > John finished all his homework; Kathleen did not finish hers.
 
-## When Semicolons should replace Commas
+## Semicolons can replace commas
 
 Use a semicolon to replace a comma when you use a coordinating conjunction to link independent clauses that already contain commas.
 
