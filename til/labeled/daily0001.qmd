@@ -1,17 +1,16 @@
 ---
-title: " Unlabelled vs. Unlabeled"
+title: " labelled vs labeled"
 date: '2022-05-13'
 image: aca_02.jpeg
 output: html_document
 ---
 
 
-I often forget which one to use between unlabeled and unlabeled.
+I often forget which one to use between labeled and labelled.
 
-Unlabeled is American spelling while Unlabelled is British spelling.
+Labeled is American spelling while labelled is British spelling.
 
-This is similar to labeled and labelled.
-
+I use labelled since I write in British English.
 
 <style>
 body {
