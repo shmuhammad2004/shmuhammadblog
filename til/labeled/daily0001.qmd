@@ -1,0 +1,19 @@
+---
+title: " Unlabelled vs. Unlabeled"
+date: '2022-05-13'
+image: aca_02.jpeg
+output: html_document
+---
+
+
+I often forget which one to use between unlabeled and unlabeled.
+
+Unlabeled is American spelling while Unlabelled is British spelling.
+
+This is similar to labeled and labelled.
+
+
+<style>
+body {
+text-align: justify}
+</style>
