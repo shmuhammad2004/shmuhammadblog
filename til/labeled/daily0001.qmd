@@ -8,7 +8,7 @@ output: html_document
 
 I often forget which one to use between labeled and labelled.
 
-Labeled is American spelling while labelled is British spelling.
+Labeled is an American spelling while labelled is British spelling.
 
 I use labelled since I write in British English.
 
