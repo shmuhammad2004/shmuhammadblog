@@ -3,6 +3,7 @@ title: " How to connect two Indpendent Clauses "
 date: '2022-05-11'
 image: aca_02.jpeg
 output: html_document
+draft: true
 ---
 
 To use a comma or not before "but" always trips me up. For future reference, I am documenting the general rules for connecting two independent clauses using coordinating conjunctions (e.g., but and is) and Independent Marker Words (e.g., however and also). 
