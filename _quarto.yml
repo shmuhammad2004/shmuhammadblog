@@ -33,8 +33,6 @@ website:
     left:
       - text: "NLP Researcher and Data Scientist"
     right:
-      - text: "About"
-        file: about.qmd
       - text: "Blog"
         file: index.qmd
       - file: til.qmd
@@ -52,6 +50,8 @@ website:
             file: DL.qmd
           - text: "R"
             file: DL.qmd
+      - text: "About"
+        file: about.qmd
 
       - icon: twitter
         href: https://twitter.com/Shmuhammadd

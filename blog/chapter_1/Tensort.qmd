@@ -3,7 +3,7 @@ title: "Pytorch Tensor 101"
 format:
   html:
     code-fold: true
-description: "The No-Nonsense Guides to Pytorch Tensor"
+description: "A No-Nonsense Guides to Pytorch Tensor"
 jupyter: python3
 ---
 
