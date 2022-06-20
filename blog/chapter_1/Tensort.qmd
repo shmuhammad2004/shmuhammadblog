@@ -3,6 +3,7 @@ title: "Pytorch Tensor 101"
 format:
   html:
     code-fold: true
+description: "The No-Nonsense Guides to Pytorch Tensor"
 jupyter: python3
 ---
 
@@ -17,6 +18,9 @@ PyTorch is a Python-based open source and scientific computing package for build
 
 
 PyTorch support GPU acceleration (making your code run faster) behind the scenes, better than NumPy. PyTorch also provides Autograd for automatic differentiation, which means that your code is automatically differentiated and you can use it to do backpropagation
+
+
+> Coming Soon !
   
 
 
