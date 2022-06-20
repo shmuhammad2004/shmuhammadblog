@@ -1,0 +1,11 @@
+{
+  "hash": "cbcd6a9065a0e73d198aa2cf2b19c0c3",
+  "result": {
+    "markdown": "---\ntitle: Pytorch Tensor 101\nformat:\n  html:\n    code-fold: true\n---\n\n## PyTorch\n\n\nPyTorch is a Python-based open source and scientific computing package for building neural networks. It is dynamic graph-based framework that allows you to define your neural network in a way that is easy to understand and debug. Today, PyTorch is the [most used deep learning framework](https://paperswithcode.com/trends) and mostly use by researchers and engineers.  \n\n\n![](./pytorch_most_used.png)\n\n\nPyTorch support GPU acceleration (making your code run faster) behind the scenes, better than NumPy. PyTorch also provides Autograd for automatic differentiation, which means that your code is automatically differentiated and you can use it to do backpropagation\n\n",
+    "supporting": [
+      "Tensort_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

@@ -1,0 +1,9 @@
+# NLP Notes
+
+These are collections of stuff related to NLP that I came across and 
+
+
+### Github Repos
+
+1. [Awesome-NLP](https://github.com/keon/awesome-nlp)
+2. 

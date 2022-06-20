@@ -10,6 +10,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/blog/chapter_1/Tensort.html",
       "/blog/obtaining data/obtaininda.html",
       "/blog/movingfilestodocker/movinfiles.html",
       "/blog/whyblog/whyblog.html"

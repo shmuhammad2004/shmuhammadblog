@@ -38,6 +38,21 @@ website:
       - text: "Blog"
         file: index.qmd
       - file: til.qmd
+      - text: "Resources"
+        menu:
+          - text: "NLP"
+            file: NLP.qmd
+          - text: "ML/DL"
+            file: DL.qmd
+          - text: "Scientific Writing and Research"
+            file: DL.qmd
+          - text: "Python"
+            file: DL.qmd
+          - text: "Visualization"
+            file: DL.qmd
+          - text: "R"
+            file: DL.qmd
+
       - icon: twitter
         href: https://twitter.com/Shmuhammadd
       - icon: github

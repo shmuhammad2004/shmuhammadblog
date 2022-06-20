@@ -10,7 +10,7 @@
 <atom:link href="https://shmuhammadblog.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Shamsuddeen Muhammad Blog</description>
 <generator>quarto-0.9.570</generator>
-<lastBuildDate>Tue, 31 May 2022 23:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 31 May 2022 22:00:00 GMT</lastBuildDate>
 <item>
   <title>Using command line tool to obtain data</title>
   <link>https://shmuhammadblog.github.io/blog/obtaining data/obtaininda.html</link>
@@ -178,7 +178,7 @@ Get weather information with : wttr.in
   <category>data science</category>
   <category>unix</category>
   <guid>https://shmuhammadblog.github.io/blog/obtaining data/obtaininda.html</guid>
-  <pubDate>Tue, 31 May 2022 23:00:00 GMT</pubDate>
+  <pubDate>Tue, 31 May 2022 22:00:00 GMT</pubDate>
   <media:content url="https://shmuhammadblog.github.io/blog/obtaining data/terminal.png" medium="image" type="image/png" height="82" width="144"/>
 </item>
 <item>
@@ -215,7 +215,7 @@ Get weather information with : wttr.in
   <category>data science</category>
   <category>unix</category>
   <guid>https://shmuhammadblog.github.io/blog/movingfilestodocker/movinfiles.html</guid>
-  <pubDate>Tue, 31 May 2022 23:00:00 GMT</pubDate>
+  <pubDate>Tue, 31 May 2022 22:00:00 GMT</pubDate>
   <media:content url="https://shmuhammadblog.github.io/blog/movingfilestodocker/docker.png" medium="image" type="image/png" height="124" width="144"/>
 </item>
 <item>
@@ -293,8 +293,29 @@ text-align: justify}
 </section></div> ]]></description>
   <category>Books</category>
   <guid>https://shmuhammadblog.github.io/blog/whyblog/whyblog.html</guid>
-  <pubDate>Mon, 30 May 2022 23:00:00 GMT</pubDate>
+  <pubDate>Mon, 30 May 2022 22:00:00 GMT</pubDate>
   <media:content url="https://shmuhammadblog.github.io/blog/whyblog/featured.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Pytorch Tensor 101</title>
+  <link>https://shmuhammadblog.github.io/blog/chapter_1/Tensort.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="pytorch" class="level2">
+<h2 class="anchored" data-anchor-id="pytorch">PyTorch</h2>
+<p>PyTorch is a Python-based open source and scientific computing package for building neural networks. It is dynamic graph-based framework that allows you to define your neural network in a way that is easy to understand and debug. Today, PyTorch is the <a href="https://paperswithcode.com/trends">most used deep learning framework</a> and mostly use by researchers and engineers.</p>
+<p><img src="https://shmuhammadblog.github.io/blog/chapter_1/pytorch_most_used.png" class="img-fluid"></p>
+<p>PyTorch support GPU acceleration (making your code run faster) behind the scenes, better than NumPy. PyTorch also provides Autograd for automatic differentiation, which means that your code is automatically differentiated and you can use it to do backpropagation</p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://shmuhammadblog.github.io/blog/chapter_1/Tensort.html</guid>
+  <pubDate>Mon, 20 Jun 2022 13:46:09 GMT</pubDate>
+  <media:content url="https://shmuhammadblog.github.io/blog/chapter_1/pytorch_most_used.png" medium="image" type="image/png" height="53" width="144"/>
 </item>
 </channel>
 </rss>

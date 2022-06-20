@@ -1,43 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://shmuhammadblog.github.io/DL.html</loc>
+    <lastmod>2022-06-20T13:46:07.479Z</lastmod>
+  </url>
+  <url>
     <loc>https://shmuhammadblog.github.io/til.html</loc>
-    <lastmod>2022-06-16T15:54:37.058Z</lastmod>
+    <lastmod>2022-06-20T13:46:07.955Z</lastmod>
+  </url>
+  <url>
+    <loc>https://shmuhammadblog.github.io/NLP.html</loc>
+    <lastmod>2022-06-20T13:46:08.347Z</lastmod>
   </url>
   <url>
     <loc>https://shmuhammadblog.github.io/index.html</loc>
-    <lastmod>2022-06-16T15:54:33.699Z</lastmod>
+    <lastmod>2022-06-20T13:46:09.324Z</lastmod>
   </url>
   <url>
     <loc>https://shmuhammadblog.github.io/blog/obtaining data/obtaininda.html</loc>
-    <lastmod>2022-06-16T15:54:19.806Z</lastmod>
+    <lastmod>2022-06-20T13:46:09.873Z</lastmod>
+  </url>
+  <url>
+    <loc>https://shmuhammadblog.github.io/blog/chapter_1/Tensort.html</loc>
+    <lastmod>2022-06-20T13:46:10.421Z</lastmod>
   </url>
   <url>
     <loc>https://shmuhammadblog.github.io/blog/whyblog/whyblog.html</loc>
-    <lastmod>2022-06-16T15:54:21.534Z</lastmod>
+    <lastmod>2022-06-20T13:46:12.129Z</lastmod>
   </url>
   <url>
     <loc>https://shmuhammadblog.github.io/blog/movingfilestodocker/movinfiles.html</loc>
-    <lastmod>2022-06-16T15:54:21.873Z</lastmod>
+    <lastmod>2022-06-20T13:46:12.537Z</lastmod>
   </url>
   <url>
     <loc>https://shmuhammadblog.github.io/about.html</loc>
-    <lastmod>2022-06-16T15:54:22.924Z</lastmod>
+    <lastmod>2022-06-20T13:46:14.956Z</lastmod>
   </url>
   <url>
     <loc>https://shmuhammadblog.github.io/til/dailyML01/daily0001.html</loc>
-    <lastmod>2022-06-16T15:54:23.569Z</lastmod>
+    <lastmod>2022-06-20T13:46:15.702Z</lastmod>
   </url>
   <url>
     <loc>https://shmuhammadblog.github.io/til/labeled/daily0001.html</loc>
-    <lastmod>2022-06-16T15:54:40.103Z</lastmod>
+    <lastmod>2022-06-20T13:46:16.030Z</lastmod>
   </url>
   <url>
     <loc>https://shmuhammadblog.github.io/til/dailyML01 copy/daily0001.html</loc>
-    <lastmod>2022-06-16T15:54:24.148Z</lastmod>
+    <lastmod>2022-06-20T13:46:16.486Z</lastmod>
   </url>
   <url>
     <loc>https://shmuhammadblog.github.io/license.html</loc>
-    <lastmod>2022-06-16T15:54:24.410Z</lastmod>
+    <lastmod>2022-06-20T13:46:16.832Z</lastmod>
   </url>
 </urlset>
