@@ -10,10 +10,11 @@
   {
     "listing": "/index.html",
     "items": [
-      "/blog/chapter_1/Tensort.html",
+      "/blog/tensor/tensor.html",
       "/blog/obtaining data/obtaininda.html",
       "/blog/movingfilestodocker/movinfiles.html",
-      "/blog/whyblog/whyblog.html"
+      "/blog/whyblog/whyblog.html",
+      "/blog/lrec2022/lrec2022.html"
     ]
   }
 ]

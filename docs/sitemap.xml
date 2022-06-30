@@ -1,55 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://shmuhammadblog.github.io/Books.html</loc>
+    <lastmod>2022-06-30T09:35:26.320Z</lastmod>
+  </url>
+  <url>
     <loc>https://shmuhammadblog.github.io/DL.html</loc>
-    <lastmod>2022-06-20T20:00:52.028Z</lastmod>
+    <lastmod>2022-06-30T09:35:26.649Z</lastmod>
   </url>
   <url>
     <loc>https://shmuhammadblog.github.io/til.html</loc>
-    <lastmod>2022-06-20T20:00:52.522Z</lastmod>
+    <lastmod>2022-06-30T09:35:27.116Z</lastmod>
+  </url>
+  <url>
+    <loc>https://shmuhammadblog.github.io/Quotes.html</loc>
+    <lastmod>2022-06-30T09:35:27.429Z</lastmod>
   </url>
   <url>
     <loc>https://shmuhammadblog.github.io/NLP.html</loc>
-    <lastmod>2022-06-20T20:00:52.929Z</lastmod>
+    <lastmod>2022-06-30T09:35:27.757Z</lastmod>
   </url>
   <url>
     <loc>https://shmuhammadblog.github.io/index.html</loc>
-    <lastmod>2022-06-20T20:00:54.028Z</lastmod>
+    <lastmod>2022-06-30T09:35:42.364Z</lastmod>
+  </url>
+  <url>
+    <loc>https://shmuhammadblog.github.io/datascience.html</loc>
+    <lastmod>2022-06-30T09:35:28.533Z</lastmod>
   </url>
   <url>
     <loc>https://shmuhammadblog.github.io/blog/obtaining data/obtaininda.html</loc>
-    <lastmod>2022-06-20T20:00:54.483Z</lastmod>
-  </url>
-  <url>
-    <loc>https://shmuhammadblog.github.io/blog/chapter_1/Tensort.html</loc>
-    <lastmod>2022-06-20T20:00:54.992Z</lastmod>
+    <lastmod>2022-06-30T09:35:29.025Z</lastmod>
   </url>
   <url>
     <loc>https://shmuhammadblog.github.io/blog/whyblog/whyblog.html</loc>
-    <lastmod>2022-06-20T20:00:56.720Z</lastmod>
+    <lastmod>2022-06-30T09:35:29.448Z</lastmod>
   </url>
   <url>
     <loc>https://shmuhammadblog.github.io/blog/movingfilestodocker/movinfiles.html</loc>
-    <lastmod>2022-06-20T20:00:57.058Z</lastmod>
+    <lastmod>2022-06-30T09:35:29.844Z</lastmod>
+  </url>
+  <url>
+    <loc>https://shmuhammadblog.github.io/blog/tensor/tensor.html</loc>
+    <lastmod>2022-06-30T09:35:44.961Z</lastmod>
+  </url>
+  <url>
+    <loc>https://shmuhammadblog.github.io/blog/lrec2022/lrec2022.html</loc>
+    <lastmod>2022-06-30T09:35:31.705Z</lastmod>
   </url>
   <url>
     <loc>https://shmuhammadblog.github.io/about.html</loc>
-    <lastmod>2022-06-20T20:00:59.697Z</lastmod>
+    <lastmod>2022-06-30T09:35:33.461Z</lastmod>
   </url>
   <url>
     <loc>https://shmuhammadblog.github.io/til/dailyML01/daily0001.html</loc>
-    <lastmod>2022-06-20T20:01:00.331Z</lastmod>
+    <lastmod>2022-06-30T09:35:34.266Z</lastmod>
   </url>
   <url>
     <loc>https://shmuhammadblog.github.io/til/labeled/daily0001.html</loc>
-    <lastmod>2022-06-20T20:01:00.650Z</lastmod>
+    <lastmod>2022-06-30T09:35:34.817Z</lastmod>
   </url>
   <url>
     <loc>https://shmuhammadblog.github.io/til/dailyML01 copy/daily0001.html</loc>
-    <lastmod>2022-06-20T20:01:01.133Z</lastmod>
+    <lastmod>2022-06-30T09:35:35.140Z</lastmod>
   </url>
   <url>
     <loc>https://shmuhammadblog.github.io/license.html</loc>
-    <lastmod>2022-06-20T20:01:01.457Z</lastmod>
+    <lastmod>2022-06-30T09:35:35.682Z</lastmod>
   </url>
 </urlset>

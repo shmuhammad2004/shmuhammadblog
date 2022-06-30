@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "Books.html",
+    "href": "Books.html",
+    "title": "Shamsuddeen Hassan Muhammad's Blog",
+    "section": "",
+    "text": "Natural Language Processing with Transformers\nTransformers for Machine Learning: A Deep Dive\nMachine Learning with Pytorch and Sklearn\nIntroduction to Statsical Learning (ISLR)\nNatural Language Processing with Pytorch\nDeep Dive Deep Learning\n\n\n\n\n\n\nAtomic Habi"
+  },
+  {
     "objectID": "til.html",
     "href": "til.html",
     "title": "Today I Learned",
@@ -7,18 +14,32 @@
     "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\n\nlabelled vs labeled\n\n\nMay 13, 2022\n\n\n\n\n\n\n\nConnecting two Indpendent Clauses with Comma and Semicolons\n\n\nMay 11, 2022\n\n\n\n\n\n\n\nBias and Varience in Machine Learning Algorithms\n\n\nMay 10, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "Quotes.html",
+    "href": "Quotes.html",
+    "title": "Shamsuddeen Hassan Muhammad's Blog",
+    "section": "",
+    "text": "In this page, I documents Quotes that I found useful for my future reference.\n\n\n\n“One cannot think well, love well, sleep well, if one has not dined well.” ~Virginia Woolf “Keep learning, or risk becoming irrelevant.”"
+  },
+  {
     "objectID": "NLP.html",
     "href": "NLP.html",
     "title": "Shamsuddeen Hassan Muhammad's Blog",
     "section": "",
-    "text": "These are collections of stuff related to NLP that I came across and\n\n\n\nAwesome-NLP\n\n\n\n\n\n\nNatural Language Processing with Transformer\nTransformers for Machine Learning: A Deep Dive\nDeep Learning for NLP and Speech Recognition"
+    "text": "These are collections of stuff related to NLP that I came across and\n\n\n1.DocNow: Is a tool for appraising, collecting, and gathering consent for Twitter content.\n\nTwarc: Twarc is a command line tool and Python library for collecting tweet data from Twitter’s official API. It is designed for reliably collecting historical as well as realtime data, and can be used as a software library in your own tools and applications.\nHydrator is a desktop application for turning Tweet ID datasets back into tweet data to use in your research. It has been designed to be a reliable option for researchers who want to use their workstation for long running hydration jobs.\nThe Catalog is a community-sourced clearinghouse for tweet identifier datasets. Sharing tweet ids is a practice that is encouraged by Twitter as a way to share research data without negatively affecting users ability to have their data deleted or hidden from the web. We welcome your contributions!\n\n\n\n\n\nAwesome-NLP\nDeep Learning for NLP\nPyTorch Tutorial for Deep Learning Researchers\nPyTorch-Tutorial\n\n\n\n\n\nNatural Language Processing with Transformer\nTransformers for Machine Learning: A Deep Dive\nDeep Learning for NLP and Speech Recognition\n\n\n\n\n\nMultilingual Natural Language Processing - http://demo.clab.cs.cmu.edu/11737fa20/\nCSE 704 - Applied Natural Language Processing and Computational Social Science - https://kennyjoseph.github.io/cse702\nNLP Course | For You by Lena Voita - https://lena-voita.github.io/nlp_course.html\nDavid Bamman’s Course on Applied NLP - https://github.com/dbamman/anlp19 - Course Page\nCMU NLP - http://phontron.com/class/nn4nlp2017/schedule.html\nOxford Deep Learning NLP - https://github.com/oxford-cs-deepnlp-2017/lectures\nProbabilistic NLP course - https://uva-slpl.github.io/nlp2/syllabus.html\nMachine Learning: Linguistic & Sequence Modeling - https://seq2class.github.io/\nIntroduction to Natural Language Processing by Jacob Eisenstein - https://github.com/jacobeisenstein/gt-nlp-class\nA Course on word embeddings, variants, and applications: http://people.ds.cam.ac.uk/iv250/esslli2018.html"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Blog",
     "section": "",
-    "text": "A No-Nonsense Guides to Pytorch Tensor\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\ndata science\n\n\nunix\n\n\n\n\nThis blog explain how to use command line tools to obtain data from the internet.\n\n\n\n\n\n\nJun 1, 2022\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\ndata science\n\n\nunix\n\n\n\n\nThis blog explain how to copy files from host to docker container and vice versa.\n\n\n\n\n\n\nJun 1, 2022\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nBooks\n\n\n\n\nWelcome to my Quarto Blog\n\n\n\n\n\n\nMay 31, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "A No-Nonsense Guides to Pytorch Tensor\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\ndata science\n\n\nunix\n\n\n\n\nThis blog explain how to use command line tools to obtain data from the internet.\n\n\n\n\n\n\nJun 1, 2022\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\ndata science\n\n\nunix\n\n\n\n\nThis blog explain how to copy files from host to docker container and vice versa.\n\n\n\n\n\n\nJun 1, 2022\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nBooks\n\n\n\n\nWelcome to my Quarto Blog\n\n\n\n\n\n\nMay 31, 2022\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nBooks\n\n\n\n\nWelcome to my Quarto Blog\n\n\n\n\n\n\nMay 31, 2022\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "datascience.html",
+    "href": "datascience.html",
+    "title": "Shamsuddeen Hassan Muhammad's Blog",
+    "section": "",
+    "text": "DevOps for Data Science"
   },
   {
     "objectID": "blog/obtaining data/obtaininda.html",
@@ -77,13 +98,6 @@
     "text": "Csvkit : converting and working with CSV at command Line\ncsvkit is a suite of command-line tools for converting to and working with CSV, the king of tabular file formats. working with csvkit makes it easy to convert between different formats, and to work with the data in those formats.\nYou can install csvkit using the following command:\n    pip install csvkit\nWe can print the contents of the file using the following command:\nbat -A data.csv\nThe -A option show all non-printable characters such as space, tab, newline, etc.\nWe can also use another command called csvlook to print the contents of the file nicely.\ncsvlook data.csv\nBelow are some of the commands that you can use with csvkit:\n\nConvert Excel to CSV:\n\nin2csv data.xls > data.csv  # Excel to csv\n\nin2csv data.json > data.csv # json to csv\n\ncsvstat data.csv # give the statistics of the csv file\n\ncsvjson data.csv > data.json # convert csv to json\n\ncsvcut  -n data.csv # print column names\n\ncsvcut -c column_a,column_c data.csv > new.csv # select subset of columns"
   },
   {
-    "objectID": "blog/chapter_1/Tensort.html",
-    "href": "blog/chapter_1/Tensort.html",
-    "title": "Pytorch Tensor 101",
-    "section": "",
-    "text": "PyTorch is a Python-based open source and scientific computing package for building neural networks. It is dynamic graph-based framework that allows you to define your neural network in a way that is easy to understand and debug. Today, PyTorch is the most used deep learning framework and mostly use by researchers and engineers.\n\nPyTorch support GPU acceleration (making your code run faster) behind the scenes, better than NumPy. PyTorch also provides Autograd for automatic differentiation, which means that your code is automatically differentiated and you can use it to do backpropagation"
-  },
-  {
     "objectID": "blog/whyblog/whyblog.html",
     "href": "blog/whyblog/whyblog.html",
     "title": "Why you should start a blog?",
@@ -131,6 +145,90 @@
     "title": "Copying files to and from a docker containers",
     "section": "",
     "text": "You can use the docker cp command to copy files from the host to the container or vice versa.\n\n\nThe syntax for copying file from host to container is\ndocker cp [source] [container:]destination`.\nThe example below show how to copy a file (dataset_on_host.csv) from the host to a container folder called data. We saved the file with a new name (dataset_on_container.csv) in the container folder.\n\n\n\n\nThe syntax for copying file from container to host is:\ndocker cp [container:]source [destination]\n    \nThe example below also show how a file from a container is copied to the host.\n\nThank you for reading."
+  },
+  {
+    "objectID": "blog/tensor/tensor.html",
+    "href": "blog/tensor/tensor.html",
+    "title": "Pytorch Tensor 101",
+    "section": "",
+    "text": "PyTorch is a Python-based open source and scientific computing package for building neural networks. It is dynamic graph-based framework that allows you to define your neural network in a way that is easy to understand and debug. Today, PyTorch is the most used deep learning framework and mostly use by researchers and engineers.\n\nPyTorch support GPU acceleration (making your code run faster) behind the scenes, better than NumPy. PyTorch also provides Autograd for automatic differentiation, which means that your code is automatically differentiated and you can use it to do backpropagation"
+  },
+  {
+    "objectID": "blog/tensor/tensor.html#pytoch-installation",
+    "href": "blog/tensor/tensor.html#pytoch-installation",
+    "title": "Pytorch Tensor 101",
+    "section": "Pytoch Installation",
+    "text": "Pytoch Installation\nBefore you installed Pytorch, you need to install the following dependencies: Package Manager (e.g. pip, conda), Python, Numpy. For more information, please refer to the Pytorch documentation.\nFor me, I am using mac and conda as package manager, I therefore run the following command"
+  },
+  {
+    "objectID": "blog/tensor/tensor.html#verification",
+    "href": "blog/tensor/tensor.html#verification",
+    "title": "Pytorch Tensor 101",
+    "section": "VERIFICATION",
+    "text": "VERIFICATION\nTo verify your installation works,\n\nimport torch\ntorch.manual_seed(1234)\ntorch.__version__\n\n'1.13.0.dev20220611'"
+  },
+  {
+    "objectID": "blog/tensor/tensor.html#what-is-tensor",
+    "href": "blog/tensor/tensor.html#what-is-tensor",
+    "title": "Pytorch Tensor 101",
+    "section": "What is Tensor",
+    "text": "What is Tensor\n\nAssume we have 3 bedrooms, 1 carpark and 2 bathrooms. We can represent this data numerically in a form of vector [3, 1,2] to describe bedrooms, carpark and bathrooms\nTensor are the standard way of representing data in Pytorch, such as text, images, and audio. Their job is to represent data in a numerical way."
+  },
+  {
+    "objectID": "blog/tensor/tensor.html#is-tensor-all-you-need",
+    "href": "blog/tensor/tensor.html#is-tensor-all-you-need",
+    "title": "Pytorch Tensor 101",
+    "section": "is Tensor all you need?",
+    "text": "is Tensor all you need?\n\nThere are many Python Data Structure for holding data including Python List and Numpy Array. List and Numpy Array operations are similar to Pytorch Tensor.\nLet us remember the basic of data structures in Python (List and Numpy Array) before we start using Pytorch Tensor"
+  },
+  {
+    "objectID": "blog/tensor/tensor.html#from-python-lists-to-numpy-array",
+    "href": "blog/tensor/tensor.html#from-python-lists-to-numpy-array",
+    "title": "Pytorch Tensor 101",
+    "section": "From Python lists to Numpy Array",
+    "text": "From Python lists to Numpy Array\n\nPython does not have built-in support for Arrays, but Python Lists can be used instead.\nUsing our previous example, we can create a list of Python lists below.\n\n\na_list = [3, 1,2] #A list is the Python equivalent of an array\n\nprint(a_list) # print the list\nprint((type(a_list))) # print the type\nprint(a_list[0]) # subset the list\n\n[3, 1, 2]\n<class 'list'>\n3\n\n\n\nHowever, Python lists has the following limitations: It takes large memory size and slow.\n\n\nNumpy solved the problems with List:\n\nSize - Numpy data structures take up less space\nPerformance - they have a need for speed and are faster than lists\nFunctionality - SciPy and NumPy have optimized functions such as linear algebra operations built in.\n\n\n\nimport numpy as np\na_numpy = np.array([1,3,4]) # creating a numpy array\na_numpy\n\narray([1, 3, 4])\n\n\n\ntype(a_numpy) # nd arrays\n\nnumpy.ndarray\n\n\n\na_numpy[0] # we can subset similar to Python list\n\n1\n\n\n\na_numpy.shape # shape of the nd array\n\n(3,)\n\n\n\na_numpy.dtype # dtype of the nd array\n\ndtype('int64')\n\n\n\na_numpy.size # size of the nd array\n\n3\n\n\n\nPerformance comparison between Python lists and Numpy Arrays\n\nimport numpy as np\nimport time\n\n\nsize_of_vec = 1000\n\ndef pure_python_version():\n    t1 = time.time()\n    X = range(size_of_vec)\n    Y = range(size_of_vec)\n    Z = [X[i] + Y[i] for i in range(len(X)) ]\n    return time.time() - t1\n\ndef numpy_version():\n    t1 = time.time()\n    X = np.arange(size_of_vec)\n    Y = np.arange(size_of_vec)\n    Z = X + Y\n    return time.time() - t1\n\n\nt1 = pure_python_version()\nt2 = numpy_version()\nprint(t1, t2)\nprint(\"Numpy is in this example \" + str(t1/t2) + \" faster!\")\n\n0.00019288063049316406 0.0005578994750976562\nNumpy is in this example 0.3457264957264957 faster!"
+  },
+  {
+    "objectID": "blog/tensor/tensor.html#from-numpy-arrays-to-torch-tensor",
+    "href": "blog/tensor/tensor.html#from-numpy-arrays-to-torch-tensor",
+    "title": "Pytorch Tensor 101",
+    "section": "From Numpy Arrays to Torch Tensor",
+    "text": "From Numpy Arrays to Torch Tensor\n\nTensors are like arrays, both are data structures that are used to store data. Tensor and Numpy arrays share common operations such as shape and size.\n\n\nTensors are generalization of vectors and matrices to an arbitrary number of dimensions.\n\n\n\nSimilar to how Numpy provides additional support not available in the Python list, so also Tensors provides support not available in Numpy array such as:\n\nGPU acceleration , which is a great advantage for deep learning,\ndistribute operations on multiple devices or machines,and\nkeep track of the graph of computations that created them ( usefull for backpropagation)."
+  },
+  {
+    "objectID": "blog/tensor/tensor.html#let-us-learn-tensor",
+    "href": "blog/tensor/tensor.html#let-us-learn-tensor",
+    "title": "Pytorch Tensor 101",
+    "section": "Let us Learn Tensor",
+    "text": "Let us Learn Tensor\nVarious operations are available on tensors. In the next sections, we will discuss the following operations:\n\nCreating tensors.\nOperations with tensors.\nIndexing, slicing, and joining with tensors Computing gradients with tensors.\nUsing CUDA/MPS tensors with GPUs."
+  },
+  {
+    "objectID": "blog/tensor/tensor.html#creating-tensors",
+    "href": "blog/tensor/tensor.html#creating-tensors",
+    "title": "Pytorch Tensor 101",
+    "section": "Creating tensors",
+    "text": "Creating tensors\n\nPyTorch allows us to create tensors in many different ways using the torch package. We will discuss some of these ways.\n\n\nCreating Random Tensor with a specific size\n\ntorch.tensor is a general Tensor constructor that infer the data type automatically.\n\n\nimport torch\n\na_random = torch.tensor((3,4)) # Create a random tensor\nprint(a_random)\n\ntensor([3, 4])\n\n\n\nprint(a_random.shape) # print the shape of the random tensor\nprint(a_random.size()) # print the size of the random tensor\nprint(type(a_random)) # print the type of the random tensor\nprint(a_random.type()) # print the type of the random tens\n\ntorch.Size([2])\ntorch.Size([2])\n<class 'torch.Tensor'>\ntorch.LongTensor\n\n\n\nNote: .shape is an alias for .size(), and was added to closely match numpy !\n\n\nIntead of allowing the torch.tensor to automatically determine the data type, you can explicitly specify the type of the data type by using the torch.type parameter\n\n\nimport torch\n\na_random = torch.tensor((3,4), dtype= torch.float) # Create a random tensor\nprint(a_random)\n\ntensor([3., 4.])\n\n\n\nprint(a_random.shape) # print the shape of the random tensor\nprint(a_random.size()) # print the size of the random tensor\nprint(type(a_random)) # print the type of the random tensor\nprint(a_random.type())\n\ntorch.Size([2])\ntorch.Size([2])\n<class 'torch.Tensor'>\ntorch.FloatTensor\n\n\n\nYou can also change an existing tensor type by using the\n\n\na_torch = torch.tensor([1, 2, 3]) \n\nprint(a_torch.type()) # Tensor type\n\ntorch.LongTensor\n\n\nWe can change from LongTensor t:\n\na_short =  a_torch.short() # Convert to short,  \na_float =  a_torch.float() # Convert to float()\n\nprint(a_short.type()) # Tensor type\nprint(a_float.type()) # Tensor type\n\ntorch.ShortTensor\ntorch.FloatTensor\n\n\n\nNote: A variant of torch.tensor constructor is torch.FloatTensorconstructor. When use, the default tensor type is FloatTensor. Infact, torch.Tensor is an alias for the torch.FloatTensor constructor.\n\n\nThe following two examples are equivalent:\n\n\na_random = torch.Tensor((3,4)) # Create a random tensor\nb_random = torch.FloatTensor((3,4)) # Create a random tensor\n\nprint(a_random.type())\nprint(b_random.type())\n\ntorch.FloatTensor\ntorch.FloatTensor\n\n\n\nI would recommend to stick to torch.tensor, if you would like to change the type, you can change\n\nTorch defines 10 tensor types with CPU and GPU variants: See different Pytorch Data Types:\n\nThe most common type (and generally the default) is torch.float32 or torch.float. This is referred to as “32-bit floating point”.\nBut there’s also 16-bit floating point (torch.float16 or torch.half) and 64-bit floating point (torch.float64 or torch.double).\nThe reason for all of these is to do with precision in computing. Precision is the amount of detail used to describe a number.\nThe higher the precision value (8, 16, 32), the more detail and hence data used to express a number.\nThis matters in deep learning and numerical computing because you’re making so many operations, the more detail you have to calculate on, the more compute you have to use.\n\n\nSo, lower precision datatypes are generally faster to compute on but sacrifice some performance on evaluation metrics like accuracy (faster to compute but less accurate).\n\n\n\n2: Creating Tensors from Random Numbers\nSimilar to the numpy, we can create a tensor from a random number.\n\na_random_torch = torch.randn(2, 3) # uniform random distribution numbers between 0 and 1\n# a_numpy_rand = np.random.randn(2,3) #numpy random normal distribution\n\nprint(a_random_torch)\n# print(a_numpy_rand)\n\ntensor([[ 0.0461,  0.4024, -1.0115],\n        [ 0.2167, -0.6123,  0.5036]])\n\n\n\na_random_torch = torch.rand(2, 3) # random normal distribution\n# a_numpy_rand = np.random.rand(2,3) \n\nprint(a_random_torch)\n# print(a_numpy_rand)\n\ntensor([[0.7749, 0.8208, 0.2793],\n        [0.6817, 0.2837, 0.6567]])\n\n\n\n\n3: Creating a filled tensor\n\na_same_scalar = torch.zeros(3,3)\nprint(a_same_scalar)\nprint(a_same_scalar.size())\n\ntensor([[0., 0., 0.],\n        [0., 0., 0.],\n        [0., 0., 0.]])\ntorch.Size([3, 3])\n\n\n\ntorch.ones(3, 3) # torch.ones(size=(3, 3)) \n\ntensor([[1., 1., 1.],\n        [1., 1., 1.],\n        [1., 1., 1.]])\n\n\n\nAny PyTorch method with an underscore (_) refers to an in­place operation;\n\n\na_zero = torch.zeros(2, 3)\nprint(a_zero)\nprint(a_zero.fill_(5)) # inplace operation\nprint(a_zero)  # a_zero is now filled with 5\n\ntensor([[0., 0., 0.],\n        [0., 0., 0.]])\ntensor([[5., 5., 5.],\n        [5., 5., 5.]])\ntensor([[5., 5., 5.],\n        [5., 5., 5.]])\n\n\n###4: Creating and initializing a tensor from lists\n\na_list = torch.tensor([1, 2, 3])\na_list\n\ntensor([1, 2, 3])\n\n\n\n\n5: Creating and initializing a tensor from numpy arrays\n\nWe use torch.from_numpy to create a tensor from a numpy array.\n\n\nimport numpy as np\nnumpy_array = np.random.rand(2, 3) \nnumpy_array\n\ntorch_tensor = torch.from_numpy(numpy_array) # tensor from numpy array\ntorch_tensor\n\ntensor([[0.3487, 0.9072, 0.8480],\n        [0.7245, 0.6970, 0.4976]], dtype=torch.float64)\n\n\n\ntorch_tensor.type()\n\n'torch.DoubleTensor'\n\n\n\nThe datatype after creating of tensor from numpy array is DoubleTensor instead of the default FloatTensor. This corresponds with the data type of the NumPy random matrix, a float64,\n\n\nYou can always convert from PyTorch tensors to Numpy arrays using the numpy function torch.numpy().\n\n\ntorch_tensor.numpy()\n\narray([[0.3487288 , 0.90720583, 0.84795941],\n       [0.72447844, 0.69699952, 0.49759155]])\n\n\n\n\n6: Creating a range and tensors like\n\n# Use torch.arange(), torch.range() is deprecated \nzero_to_ten = torch.arange(0, 10) \nzero_to_ten\n\ntensor([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])\n\n\n\n\nCreating tensor of type with the same shape as another tensor.\n\n# Can also create a tensor of zeros similar to another tensor\nten_zeros = torch.zeros_like(input=zero_to_ten) # will have same shape\nten_zeros\n\ntensor([0, 0, 0, 0, 0, 0, 0, 0, 0, 0])\n\n\n\n\nCreating Named Tensors\n\nNamed Tensors allow users to give explicit names to tensor dimensions.\nIn most cases, operations that take dimension parameters will accept dimension names, avoiding the need to track dimensions by position.\n\n\ntorch.zeros(2, 3, names=('N', 'C'))\n\n/var/folders/1h/b7ng0kgj3w78mg7n8k7q7rch0000gn/T/ipykernel_11570/697701580.py:1: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /Users/runner/work/_temp/anaconda/conda-bld/pytorch_1654931446436/work/c10/core/TensorImpl.h:1489.)\n  torch.zeros(2, 3, names=('N', 'C'))\n\n\ntensor([[0., 0., 0.],\n        [0., 0., 0.]], names=('N', 'C'))\n\n\n\nWe can use names to access tensor dimensions.\n\n\nimgs = torch.randn(1, 2, 2, 3 , names=('N', 'C', 'H', 'W')) \nimgs.names\n\n('N', 'C', 'H', 'W')\n\n\n\nimgs.names[0]\n\n'N'"
+  },
+  {
+    "objectID": "blog/tensor/tensor.html#tensor-properties",
+    "href": "blog/tensor/tensor.html#tensor-properties",
+    "title": "Pytorch Tensor 101",
+    "section": "Tensor properties",
+    "text": "Tensor properties\nTensor has many properties including the following properties: the number of dimensions, the size, the type:\n\nTensor Dimensions\nWe can find the tensor dimensions using:ndim\n\n# Scalar\nscalar = torch.tensor(7)\nscalar\n\nscalar.ndim\n\n0\n\n\n\nMATRIX = torch.tensor([[1,2,3,4],\n                       [5,6,7,8]])\n\nMATRIX.ndim\n\n2\n\n\n\nYou can tell the number of dimensions a tensor in PyTorch has by the number of square brackets on the outside ([) and you only need to count one side of the brackets.\n\nIn practice, you’ll often see scalars and vectors denoted as lowercase letters such as y or a. And matrices and tensors denoted as uppercase letters such as X or W"
+  },
+  {
+    "objectID": "blog/tensor/tensor.html#manipulating-tensors-tensor-operations",
+    "href": "blog/tensor/tensor.html#manipulating-tensors-tensor-operations",
+    "title": "Pytorch Tensor 101",
+    "section": "Manipulating tensors (tensor operations)",
+    "text": "Manipulating tensors (tensor operations)\n\nIn deep learning, data (images, text, video, audio, protein structures, etc) gets represented as tensors.\nA model learns by investigating those tensors and performing a series of operations (could be 1,000,000s+) on tensors to create a representation of the patterns in the input data.\nAfter you have created your tensors, you can operate on them like you would do with traditional programming language types, like +, ­, *, /.\n\n\nIndexing tensors\nIndexing and subsetting a tensor is similar to indexing a list.\n\nsome_list = list(range(6))\ntorch_list = torch.tensor(some_list)\ntorch_list\n\ntensor([0, 1, 2, 3, 4, 5])\n\n\n\nprint(torch_list[0]) # first element of the tensor\nprint(torch_list[1]) # second element of the tensor\n\ntensor(0)\ntensor(1)\n\n\n\ntorch_list[1:4] # subsetting a tensor\n\ntensor([1, 2, 3])\n\n\n\n\nTransposing Tensors\nTransposing 2D tensors is a simple operation using t\n\npoints = torch.tensor([[4.0, 1.0], [5.0, 3.0], [2.0, 1.0]])\npoints\n\ntensor([[4., 1.],\n        [5., 3.],\n        [2., 1.]])\n\n\n\npoints_t = points.t()\npoints_t\n\ntensor([[4., 5., 2.],\n        [1., 3., 1.]])\n\n\nYou can also transpose 3D and higher tensors using the transpose method by specifying the two dimensions along which transposing (flipping shape and stride) should occur:\n\nsome_t = torch.ones(3, 4, 5)\ntranspose_t = some_t.transpose(0, 2)\nprint(some_t.shape)\nprint(transpose_t.shape)\n\ntorch.Size([3, 4, 5])\ntorch.Size([5, 4, 3])\n\n\n\n\nTensor View Operation\nTensor view operations returns a new tensor with the same data as the self tensor but of a different shape.\n\nx = torch.randn(2, 2)\nprint(x)\nprint(x.size())\n\ntensor([[-0.4790,  0.8539],\n        [-0.2285,  0.3081]])\ntorch.Size([2, 2])\n\n\n\ny = x.view(4)\nprint(y)\nprint(y.size())\n\ntensor([-0.4790,  0.8539, -0.2285,  0.3081])\ntorch.Size([4])\n\n\n\nUsing -1 in the shape argument will automatically infer the correct size of the dimension.\n\n\nz = x.view(-1, 2)  # the size -1 is inferred from other dimensions\n\nprint(z)\nprint(z.size())\n\ntensor([[-0.4790,  0.8539],\n        [-0.2285,  0.3081]])\ntorch.Size([2, 2])\n\n\n\nView Does not change tensor layout in memory, Transpose() operation change the tensor layout in memory.\n\n\n\nTensor Mathematical Basic Operations\nTensor addition is achive using torch.add as shown in the following example:\n\n# Create a tensor of values and add a number to it\ntensor = torch.tensor([1, 2, 3])\ntensor + 10\n\ntensor([11, 12, 13])\n\n\n\n# Multiply it by 10\ntensor * 10\n\ntensor([10, 20, 30])\n\n\n\n# Subtract and reassign\ntensor = tensor - 10\ntensor\n\ntensor([-9, -8, -7])\n\n\n\nPyTorch also has a bunch of built-in functions like torch.mul() (short for multiplcation) and torch.add() to perform basic operations.\n\n\n# Can also use torch functions\ntensor = torch.tensor([1, 2, 3])\ntorch.multiply(tensor, 10)  # multiply by 10\n\ntensor([10, 20, 30])\n\n\n\ntensor = torch.tensor([1, 2, 3])\n\ntorch.add(tensor, 20) # add by 20\n\ntensor([21, 22, 23])\n\n\n\ntorch.div(tensor, 20, rounding_mode='trunc') # divide by 20, with truncation as a rounding_mode\n\ntensor([0, 0, 0])\n\n\n\ntorch.div(tensor, 20, rounding_mode='floor') # divide by 20, with floor as a rounding_mode\n\ntensor([0, 0, 0])\n\n\n\ntorch.sum(tensor) # sum tensor entries  [1, 2, 3]\n\ntensor(6)"
+  },
+  {
+    "objectID": "blog/tensor/tensor.html#matrix-multiplication-is-all-you-need",
+    "href": "blog/tensor/tensor.html#matrix-multiplication-is-all-you-need",
+    "title": "Pytorch Tensor 101",
+    "section": "Matrix multiplication is all you need",
+    "text": "Matrix multiplication is all you need\n\nIn deep learning algorithms (like neural networks), one of the most common operations is matrix multiplication.\nPyTorch implements matrix multiplication functionality in the torch.matmul() method.\nThe main two rules for matrix multiplication to remember are:\n\nThe inner dimensions must match:\n\n(3, 2) @ (3, 2) won’t work\n(2, 3) @ (3, 2) will work\n(3, 2) @ (2, 3) will work\n\nThe resulting matrix has the shape of the outer dimensions:\n\n(2, 3) @ (3, 2) -> (2, 2)\n(3, 2) @ (2, 3) -> (3, 3)\n\nNote: “@” in Python is the symbol for matrix multiplication.\nMore information about matrix multiplication can be found in the Matrix Multiplication section.\n\ntensor1 = torch.randn(3, 4)\ntensor2 = torch.randn(4)\n\nprint(tensor1.shape)\nprint(tensor2.shape)\n\ntorch.Size([3, 4])\ntorch.Size([4])\n\n\n\nresult = torch.matmul(tensor1, tensor2)\nresult.shape\n\ntorch.Size([3])\n\n\nNote: The difference between element-wise multiplication (multiply) and matrix multiplication (matmul) is the addition of values.\n\nmatmul: matrix multiplication\nmultiply: element-wise multiplication\n\n\ntensor = torch.tensor([1, 2, 3])\ntensor.shape\n\ntorch.Size([3])\n\n\nElement-wise matrix mutlication\n\ntensor * tensor\n\ntensor([1, 4, 9])\n\n\nMatrix multiplication\n\ntorch.matmul(tensor, tensor)\n\ntensor(14)\n\n\nCan also use the “@” symbol or torch.mm() for matrix multiplication, though not recommended\n\nprint(tensor @ tensor)\nprint(tensor.matmul(tensor))\n\ntensor(14)\ntensor(14)\n\n\n\nA matrix multiplication like this is also referred to as the dot product of two matrices. Neural networks are full of matrix multiplications and dot products.\n\nFor example, torch.nn.Linear() module (we’ll see this in action later on), also known as a feed-forward layer or fully connected layer, implements a matrix multiplication between an input x and a weights matrix A.\n\\[\ny = x\\cdot{A^T} + b\n\\]\nThank you for reading !"
   },
   {
     "objectID": "about.html",
