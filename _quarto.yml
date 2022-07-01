@@ -38,8 +38,8 @@ website:
       - file: til.qmd
       - text: "Resources"
         menu:
-          - text: "NLP"
-            file: NLP.qmd
+          - text: "The Big Book of My PhD"
+            file: https://shmuhammad2004.github.io/bigbookofphd/intro.html
           - text: "ML/DL"
             file: DL.qmd
           - text: "Scientific Writing and Research"

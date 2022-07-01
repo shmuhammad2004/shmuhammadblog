@@ -32,7 +32,7 @@
     "href": "index.html",
     "title": "Blog",
     "section": "",
-    "text": "A No-Nonsense Guides to Pytorch Tensor\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\ndata science\n\n\nunix\n\n\n\n\nThis blog explain how to use command line tools to obtain data from the internet.\n\n\n\n\n\n\nJun 1, 2022\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\ndata science\n\n\nunix\n\n\n\n\nThis blog explain how to copy files from host to docker container and vice versa.\n\n\n\n\n\n\nJun 1, 2022\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nBooks\n\n\n\n\nWelcome to my Quarto Blog\n\n\n\n\n\n\nMay 31, 2022\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nBooks\n\n\n\n\nWelcome to my Quarto Blog\n\n\n\n\n\n\nMay 31, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "A No-Nonsense Guides to Pytorch Tensor\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\ndata science\n\n\nunix\n\n\n\n\nThis blog explain how to use command line tools to obtain data from the internet.\n\n\n\n\n\n\nJun 1, 2022\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\ndata science\n\n\nunix\n\n\n\n\nThis blog explain how to copy files from host to docker container and vice versa.\n\n\n\n\n\n\nJun 1, 2022\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nBooks\n\n\n\n\nWelcome to my Quarto Blog\n\n\n\n\n\n\nMay 31, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "datascience.html",
@@ -229,6 +229,13 @@
     "title": "Pytorch Tensor 101",
     "section": "Matrix multiplication is all you need",
     "text": "Matrix multiplication is all you need\n\nIn deep learning algorithms (like neural networks), one of the most common operations is matrix multiplication.\nPyTorch implements matrix multiplication functionality in the torch.matmul() method.\nThe main two rules for matrix multiplication to remember are:\n\nThe inner dimensions must match:\n\n(3, 2) @ (3, 2) won’t work\n(2, 3) @ (3, 2) will work\n(3, 2) @ (2, 3) will work\n\nThe resulting matrix has the shape of the outer dimensions:\n\n(2, 3) @ (3, 2) -> (2, 2)\n(3, 2) @ (2, 3) -> (3, 3)\n\nNote: “@” in Python is the symbol for matrix multiplication.\nMore information about matrix multiplication can be found in the Matrix Multiplication section.\n\ntensor1 = torch.randn(3, 4)\ntensor2 = torch.randn(4)\n\nprint(tensor1.shape)\nprint(tensor2.shape)\n\ntorch.Size([3, 4])\ntorch.Size([4])\n\n\n\nresult = torch.matmul(tensor1, tensor2)\nresult.shape\n\ntorch.Size([3])\n\n\nNote: The difference between element-wise multiplication (multiply) and matrix multiplication (matmul) is the addition of values.\n\nmatmul: matrix multiplication\nmultiply: element-wise multiplication\n\n\ntensor = torch.tensor([1, 2, 3])\ntensor.shape\n\ntorch.Size([3])\n\n\nElement-wise matrix mutlication\n\ntensor * tensor\n\ntensor([1, 4, 9])\n\n\nMatrix multiplication\n\ntorch.matmul(tensor, tensor)\n\ntensor(14)\n\n\nCan also use the “@” symbol or torch.mm() for matrix multiplication, though not recommended\n\nprint(tensor @ tensor)\nprint(tensor.matmul(tensor))\n\ntensor(14)\ntensor(14)\n\n\n\nA matrix multiplication like this is also referred to as the dot product of two matrices. Neural networks are full of matrix multiplications and dot products.\n\nFor example, torch.nn.Linear() module (we’ll see this in action later on), also known as a feed-forward layer or fully connected layer, implements a matrix multiplication between an input x and a weights matrix A.\n\\[\ny = x\\cdot{A^T} + b\n\\]\nThank you for reading !"
+  },
+  {
+    "objectID": "project copy/package/wizehiver/index.html",
+    "href": "project copy/package/wizehiver/index.html",
+    "title": "wizehiver",
+    "section": "",
+    "text": "Wizehiver Hex"
   },
   {
     "objectID": "about.html",
