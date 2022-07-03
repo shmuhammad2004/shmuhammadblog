@@ -42,6 +42,9 @@ website:
             file: https://shmuhammad2004.github.io/bigbookofphd/intro.html
           - text: "Daily Machine Learning Question"
             file: https://github.com/shmuhammad2004/dailyml
+          - text: "Daily Programming Question"
+           
+         
          
       - text: "About"
         file: about.qmd
