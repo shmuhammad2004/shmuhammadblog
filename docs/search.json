@@ -11,7 +11,7 @@
     "href": "til.html",
     "title": "Today I Learned",
     "section": "",
-    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\n\nlabelled vs labeled\n\n\nMay 13, 2022\n\n\n\n\n\n\n\nConnecting two Indpendent Clauses with Comma and Semicolons\n\n\nMay 11, 2022\n\n\n\n\n\n\n\nBias and Varience in Machine Learning Algorithms\n\n\nMay 10, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n \n\n\n\nFatal: Not possible to fast-forward, aborting\n\n\nSep 17, 2022\n\n\n\n\n\n\n\nlabelled vs labeled\n\n\nMay 13, 2022\n\n\n\n\n\n\n\nConnecting two Indpendent Clauses with Comma and Semicolons\n\n\nMay 11, 2022\n\n\n\n\n\n\n\nBias and Varience in Machine Learning Algorithms\n\n\nMay 10, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "Quotes.html",
@@ -354,6 +354,13 @@
     "href": "dailyprogramming.html",
     "title": "DailyR",
     "section": "",
-    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\n\nlabelled vs labeled\n\n\nMay 13, 2022\n\n\n\n\n\n\n\nConnecting two Indpendent Clauses with Comma and Semicolons\n\n\nMay 11, 2022\n\n\n\n\n\n\n\nBias and Varience in Machine Learning Algorithms\n\n\nMay 10, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n \n\n\n\nFatal: Not possible to fast-forward, aborting\n\n\nSep 17, 2022\n\n\n\n\n\n\n\nlabelled vs labeled\n\n\nMay 13, 2022\n\n\n\n\n\n\n\nConnecting two Indpendent Clauses with Comma and Semicolons\n\n\nMay 11, 2022\n\n\n\n\n\n\n\nBias and Varience in Machine Learning Algorithms\n\n\nMay 10, 2022\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "til/git-rebasd/daily0001.html",
+    "href": "til/git-rebasd/daily0001.html",
+    "title": "Fatal: Not possible to fast-forward, aborting",
+    "section": "",
+    "text": "This happens is your branch is no longer directly based off of the branch you’re trying to merge it into - e.g. another commit was added to the destination branch that isn’t in your branch. Thus, you can’t fast-forward into it (because fast-forward requires your branch to completely contain the destination branch).\nSolution that works for me is from StackOverflow\ngit pull --rebase"
   }
 ]
