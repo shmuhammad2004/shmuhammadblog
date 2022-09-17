@@ -36,6 +36,7 @@ website:
       - text: "Blog"
         file: index.qmd
       - file: til.qmd
+      - file: dailycoding.qmd
       - text: "Resources"
         menu:
           - text: "The Big Book of My PhD"

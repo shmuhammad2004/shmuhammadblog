@@ -1,5 +1,5 @@
 ---
-title: "DailyR"
+title: "Daily coding"
 listing:
   contents: til
   type: table

@@ -1,5 +1,14 @@
 [
   {
+    "listing": "/daily.html",
+    "items": [
+      "/til/git-rebasd/daily0001.html",
+      "/til/labeled/daily0001.html",
+      "/til/dailyML01 copy/daily0001.html",
+      "/til/dailyML01/daily0001.html"
+    ]
+  },
+  {
     "listing": "/til.html",
     "items": [
       "/til/git-rebasd/daily0001.html",
@@ -18,23 +27,7 @@
     ]
   },
   {
-    "listing": "/dailyR.html",
-    "items": [
-      "/til/labeled/daily0001.html",
-      "/til/dailyML01 copy/daily0001.html",
-      "/til/dailyML01/daily0001.html"
-    ]
-  },
-  {
-    "listing": "/dialypy.html",
-    "items": [
-      "/til/labeled/daily0001.html",
-      "/til/dailyML01 copy/daily0001.html",
-      "/til/dailyML01/daily0001.html"
-    ]
-  },
-  {
-    "listing": "/dailyprogramming.html",
+    "listing": "/dailycoding.html",
     "items": [
       "/til/git-rebasd/daily0001.html",
       "/til/labeled/daily0001.html",
