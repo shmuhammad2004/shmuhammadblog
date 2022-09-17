@@ -15,5 +15,29 @@
       "/blog/movingfilestodocker/movinfiles.html",
       "/blog/whyblog/whyblog.html"
     ]
+  },
+  {
+    "listing": "/dailyR.html",
+    "items": [
+      "/til/labeled/daily0001.html",
+      "/til/dailyML01 copy/daily0001.html",
+      "/til/dailyML01/daily0001.html"
+    ]
+  },
+  {
+    "listing": "/dialypy.html",
+    "items": [
+      "/til/labeled/daily0001.html",
+      "/til/dailyML01 copy/daily0001.html",
+      "/til/dailyML01/daily0001.html"
+    ]
+  },
+  {
+    "listing": "/dailyprogramming.html",
+    "items": [
+      "/til/labeled/daily0001.html",
+      "/til/dailyML01 copy/daily0001.html",
+      "/til/dailyML01/daily0001.html"
+    ]
   }
 ]

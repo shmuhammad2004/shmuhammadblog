@@ -313,5 +313,47 @@
     "title": "License",
     "section": "",
     "text": "This is my personal website. Content on this site is provided under a Creative Commons (CC-BY) 4.0 license. You may reuse this content as long as you indicate my authorship and provide a link back to the original material. Source code of the site is provided under the MIT license and may be reused without restriction."
+  },
+  {
+    "objectID": "dailyR.html",
+    "href": "dailyR.html",
+    "title": "DailyR",
+    "section": "",
+    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\n\nlabelled vs labeled\n\n\nMay 13, 2022\n\n\n\n\n\n\n\nConnecting two Indpendent Clauses with Comma and Semicolons\n\n\nMay 11, 2022\n\n\n\n\n\n\n\nBias and Varience in Machine Learning Algorithms\n\n\nMay 10, 2022\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "dialypy.html",
+    "href": "dialypy.html",
+    "title": "DailyPyhthon",
+    "section": "",
+    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\n\nlabelled vs labeled\n\n\nMay 13, 2022\n\n\n\n\n\n\n\nConnecting two Indpendent Clauses with Comma and Semicolons\n\n\nMay 11, 2022\n\n\n\n\n\n\n\nBias and Varience in Machine Learning Algorithms\n\n\nMay 10, 2022\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "dailyprogramming/dailyML01/daily0001.html",
+    "href": "dailyprogramming/dailyML01/daily0001.html",
+    "title": "Bias and Varience in Machine Learning Algorithms",
+    "section": "",
+    "text": "Machine learning algorithm prediction error can be classified into three types: irreducible error, bias error, and variable error."
+  },
+  {
+    "objectID": "dailyprogramming/dailyML01/daily0001.html#bias-error",
+    "href": "dailyprogramming/dailyML01/daily0001.html#bias-error",
+    "title": "Bias and Varience in Machine Learning Algorithms",
+    "section": "Bias error",
+    "text": "Bias error\nA model bias is a prior assumption made by a model to make the target function easier to learn. For example, a linear algorithm assumes that the target function is linear. Hence, if the target function is non-linear, then the model will have a bias error. Though they are easy to learn and understand, they are not flexible and have lower predictive performance compared to complex or flexible algorithms. Therefore, less-flexible algorithms (e.g., linear regression, linear discriminant analysis, and logistic regression) have higher bias than complex or flexible algorithms (e.g., neural networks, decision trees, k-Nearest Neighbors, and support vector machines)."
+  },
+  {
+    "objectID": "dailyprogramming/dailyML01/daily0001.html#variance-error",
+    "href": "dailyprogramming/dailyML01/daily0001.html#variance-error",
+    "title": "Bias and Varience in Machine Learning Algorithms",
+    "section": "Variance error",
+    "text": "Variance error\nAssume we train the same model with two different training datasets: N and M. Variance refers to the changes in the model when different training data sets are used. Certainly, the model will have a variance error when the training dataset is different. But, the error should not be too high between different training datasets.Therefore, low-variance algorithms have small changes when a different training dataset is used, and high-variance algorithms have large changes when a different training dataset is used. Flexible or complex algorithms have a high variance (e.g. SVM, Decision Trees, Neural Networks, k-Nearest Neighbors). However, non-flexible algorithms have a low variance (e.g., linear regression, linear discriminant analysis, and logistic regression).\nFinally, the goal of any supervised learning algorithm is to achieve low-bias and low-variance errors. Achieving these goals is the key to the success of any supervised learning algorithm. But, how can we achieve these goals? That is where the idea of Bias-Variance Tradeoff comes into play.\nSummary:\n\nNon-complex machine learning algorithms have high bias and low variance.\nNn-complex/flexible machine learning algorithms have a low bias but a high variance."
+  },
+  {
+    "objectID": "dailyprogramming.html",
+    "href": "dailyprogramming.html",
+    "title": "DailyR",
+    "section": "",
+    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\n\nlabelled vs labeled\n\n\nMay 13, 2022\n\n\n\n\n\n\n\nConnecting two Indpendent Clauses with Comma and Semicolons\n\n\nMay 11, 2022\n\n\n\n\n\n\n\nBias and Varience in Machine Learning Algorithms\n\n\nMay 10, 2022\n\n\n\n\n\n\nNo matching items"
   }
 ]

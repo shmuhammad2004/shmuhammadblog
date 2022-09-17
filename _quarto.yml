@@ -43,9 +43,7 @@ website:
           - text: "Daily Machine Learning Question"
             file: https://github.com/shmuhammad2004/dailyml
           - text: "Daily Programming Question"
-           
-         
-         
+            href: til.qmd
       - text: "About"
         file: about.qmd
 
