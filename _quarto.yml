@@ -1,7 +1,6 @@
 project:
   type: website
   output-dir: docs
-  reader-mode: true 
   resources:
     - "_redirects.txt"
 
@@ -24,7 +23,6 @@ website:
   twitter-card:
      site : "@shmuhammadd"
      creator : "Shamsuddeen Hassan Muhammad"
-  opengraph: true
   navbar:
     title: "Shamsuddeen Hassan Muhammad"
     background: "#000000"
@@ -38,12 +36,6 @@ website:
       - file: til.qmd
       - text: "Daily"
         menu:
-          - text: "Daily Deep Learning"
-            file: dailycoding.qmd
-          - text: "Daily Coding"
-            href: dailycoding.qmd
-          - text: "Daily Writing"
-            href: dailycoding.qmd
           - text: "The Big Book of My PhD"
             file: https://shmuhammad2004.github.io/bigbookofphd/intro.html
       - text: "About"

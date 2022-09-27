@@ -5,11 +5,11 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Shamsuddeen Hassan Muhammad's Blog</title>
+<title>Shamsuddeen Hassan Muhammad&#39;s Blog</title>
 <link>https://shmuhammadblog.github.io/index.html</link>
 <atom:link href="https://shmuhammadblog.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Shamsuddeen Muhammad Blog</description>
-<generator>quarto-0.9.624</generator>
+<generator>quarto-1.2.157</generator>
 <lastBuildDate>Tue, 31 May 2022 23:00:00 GMT</lastBuildDate>
 <item>
   <title>Using command line tool to obtain data</title>
@@ -253,7 +253,7 @@ Get weather information with : wttr.in
 <figure class="figure">
 <img src="https://shmuhammadblog.github.io/blog/whyblog/book-davide.jpg" title="Tweet-Blog-Book" class="img-fluid figure-img">
 </figure>
-<p></p><p></p>
+<p></p><figcaption class="figure-caption">Tweet transformed to a blog and book.</figcaption><p></p>
 </figure>
 </div>
 </section>
@@ -274,7 +274,7 @@ text-align: justify}
 </section>
 
 
-<div id="quarto-appendix" class="default"><section class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
 <li id="fn1"><p><a href="https://ruder.io/10-tips-for-research-and-a-phd/index.html#6-write-a-blog-">10 Tips for Research and a PhD</a>↩︎</p></li>
@@ -1038,7 +1038,7 @@ tensor(14)</code></pre>
 
  ]]></description>
   <guid>https://shmuhammadblog.github.io/blog/tensor/tensor.html</guid>
-  <pubDate>Tue, 27 Sep 2022 18:45:57 GMT</pubDate>
+  <pubDate>Tue, 27 Sep 2022 19:27:52 GMT</pubDate>
   <media:content url="https://shmuhammadblog.github.io/blog/tensor/pytorch_most_used.png" medium="image" type="image/png" height="53" width="144"/>
 </item>
 </channel>

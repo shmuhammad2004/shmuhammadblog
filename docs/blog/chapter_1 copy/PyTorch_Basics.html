@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-0.9.624">
+<meta name="generator" content="quarto-1.2.157">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -13,10 +13,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
@@ -55,7 +60,7 @@ code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
 code span.at { color: #7d9029; } /* Attribute */
 code span.bn { color: #40a070; } /* BaseN */
-code span.bu { } /* BuiltIn */
+code span.bu { color: #008000; } /* BuiltIn */
 code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
 code span.ch { color: #4070a0; } /* Char */
 code span.cn { color: #880000; } /* Constant */
@@ -68,7 +73,7 @@ code span.er { color: #ff0000; font-weight: bold; } /* Error */
 code span.ex { } /* Extension */
 code span.fl { color: #40a070; } /* Float */
 code span.fu { color: #06287e; } /* Function */
-code span.im { } /* Import */
+code span.im { color: #008000; font-weight: bold; } /* Import */
 code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
 code span.kw { color: #007020; font-weight: bold; } /* Keyword */
 code span.op { color: #666666; } /* Operator */
@@ -97,7 +102,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -139,6 +144,7 @@ ga('send', {
 <meta name="twitter:description" content="It discussed how deep learning changes our approach to machine learning and why PyTorch is a good fit for deep learning">
 <meta name="twitter:image" content="https://shmuhammadblog.github.io/blog/chapter_1 copy/book_pic.png">
 <meta name="twitter:creator" content="Shamsuddeen Hassan Muhammad">
+<meta name="twitter:site" content="@shmuhammadd">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -148,66 +154,62 @@ ga('send', {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="../../index.html">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Shamsuddeen Hassan Muhammad</span>
-  </a>
+    </a>
+  </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="dropdown-header">
- NLP Researcher and Data Scientist</li>
+ <span class="menu-text">NLP Researcher and Data Scientist</span></li>
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html">Blog</a>
+    <a class="nav-link" href="../../index.html">
+ <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../til.html">Today I Learned</a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../dailycoding.html">Daily coding</a>
+    <a class="nav-link" href="../../til.html">
+ <span class="menu-text">Today I Learned</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="button" data-bs-toggle="dropdown" aria-expanded="false">Resources</a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-resources">    
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-daily" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Daily</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-daily">    
         <li>
     <a class="dropdown-item" href="https://shmuhammad2004.github.io/bigbookofphd/intro.html">
  <span class="dropdown-text">The Big Book of My PhD</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="https://github.com/shmuhammad2004/dailyml">
- <span class="dropdown-text">Daily Machine Learning Question</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../til.html">
- <span class="dropdown-text">Daily Programming Question</span></a>
-  </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html">About</a>
+    <a class="nav-link" href="../../about.html">
+ <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/Shmuhammadd"><i class="bi bi-twitter" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/shmuhammad2004"><i class="bi bi-github" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://www.linkedin.com/in/shmuhammad/"><i class="bi bi-linkedin" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="../../index.xml"><i class="bi bi-rss" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -248,6 +250,7 @@ ga('send', {
       <p class="date">April 18, 2022</p>
     </div>
   </div>
+  
     
   </div>
   
@@ -1313,7 +1316,9 @@ torch.Size([4])</code></pre>
 <blockquote class="blockquote">
 <p>Can we multiply these tensors?</p>
 </blockquote>
+<div class="cell" data-execution_count="82">
 <div class="sourceCode cell-code" id="cb167"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb167-1"><a href="#cb167-1" aria-hidden="true" tabindex="-1"></a>result <span class="op">=</span> torch.matmul(tensor1, tensor2)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 <div class="cell" data-execution_count="83">
 <div class="sourceCode cell-code" id="cb168"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb168-1"><a href="#cb168-1" aria-hidden="true" tabindex="-1"></a>result</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="83">
@@ -2801,19 +2806,19 @@ after loss.backward(), x.grad:
 </div>
 <section id="example-computing-a-conditional-gradient" class="level3">
 <h3 class="anchored" data-anchor-id="example-computing-a-conditional-gradient">Example: Computing a conditional gradient</h3>
-<p><span class="math display">\[ \text{ Find the gradient of f(x) at x=1 } \]</span></p>
-<p><span class="math display">\[ {} \]</span></p>
-<p><span class="math display">\[ f(x)=\left\{
+<p><span class="math display">\[ \text{ Find the gradient of f(x) at x=1 } \]</span> <span class="math display">\[ {} \]</span> <span class="math display">\[ f(x)=\left\{
 \begin{array}{ll}
     sin(x) \text{ if } x&gt;0 \\
     cos(x) \text{ otherwise } \\
 \end{array}
 \right.\]</span></p>
+<div class="cell">
 <div class="sourceCode cell-code" id="cb353"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb353-1"><a href="#cb353-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> f(x):</span>
 <span id="cb353-2"><a href="#cb353-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (x.data <span class="op">&gt;</span> <span class="dv">0</span>).<span class="bu">all</span>():</span>
 <span id="cb353-3"><a href="#cb353-3" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> torch.sin(x)</span>
 <span id="cb353-4"><a href="#cb353-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
 <span id="cb353-5"><a href="#cb353-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> torch.cos(x)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb354"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb354-1"><a href="#cb354-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> torch.tensor([<span class="fl">1.0</span>], requires_grad<span class="op">=</span><span class="va">True</span>)</span>
 <span id="cb354-2"><a href="#cb354-2" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> f(x)</span>
@@ -2877,12 +2882,14 @@ after loss.backward(), x.grad:
 <pre><code>tensor([0.5403, 0.8415])</code></pre>
 </div>
 </div>
+<div class="cell">
 <div class="sourceCode cell-code" id="cb366"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb366-1"><a href="#cb366-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> describe_grad(x):</span>
 <span id="cb366-2"><a href="#cb366-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> x.grad <span class="kw">is</span> <span class="va">None</span>:</span>
 <span id="cb366-3"><a href="#cb366-3" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">"No gradient information"</span>)</span>
 <span id="cb366-4"><a href="#cb366-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
 <span id="cb366-5"><a href="#cb366-5" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">"Gradient: </span><span class="ch">\n</span><span class="sc">{}</span><span class="st">"</span>.<span class="bu">format</span>(x.grad))</span>
 <span id="cb366-6"><a href="#cb366-6" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">"Gradient Function: </span><span class="sc">{}</span><span class="st">"</span>.<span class="bu">format</span>(x.grad_fn))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb367"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb367-1"><a href="#cb367-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch</span>
 <span id="cb367-2"><a href="#cb367-2" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> torch.ones(<span class="dv">2</span>, <span class="dv">2</span>, requires_grad<span class="op">=</span><span class="va">True</span>)</span>
@@ -2925,8 +2932,12 @@ Gradient Function: None
 --------</code></pre>
 </div>
 </div>
+<div class="cell">
 <div class="sourceCode cell-code" id="cb369"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb369-1"><a href="#cb369-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> torch.ones(<span class="dv">2</span>, <span class="dv">2</span>, requires_grad<span class="op">=</span><span class="va">True</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
 <div class="sourceCode cell-code" id="cb370"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb370-1"><a href="#cb370-1" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> x <span class="op">+</span> <span class="dv">2</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb371"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb371-1"><a href="#cb371-1" aria-hidden="true" tabindex="-1"></a>y.grad_fn</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="68">
@@ -2976,7 +2987,9 @@ tensor([[0.1303, 0.3498, 0.3824],
 cuda:0</code></pre>
 </div>
 </div>
+<div class="cell">
 <div class="sourceCode cell-code" id="cb381"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb381-1"><a href="#cb381-1" aria-hidden="true" tabindex="-1"></a>cpu_device <span class="op">=</span> torch.device(<span class="st">"cpu"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb382"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb382-1"><a href="#cb382-1" aria-hidden="true" tabindex="-1"></a><span class="co"># this will break!</span></span>
 <span id="cb382-2"><a href="#cb382-2" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> torch.rand(<span class="dv">3</span>, <span class="dv">3</span>)</span>
@@ -3064,53 +3077,69 @@ tensor([[1.0585, 1.2775, 0.8134],
 <section id="exercise-1-1" class="level4">
 <h4 class="anchored" data-anchor-id="exercise-1-1">Exercise 1</h4>
 <p>Create a 2D tensor and then add a dimension of size 1 inserted at the 0th axis.</p>
+<div class="cell">
 <div class="sourceCode cell-code" id="cb389"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb389-1"><a href="#cb389-1" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> torch.rand(<span class="dv">3</span>,<span class="dv">3</span>)</span>
 <span id="cb389-2"><a href="#cb389-2" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> a.unsqueeze(<span class="dv">0</span>)</span>
 <span id="cb389-3"><a href="#cb389-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(a)</span>
 <span id="cb389-4"><a href="#cb389-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(a.shape)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
 <section id="exercise-2-1" class="level4">
 <h4 class="anchored" data-anchor-id="exercise-2-1">Exercise 2</h4>
 <p>Remove the extra dimension you just added to the previous tensor.</p>
+<div class="cell">
 <div class="sourceCode cell-code" id="cb390"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb390-1"><a href="#cb390-1" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> a.squeeze(<span class="dv">0</span>)</span>
 <span id="cb390-2"><a href="#cb390-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(a.shape)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
 <section id="exercise-3-1" class="level4">
 <h4 class="anchored" data-anchor-id="exercise-3-1">Exercise 3</h4>
 <p>Create a random tensor of shape 5x3 in the interval [3, 7)</p>
+<div class="cell">
 <div class="sourceCode cell-code" id="cb391"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb391-1"><a href="#cb391-1" aria-hidden="true" tabindex="-1"></a><span class="dv">3</span> <span class="op">+</span> torch.rand(<span class="dv">5</span>, <span class="dv">3</span>) <span class="op">*</span> <span class="dv">4</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
 <section id="exercise-4-1" class="level4">
 <h4 class="anchored" data-anchor-id="exercise-4-1">Exercise 4</h4>
 <p>Create a tensor with values from a normal distribution (mean=0, std=1).</p>
+<div class="cell">
 <div class="sourceCode cell-code" id="cb392"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb392-1"><a href="#cb392-1" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> torch.rand(<span class="dv">3</span>,<span class="dv">3</span>)</span>
 <span id="cb392-2"><a href="#cb392-2" aria-hidden="true" tabindex="-1"></a>a.normal_(mean<span class="op">=</span><span class="dv">0</span>, std<span class="op">=</span><span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
 <section id="exercise-5-1" class="level4">
 <h4 class="anchored" data-anchor-id="exercise-5-1">Exercise 5</h4>
 <p>Retrieve the indexes of all the non zero elements in the tensor torch.Tensor([1, 1, 1, 0, 1]).</p>
+<div class="cell">
 <div class="sourceCode cell-code" id="cb393"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb393-1"><a href="#cb393-1" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> torch.Tensor([<span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">1</span>])</span>
 <span id="cb393-2"><a href="#cb393-2" aria-hidden="true" tabindex="-1"></a>torch.nonzero(a)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
 <section id="exercise-6-1" class="level4">
 <h4 class="anchored" data-anchor-id="exercise-6-1">Exercise 6</h4>
 <p>Create a random tensor of size (3,1) and then horizonally stack 4 copies together.</p>
+<div class="cell">
 <div class="sourceCode cell-code" id="cb394"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb394-1"><a href="#cb394-1" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> torch.rand(<span class="dv">3</span>,<span class="dv">1</span>)</span>
 <span id="cb394-2"><a href="#cb394-2" aria-hidden="true" tabindex="-1"></a>a.expand(<span class="dv">3</span>,<span class="dv">4</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
 <section id="exercise-7-1" class="level4">
 <h4 class="anchored" data-anchor-id="exercise-7-1">Exercise 7</h4>
 <p>Return the batch matrix-matrix product of two 3 dimensional matrices (a=torch.rand(3,4,5), b=torch.rand(3,5,4)).</p>
+<div class="cell">
 <div class="sourceCode cell-code" id="cb395"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb395-1"><a href="#cb395-1" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> torch.rand(<span class="dv">3</span>,<span class="dv">4</span>,<span class="dv">5</span>)</span>
 <span id="cb395-2"><a href="#cb395-2" aria-hidden="true" tabindex="-1"></a>b <span class="op">=</span> torch.rand(<span class="dv">3</span>,<span class="dv">5</span>,<span class="dv">4</span>)</span>
 <span id="cb395-3"><a href="#cb395-3" aria-hidden="true" tabindex="-1"></a>torch.bmm(a, b)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
 <section id="exercise-8-1" class="level4">
 <h4 class="anchored" data-anchor-id="exercise-8-1">Exercise 8</h4>
 <p>Return the batch matrix-matrix product of a 3D matrix and a 2D matrix (a=torch.rand(3,4,5), b=torch.rand(5,4)).</p>
+<div class="cell">
 <div class="sourceCode cell-code" id="cb396"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb396-1"><a href="#cb396-1" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> torch.rand(<span class="dv">3</span>,<span class="dv">4</span>,<span class="dv">5</span>)</span>
 <span id="cb396-2"><a href="#cb396-2" aria-hidden="true" tabindex="-1"></a>b <span class="op">=</span> torch.rand(<span class="dv">5</span>,<span class="dv">4</span>)</span>
 <span id="cb396-3"><a href="#cb396-3" aria-hidden="true" tabindex="-1"></a>torch.bmm(a, b.unsqueeze(<span class="dv">0</span>).expand(a.size(<span class="dv">0</span>), <span class="op">*</span>b.size()))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
 </section>
 <section id="end" class="level3">
@@ -3124,6 +3153,24 @@ tensor([[1.0585, 1.2775, 0.8134],
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -3145,7 +3192,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -3173,31 +3237,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>

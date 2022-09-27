@@ -123,6 +123,10 @@ code span.kw {
   color: #81a1c1;
 }
 
+pre > code.sourceCode > span {
+  color: #d8dee9;
+}
+
 code span {
   color: #d8dee9;
 }
