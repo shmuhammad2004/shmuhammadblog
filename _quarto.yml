@@ -36,15 +36,16 @@ website:
       - text: "Blog"
         file: index.qmd
       - file: til.qmd
-      - file: dailycoding.qmd
-      - text: "Resources"
+      - text: "Daily"
         menu:
+          - text: "Daily Deep Learning"
+            file: dailycoding.qmd
+          - text: "Daily Coding"
+            href: dailycoding.qmd
+          - text: "Daily Writing"
+            href: dailycoding.qmd
           - text: "The Big Book of My PhD"
             file: https://shmuhammad2004.github.io/bigbookofphd/intro.html
-          - text: "Daily Machine Learning Question"
-            file: https://github.com/shmuhammad2004/dailyml
-          - text: "Daily Programming Question"
-            href: til.qmd
       - text: "About"
         file: about.qmd
 

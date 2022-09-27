@@ -29,10 +29,17 @@
   {
     "listing": "/dailycoding.html",
     "items": [
-      "/til/git-rebasd/daily0001.html",
-      "/til/labeled/daily0001.html",
-      "/til/dailyML01 copy/daily0001.html",
-      "/til/dailyML01/daily0001.html"
+      "/dailycoding/git-rebasd/daily0001.html"
+    ]
+  },
+  {
+    "listing": "/dailyml.html",
+    "items": []
+  },
+  {
+    "listing": "/dailywrite.html",
+    "items": [
+      "/dailywrite/git-rebasd/daily0001.html"
     ]
   }
 ]
