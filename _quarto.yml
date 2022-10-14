@@ -33,6 +33,7 @@ website:
     right:
       - text: "Blog"
         file: index.qmd
+      - file: dailycoding.qmd
       - file: til.qmd
       - text: "Daily"
         menu:

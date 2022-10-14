@@ -5,11 +5,11 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Shamsuddeen Hassan Muhammad&#39;s Blog</title>
+<title>Shamsuddeen Hassan Muhammad's Blog</title>
 <link>https://shmuhammadblog.github.io/index.html</link>
 <atom:link href="https://shmuhammadblog.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Shamsuddeen Muhammad Blog</description>
-<generator>quarto-1.2.157</generator>
+<generator>quarto-1.1.251</generator>
 <lastBuildDate>Tue, 31 May 2022 23:00:00 GMT</lastBuildDate>
 <item>
   <title>Using command line tool to obtain data</title>
@@ -1038,7 +1038,7 @@ tensor(14)</code></pre>
 
  ]]></description>
   <guid>https://shmuhammadblog.github.io/blog/tensor/tensor.html</guid>
-  <pubDate>Tue, 27 Sep 2022 19:27:52 GMT</pubDate>
+  <pubDate>Fri, 14 Oct 2022 23:08:34 GMT</pubDate>
   <media:content url="https://shmuhammadblog.github.io/blog/tensor/pytorch_most_used.png" medium="image" type="image/png" height="53" width="144"/>
 </item>
 </channel>
