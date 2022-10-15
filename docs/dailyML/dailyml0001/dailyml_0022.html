@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2022-05-10">
+<meta name="dcterms.date" content="2022-10-15">
 
-<title>Shamsuddeen Hassan Muhammad’s Blog - Bias and Varience in Machine Learning Algorithms</title>
+<title>Shamsuddeen Hassan Muhammad’s Blog - Active Learning</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -75,8 +75,8 @@ ga('send', {
 <script defer="" data-domain="ivelasq.rbind.io" src="https://plausible.io/js/plausible.js"></script>
 
 
-<meta name="twitter:title" content="Shamsuddeen Hassan Muhammad’s Blog - Bias and Varience in Machine Learning Algorithms">
-<meta name="twitter:description" content="Machine learning algorithm prediction error can be classified into three types: irreducible error, bias error, and variable error.">
+<meta name="twitter:title" content="Shamsuddeen Hassan Muhammad’s Blog - Active Learning">
+<meta name="twitter:description" content="Claire and Phil aren’t on the same page with their plan.">
 <meta name="twitter:creator" content="Shamsuddeen Hassan Muhammad">
 <meta name="twitter:card" content="summary">
 </head>
@@ -105,14 +105,31 @@ ga('send', {
     <a class="nav-link" href="../../index.html">Blog</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../dailycoding.html">Daily coding</a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../../til.html">Today I Learned</a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-daily" role="button" data-bs-toggle="dropdown" aria-expanded="false">Daily</a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-daily">    
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-atomic-habit" role="button" data-bs-toggle="dropdown" aria-expanded="false">Atomic Habit</a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-atomic-habit">    
+        <li>
+    <a class="dropdown-item" href="../../bookreading.html">
+ <span class="dropdown-text">Book I am reading and Summary</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../dailyml.html">
+ <span class="dropdown-text">Daily Machine Learning Practice</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../dailypython.html">
+ <span class="dropdown-text">Daily Python Practice</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../dailyR.html">
+ <span class="dropdown-text">DailyR Practice</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../dailypaper.html">
+ <span class="dropdown-text">Daily Paper Summary</span></a>
+  </li>  
         <li>
     <a class="dropdown-item" href="https://shmuhammad2004.github.io/bigbookofphd/intro.html">
  <span class="dropdown-text">The Big Book of My PhD</span></a>
@@ -158,7 +175,7 @@ ga('send', {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Bias and Varience in Machine Learning Algorithms</h1>
+<h1 class="title">Active Learning</h1>
 </div>
 
 
@@ -169,7 +186,7 @@ ga('send', {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 10, 2022</p>
+      <p class="date">October 15, 2022</p>
     </div>
   </div>
     
@@ -178,30 +195,44 @@ ga('send', {
 
 </header>
 
-<p>Machine learning algorithm prediction error can be classified into three types: irreducible error, bias error, and variable error.</p>
-<section id="irreducible-error" class="level3">
-<h3 class="anchored" data-anchor-id="irreducible-error">Irreducible error</h3>
-<p>Irreducible error: As the name suggests, irreducible error is an error that is not reducible due to unknown variables. Unlike reducible errors, which we can reduce by using an appropriate learning algorithm.</p>
-</section>
-<section id="bias-error" class="level2">
-<h2 class="anchored" data-anchor-id="bias-error">Bias error</h2>
-<p>A model bias is a&nbsp;prior assumption&nbsp;made by a model to make the target function easier to learn. For example, a linear algorithm assumes that the target function is linear. Hence, if the target function is non-linear, then the model will have a bias error. Though they are easy to learn and understand, they are not flexible and have lower predictive performance compared to complex or flexible algorithms. Therefore, less-flexible algorithms (e.g., linear regression, linear discriminant analysis, and logistic regression) have higher bias than complex or flexible algorithms (e.g., neural networks, decision trees, k-Nearest Neighbors, and support vector machines).</p>
-</section>
-<section id="variance-error" class="level2">
-<h2 class="anchored" data-anchor-id="variance-error">Variance error</h2>
-<p>Assume we train the same model with two different training datasets: N and M. Variance refers to the changes in the model when different training data sets are used. Certainly, the model will have a variance error when the training dataset is different. But, the error should not be too high between different training datasets.Therefore, low-variance algorithms have small changes when a different training dataset is used, and high-variance algorithms have large changes when a different training dataset is used. Flexible or complex algorithms have a high variance (e.g.&nbsp;SVM, Decision Trees, Neural Networks, k-Nearest Neighbors). However, non-flexible algorithms have a low variance (e.g., linear regression, linear discriminant analysis, and logistic regression).</p>
-<p>Finally, the goal of any supervised learning algorithm is to achieve low-bias and low-variance errors. Achieving these goals is the key to the success of any supervised learning algorithm. But, how can we achieve these goals? That is where the idea of Bias-Variance Tradeoff comes into play.</p>
-<p>Summary:</p>
+<section id="maximum-performance" class="level1">
+<h1>Maximum performance</h1>
+<p>Claire and Phil aren’t on the same page with their plan.</p>
+<p>They want to train a machine learning model but want to minimize the number of samples they need to label. Labeling takes too long, and they want to avoid it as much as possible.</p>
+<p>Claire argues that they don’t need to train with the entire dataset. Instead, she believes they can maximize the model’s performance without using all the data.</p>
+<p>Phil disagrees. He argues that the only way to achieve the maximum possible performance is to train with the entire dataset. Since they aren’t willing to label all the data, they will need to settle for a mediocre model.</p>
+<p>What’s your opinion about this situation?</p>
 <ul>
-<li>Non-complex machine learning algorithms have high bias and low variance.</li>
-<li>Nn-complex/flexible machine learning algorithms have a low bias but a high variance.</li>
+<li><p>Achieving the maximum possible performance without using the entire dataset is theoretically possible but very unlikely.</p></li>
+<li><p>They can achieve the maximum possible performance without using the entire dataset by randomly sampling a portion of the data, labeling it, and training the model.</p></li>
+<li><p>They can achieve the maximum possible performance without using the entire dataset, but they need a good strategy to sample the data they will label to train the model.</p></li>
+<li><p>They will never achieve the maximum possible performance without using the entire dataset.</p></li>
 </ul>
+<section id="answer" class="level2">
+<h2 class="anchored" data-anchor-id="answer">Answer</h2>
+<blockquote class="blockquote">
+<p>With active learning, we can build a model that will achieve better performance with fewer labeled samples by allowing the algorithm to choose the data that will provide the most information to its training process.</p>
+</blockquote>
+<p>Claire and Phil do not need to use the entire dataset to build a model that reaches its maximum possible performance. However, they will need a smart strategy to select the data they need to label.</p>
+<p>Let’s imagine a dataset with two classes that we can represent in two dimensions and a linear model that splits the data into two groups. Any samples around the lines’ boundaries that separate both classes are critical in our dataset. Those samples help the model decide how to split the data!</p>
+<p>But what about samples far away from the split? They contribute much less to the model, and we don’t need them to find the separation between classes. The same happens with duplicate samples or samples that are too similar to existing ones.</p>
+<p>Claire and Phil, however, can’t depend on randomly sampling the dataset to decide which instances to label. They need a better strategy to determine which samples to pick.</p>
+<p>This scenario is an example of Active learning. This learning technique allows us to build a better-performing machine learning model using fewer training labels by strategically choosing the samples to train the model.</p>
+</section>
+<section id="recommended-reading" class="level2">
+<h2 class="anchored" data-anchor-id="recommended-reading">Recommended reading</h2>
+<ol type="1">
+<li><a href="https://articles.bnomial.com/active-learning">Active learning</a></li>
+<li><a href="https://medium.com/cognifeed/https-medium-com-cognifeed-a-short-introduction-to-active-learning-8c583c81f4e5">A Short Introduction to Active Learning</a></li>
+<li><a href="https://hunch.net/~active_learning/active_learning_icml09.pdf">Tutorial on Active learning</a></li>
+</ol>
 <style>
 body {
 text-align: justify}
 </style>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

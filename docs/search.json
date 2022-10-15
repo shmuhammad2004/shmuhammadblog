@@ -7,39 +7,18 @@
     "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n \n\n\n\nFatal: Not possible to fast-forward, aborting\n\n\nSep 17, 2022\n\n\n\n\n\n\n\nlabelled vs labeled\n\n\nMay 13, 2022\n\n\n\n\n\n\n\nConnecting two Indpendent Clauses with Comma and Semicolons\n\n\nMay 11, 2022\n\n\n\n\n\n\n\nBias and Varience in Machine Learning Algorithms\n\n\nMay 10, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "dailycoding/labeled/daily0001.html",
-    "href": "dailycoding/labeled/daily0001.html",
-    "title": "labelled vs labeled",
+    "objectID": "bookreading.html",
+    "href": "bookreading.html",
+    "title": "Book I am reading",
     "section": "",
-    "text": "I often forget which one to use between labeled and labelled.\nLabeled is an American spelling while labelled is British spelling.\nI use labelled since I write in British English."
+    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\n\nDeep Work\n\n\nOct 15, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "dailycoding/labeled/daily0001.html#focus-vs-focused",
-    "href": "dailycoding/labeled/daily0001.html#focus-vs-focused",
-    "title": "labelled vs labeled",
-    "section": "Focus vs focused",
-    "text": "Focus vs focused\nThere is a rule in the English language called the doubling up rule. Basically, if you add a vowel suffix to the end of a word, you typically want to double up the final letter to allow room for it.\nThe official requirements are that we ‘double a single consonant letter at the end of any base where the preceding vowel is spelled with a single letter and stressed’. For example: (bar, barring, barred), (beg, begging, begged), (occur, occurring, occurred).\nHowever, no doubling when the preceding vowel is unstressed. For example: panic becomes panicking, traffic becomes trafficking,\nNow is focus or focussing?\n\nThis word can take either double or single s, with the single option being highly preferred.\n\nfocusing/focussing and focused/focussed are all correct. !"
-  },
-  {
-    "objectID": "dailyML/dailyml0001/dailyml_0022.html",
-    "href": "dailyML/dailyml0001/dailyml_0022.html",
-    "title": "Bias and Varience in Machine Learning Algorithms",
+    "objectID": "dailyml/dailyml0001/dailyml_0022.html",
+    "href": "dailyml/dailyml0001/dailyml_0022.html",
+    "title": "Active Learning",
     "section": "",
-    "text": "Machine learning algorithm prediction error can be classified into three types: irreducible error, bias error, and variable error."
-  },
-  {
-    "objectID": "dailyML/dailyml0001/dailyml_0022.html#bias-error",
-    "href": "dailyML/dailyml0001/dailyml_0022.html#bias-error",
-    "title": "Bias and Varience in Machine Learning Algorithms",
-    "section": "Bias error",
-    "text": "Bias error\nA model bias is a prior assumption made by a model to make the target function easier to learn. For example, a linear algorithm assumes that the target function is linear. Hence, if the target function is non-linear, then the model will have a bias error. Though they are easy to learn and understand, they are not flexible and have lower predictive performance compared to complex or flexible algorithms. Therefore, less-flexible algorithms (e.g., linear regression, linear discriminant analysis, and logistic regression) have higher bias than complex or flexible algorithms (e.g., neural networks, decision trees, k-Nearest Neighbors, and support vector machines)."
-  },
-  {
-    "objectID": "dailyML/dailyml0001/dailyml_0022.html#variance-error",
-    "href": "dailyML/dailyml0001/dailyml_0022.html#variance-error",
-    "title": "Bias and Varience in Machine Learning Algorithms",
-    "section": "Variance error",
-    "text": "Variance error\nAssume we train the same model with two different training datasets: N and M. Variance refers to the changes in the model when different training data sets are used. Certainly, the model will have a variance error when the training dataset is different. But, the error should not be too high between different training datasets.Therefore, low-variance algorithms have small changes when a different training dataset is used, and high-variance algorithms have large changes when a different training dataset is used. Flexible or complex algorithms have a high variance (e.g. SVM, Decision Trees, Neural Networks, k-Nearest Neighbors). However, non-flexible algorithms have a low variance (e.g., linear regression, linear discriminant analysis, and logistic regression).\nFinally, the goal of any supervised learning algorithm is to achieve low-bias and low-variance errors. Achieving these goals is the key to the success of any supervised learning algorithm. But, how can we achieve these goals? That is where the idea of Bias-Variance Tradeoff comes into play.\nSummary:\n\nNon-complex machine learning algorithms have high bias and low variance.\nNn-complex/flexible machine learning algorithms have a low bias but a high variance."
+    "text": "Claire and Phil aren’t on the same page with their plan.\nThey want to train a machine learning model but want to minimize the number of samples they need to label. Labeling takes too long, and they want to avoid it as much as possible.\nClaire argues that they don’t need to train with the entire dataset. Instead, she believes they can maximize the model’s performance without using all the data.\nPhil disagrees. He argues that the only way to achieve the maximum possible performance is to train with the entire dataset. Since they aren’t willing to label all the data, they will need to settle for a mediocre model.\nWhat’s your opinion about this situation?\n\nAchieving the maximum possible performance without using the entire dataset is theoretically possible but very unlikely.\nThey can achieve the maximum possible performance without using the entire dataset by randomly sampling a portion of the data, labeling it, and training the model.\nThey can achieve the maximum possible performance without using the entire dataset, but they need a good strategy to sample the data they will label to train the model.\nThey will never achieve the maximum possible performance without using the entire dataset.\n\n\n\n\nWith active learning, we can build a model that will achieve better performance with fewer labeled samples by allowing the algorithm to choose the data that will provide the most information to its training process.\n\nClaire and Phil do not need to use the entire dataset to build a model that reaches its maximum possible performance. However, they will need a smart strategy to select the data they need to label.\nLet’s imagine a dataset with two classes that we can represent in two dimensions and a linear model that splits the data into two groups. Any samples around the lines’ boundaries that separate both classes are critical in our dataset. Those samples help the model decide how to split the data!\nBut what about samples far away from the split? They contribute much less to the model, and we don’t need them to find the separation between classes. The same happens with duplicate samples or samples that are too similar to existing ones.\nClaire and Phil, however, can’t depend on randomly sampling the dataset to decide which instances to label. They need a better strategy to determine which samples to pick.\nThis scenario is an example of Active learning. This learning technique allows us to build a better-performing machine learning model using fewer training labels by strategically choosing the samples to train the model.\n\n\n\n\nActive learning\nA Short Introduction to Active Learning\nTutorial on Active learning"
   },
   {
     "objectID": "til.html",
@@ -47,6 +26,13 @@
     "title": "Today I Learned",
     "section": "",
     "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n \n\n\n\nFatal: Not possible to fast-forward, aborting\n\n\nSep 17, 2022\n\n\n\n\n\n\n\nlabelled vs labeled\n\n\nMay 13, 2022\n\n\n\n\n\n\n\nConnecting two Indpendent Clauses with Comma and Semicolons\n\n\nMay 11, 2022\n\n\n\n\n\n\n\nBias and Varience in Machine Learning Algorithms\n\n\nMay 10, 2022\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "dailyR.html",
+    "href": "dailyR.html",
+    "title": "Daily R Practice",
+    "section": "",
+    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n \n\n\n\nR4DS Chapter 2 Exercises\n\n\nOct 15, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "Quotes.html",
@@ -60,7 +46,7 @@
     "href": "dailyml.html",
     "title": "Daily Machine Learning",
     "section": "",
-    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n \n\n\n\nBias and Varience in Machine Learning Algorithms\n\n\nMay 10, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n \n\n\n\nActive Learning\n\n\nOct 15, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "NLP.html",
@@ -82,6 +68,20 @@
     "title": "Shamsuddeen Hassan Muhammad's Blog",
     "section": "",
     "text": "DevOps for Data Science"
+  },
+  {
+    "objectID": "dailypython.html",
+    "href": "dailypython.html",
+    "title": "Daily Python Practice",
+    "section": "",
+    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n \n\n\n\nGetting and Knowing your Data\n\n\nOct 15, 2022\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "dailypaper.html",
+    "href": "dailypaper.html",
+    "title": "Daily paper summary",
+    "section": "",
+    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/obtaining data/obtaininda.html",
@@ -273,6 +273,13 @@
     "text": "Matrix multiplication is all you need\n\nIn deep learning algorithms (like neural networks), one of the most common operations is matrix multiplication.\nPyTorch implements matrix multiplication functionality in the torch.matmul() method.\nThe main two rules for matrix multiplication to remember are:\n\nThe inner dimensions must match:\n\n(3, 2) @ (3, 2) won’t work\n(2, 3) @ (3, 2) will work\n(3, 2) @ (2, 3) will work\n\nThe resulting matrix has the shape of the outer dimensions:\n\n(2, 3) @ (3, 2) -> (2, 2)\n(3, 2) @ (2, 3) -> (3, 3)\n\nNote: “@” in Python is the symbol for matrix multiplication.\nMore information about matrix multiplication can be found in the Matrix Multiplication section.\n\ntensor1 = torch.randn(3, 4)\ntensor2 = torch.randn(4)\n\nprint(tensor1.shape)\nprint(tensor2.shape)\n\ntorch.Size([3, 4])\ntorch.Size([4])\n\n\n\nresult = torch.matmul(tensor1, tensor2)\nresult.shape\n\ntorch.Size([3])\n\n\nNote: The difference between element-wise multiplication (multiply) and matrix multiplication (matmul) is the addition of values.\n\nmatmul: matrix multiplication\nmultiply: element-wise multiplication\n\n\ntensor = torch.tensor([1, 2, 3])\ntensor.shape\n\ntorch.Size([3])\n\n\nElement-wise matrix mutlication\n\ntensor * tensor\n\ntensor([1, 4, 9])\n\n\nMatrix multiplication\n\ntorch.matmul(tensor, tensor)\n\ntensor(14)\n\n\nCan also use the “@” symbol or torch.mm() for matrix multiplication, though not recommended\n\nprint(tensor @ tensor)\nprint(tensor.matmul(tensor))\n\ntensor(14)\ntensor(14)\n\n\n\nA matrix multiplication like this is also referred to as the dot product of two matrices. Neural networks are full of matrix multiplications and dot products.\n\nFor example, torch.nn.Linear() module (we’ll see this in action later on), also known as a feed-forward layer or fully connected layer, implements a matrix multiplication between an input x and a weights matrix A.\n\\[\ny = x\\cdot{A^T} + b\n\\]\nThank you for reading !"
   },
   {
+    "objectID": "bookreading/Deep Work/daily0001.html",
+    "href": "bookreading/Deep Work/daily0001.html",
+    "title": "Deep Work",
+    "section": "",
+    "text": "I am currently reading Deep Work book by Cal NewPort"
+  },
+  {
     "objectID": "project copy/package/wizehiver/index.html",
     "href": "project copy/package/wizehiver/index.html",
     "title": "wizehiver",
@@ -285,6 +292,13 @@
     "title": "About",
     "section": "",
     "text": "I am a PhD student at the University of Porto, Portugal. I am interested in low-resource natural language processing (NLP). I write stuff related to NLP and data science. You can reach out to me via shamsuddeen2004@gmail.com."
+  },
+  {
+    "objectID": "dailyR/exercises_chap1/daily0001.html",
+    "href": "dailyR/exercises_chap1/daily0001.html",
+    "title": "R4DS Chapter 2 Exercises",
+    "section": "",
+    "text": "library(tidyverse)\n\n── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──\n✔ ggplot2 3.3.6      ✔ purrr   0.3.5 \n✔ tibble  3.1.8      ✔ dplyr   1.0.10\n✔ tidyr   1.2.1      ✔ stringr 1.4.1 \n✔ readr   2.1.3      ✔ forcats 0.5.2 \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\n\n\n\nRun ggplot(data = mpg). What do you see?\n\n\nggplot(data = mpg)\n\n\n\n\nI see empty.\n\nHow many rows are in mpg? How many columns?\n\n\nnrow(mpg)\n\n[1] 234\n\n\nThere are 234 rows.\n\nWhat does the drv variable describe? Read the help for ?mpg to find out.\n\n\n?mpg\n\ndv means:\n\n“the type of drive train, where f = front-wheel drive, r = rear wheel drive, 4 = 4wd”\n\n\nMake a scatterplot of hwy vs cyl.\n\n\nggplot(data = mpg)+\ngeom_point(aes(hwy,cyl))\n\n\n\n\n\nWhat happens if you make a scatterplot of class vs drv? Why is the plot not useful?\n\n\nggplot(data = mpg)+\ngeom_point(aes(class,drv))\n\n\n\n\n\nMake a scatterplot of hwy vs cyl."
   },
   {
     "objectID": "til/dailyML01/daily0001.html",
@@ -357,20 +371,6 @@
     "text": "This happens is your branch is no longer directly based off of the branch you’re trying to merge it into - e.g. another commit was added to the destination branch that isn’t in your branch. Thus, you can’t fast-forward into it (because fast-forward requires your branch to completely contain the destination branch).\nSolution that works for me is from StackOverflow\ngit pull --rebase"
   },
   {
-    "objectID": "dailywrite.html",
-    "href": "dailywrite.html",
-    "title": "Daily writing",
-    "section": "",
-    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "dailycoding.html",
-    "href": "dailycoding.html",
-    "title": "Daily coding",
-    "section": "",
-    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\n\nlabelled vs labeled\n\n\nMay 13, 2022\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "license.html",
     "href": "license.html",
     "title": "License",
@@ -378,115 +378,10 @@
     "text": "This is my personal website. Content on this site is provided under a Creative Commons (CC-BY) 4.0 license. You may reuse this content as long as you indicate my authorship and provide a link back to the original material. Source code of the site is provided under the MIT license and may be reused without restriction."
   },
   {
-    "objectID": "dailycoding/py0001/py0001.html",
-    "href": "dailycoding/py0001/py0001.html",
-    "title": "Getting and Knowing your Data",
-    "section": "",
-    "text": "url = 'https://raw.githubusercontent.com/justmarkham/DAT8/master/data/chipotle.tsv'\n    \ndf = pd.read_csv(url, sep = '\\t')\n\nSee the first 10 entries\n\ndf.head(10)\n\n\n\n\n\n  \n    \n      \n      order_id\n      quantity\n      item_name\n      choice_description\n      item_price\n    \n  \n  \n    \n      0\n      1\n      1\n      Chips and Fresh Tomato Salsa\n      NaN\n      $2.39\n    \n    \n      1\n      1\n      1\n      Izze\n      [Clementine]\n      $3.39\n    \n    \n      2\n      1\n      1\n      Nantucket Nectar\n      [Apple]\n      $3.39\n    \n    \n      3\n      1\n      1\n      Chips and Tomatillo-Green Chili Salsa\n      NaN\n      $2.39\n    \n    \n      4\n      2\n      2\n      Chicken Bowl\n      [Tomatillo-Red Chili Salsa (Hot), [Black Beans...\n      $16.98\n    \n    \n      5\n      3\n      1\n      Chicken Bowl\n      [Fresh Tomato Salsa (Mild), [Rice, Cheese, Sou...\n      $10.98\n    \n    \n      6\n      3\n      1\n      Side of Chips\n      NaN\n      $1.69\n    \n    \n      7\n      4\n      1\n      Steak Burrito\n      [Tomatillo Red Chili Salsa, [Fajita Vegetables...\n      $11.75\n    \n    \n      8\n      4\n      1\n      Steak Soft Tacos\n      [Tomatillo Green Chili Salsa, [Pinto Beans, Ch...\n      $9.25\n    \n    \n      9\n      5\n      1\n      Steak Burrito\n      [Fresh Tomato Salsa, [Rice, Black Beans, Pinto...\n      $9.25\n    \n  \n\n\n\n\n\nWhat is the number of observations(rows) dataset?\n\n# Solution 1\n\ncount_row = df.shape[0]  # Gives number of rows\ncount_col = df.shape[1]  # Gives number of columns\n\nprint(count_row, count_col)\n\n4622 5\n\n\n\nr, c = df.shape \n\nprint(r,c) # r = row and c = column\n\n4622 5\n\n\n\nlen() function is used to compute the length of each element in the Series/Index.\n\n\nlen(df) #   \n\n4622\n\n\n\nThe info() method prints information about the DataFrame. The information contains the number of columns, column labels, column data types, memory usage, range index, and the number of cells in each column (non-null values)\n\n\ndf.info() # inf \n\n<class 'pandas.core.frame.DataFrame'>\nRangeIndex: 4622 entries, 0 to 4621\nData columns (total 5 columns):\n #   Column              Non-Null Count  Dtype \n---  ------              --------------  ----- \n 0   order_id            4622 non-null   int64 \n 1   quantity            4622 non-null   int64 \n 2   item_name           4622 non-null   object\n 3   choice_description  3376 non-null   object\n 4   item_price          4622 non-null   object\ndtypes: int64(2), object(3)\nmemory usage: 180.7+ KB\n\n\n\nPrint the name of all the columns.\n\n\ndf.columns # list available columns in dataframe\n\nIndex(['order_id', 'quantity', 'item_name', 'choice_description',\n       'item_price'],\n      dtype='object')\n\n\n\n\nWhich was the most-ordered item?\n\nmost_ordered = df.groupby('item_name').sum().sort_values(['quantity'], ascending=False)\n\nmost_ordered.head()\n\n\n\n\n\n  \n    \n      \n      order_id\n      quantity\n    \n    \n      item_name\n      \n      \n    \n  \n  \n    \n      Chicken Bowl\n      713926\n      761\n    \n    \n      Chicken Burrito\n      497303\n      591\n    \n    \n      Chips and Guacamole\n      449959\n      506\n    \n    \n      Steak Burrito\n      328437\n      386\n    \n    \n      Canned Soft Drink\n      304753\n      351\n    \n  \n\n\n\n\n\n\nFor the most-ordered item, how many items were ordered?\n\ndf.groupby('item_name').sum().sort_values(['quantity'], ascending=False).head(1)\n\n\n\n\n\n  \n    \n      \n      order_id\n      quantity\n    \n    \n      item_name\n      \n      \n    \n  \n  \n    \n      Chicken Bowl\n      713926\n      761\n    \n  \n\n\n\n\n\n\nWhat was the most ordered item in the choice_description column?\n\ndf.groupby('choice_description').sum().sort_values(['quantity'], ascending=False).head(1)\n\n\n\n\n\n  \n    \n      \n      order_id\n      quantity\n    \n    \n      choice_description\n      \n      \n    \n  \n  \n    \n      [Diet Coke]\n      123455\n      159\n    \n  \n\n\n\n\n\n\nHow many items were orderd in total?\n\ndf.quantity.sum()\n\n4972\n\n\n\n\nTurn the item price into a float\n\ndf\n\n\n\n\n\n  \n    \n      \n      order_id\n      quantity\n      item_name\n      choice_description\n      item_price\n    \n  \n  \n    \n      0\n      1\n      1\n      Chips and Fresh Tomato Salsa\n      NaN\n      $2.39\n    \n    \n      1\n      1\n      1\n      Izze\n      [Clementine]\n      $3.39\n    \n    \n      2\n      1\n      1\n      Nantucket Nectar\n      [Apple]\n      $3.39\n    \n    \n      3\n      1\n      1\n      Chips and Tomatillo-Green Chili Salsa\n      NaN\n      $2.39\n    \n    \n      4\n      2\n      2\n      Chicken Bowl\n      [Tomatillo-Red Chili Salsa (Hot), [Black Beans...\n      $16.98\n    \n    \n      ...\n      ...\n      ...\n      ...\n      ...\n      ...\n    \n    \n      4617\n      1833\n      1\n      Steak Burrito\n      [Fresh Tomato Salsa, [Rice, Black Beans, Sour ...\n      $11.75\n    \n    \n      4618\n      1833\n      1\n      Steak Burrito\n      [Fresh Tomato Salsa, [Rice, Sour Cream, Cheese...\n      $11.75\n    \n    \n      4619\n      1834\n      1\n      Chicken Salad Bowl\n      [Fresh Tomato Salsa, [Fajita Vegetables, Pinto...\n      $11.25\n    \n    \n      4620\n      1834\n      1\n      Chicken Salad Bowl\n      [Fresh Tomato Salsa, [Fajita Vegetables, Lettu...\n      $8.75\n    \n    \n      4621\n      1834\n      1\n      Chicken Salad Bowl\n      [Fresh Tomato Salsa, [Fajita Vegetables, Pinto...\n      $8.75\n    \n  \n\n4622 rows × 5 columns"
-  },
-  {
-    "objectID": "dailyR.html",
-    "href": "dailyR.html",
-    "title": "Daily R Practice",
-    "section": "",
-    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n \n\n\n\nGetting and Knowing your Data\n\n\n\n\n\n\n\n\n\nlabelled vs labeled\n\n\nMay 13, 2022\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "dailypaper.html",
-    "href": "dailypaper.html",
-    "title": "Daily paper summary",
-    "section": "",
-    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "dailypython.html",
-    "href": "dailypython.html",
-    "title": "Daily Python Practice",
-    "section": "",
-    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n \n\n\n\nGetting and Knowing your Data\n\n\n\n\n\n\n\n\n\nlabelled vs labeled\n\n\nMay 13, 2022\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "dailyR/labeled/daily0001.html",
-    "href": "dailyR/labeled/daily0001.html",
-    "title": "labelled vs labeled",
-    "section": "",
-    "text": "I often forget which one to use between labeled and labelled.\nLabeled is an American spelling while labelled is British spelling.\nI use labelled since I write in British English."
-  },
-  {
-    "objectID": "dailyR/labeled/daily0001.html#focus-vs-focused",
-    "href": "dailyR/labeled/daily0001.html#focus-vs-focused",
-    "title": "labelled vs labeled",
-    "section": "Focus vs focused",
-    "text": "Focus vs focused\nThere is a rule in the English language called the doubling up rule. Basically, if you add a vowel suffix to the end of a word, you typically want to double up the final letter to allow room for it.\nThe official requirements are that we ‘double a single consonant letter at the end of any base where the preceding vowel is spelled with a single letter and stressed’. For example: (bar, barring, barred), (beg, begging, begged), (occur, occurring, occurred).\nHowever, no doubling when the preceding vowel is unstressed. For example: panic becomes panicking, traffic becomes trafficking,\nNow is focus or focussing?\n\nThis word can take either double or single s, with the single option being highly preferred.\n\nfocusing/focussing and focused/focussed are all correct. !"
-  },
-  {
-    "objectID": "dailyR/py0001/py0001.html",
-    "href": "dailyR/py0001/py0001.html",
-    "title": "Getting and Knowing your Data",
-    "section": "",
-    "text": "url = 'https://raw.githubusercontent.com/justmarkham/DAT8/master/data/chipotle.tsv'\n    \ndf = pd.read_csv(url, sep = '\\t')\n\nSee the first 10 entries\n\ndf.head(10)\n\n\n\n\n\n  \n    \n      \n      order_id\n      quantity\n      item_name\n      choice_description\n      item_price\n    \n  \n  \n    \n      0\n      1\n      1\n      Chips and Fresh Tomato Salsa\n      NaN\n      $2.39\n    \n    \n      1\n      1\n      1\n      Izze\n      [Clementine]\n      $3.39\n    \n    \n      2\n      1\n      1\n      Nantucket Nectar\n      [Apple]\n      $3.39\n    \n    \n      3\n      1\n      1\n      Chips and Tomatillo-Green Chili Salsa\n      NaN\n      $2.39\n    \n    \n      4\n      2\n      2\n      Chicken Bowl\n      [Tomatillo-Red Chili Salsa (Hot), [Black Beans...\n      $16.98\n    \n    \n      5\n      3\n      1\n      Chicken Bowl\n      [Fresh Tomato Salsa (Mild), [Rice, Cheese, Sou...\n      $10.98\n    \n    \n      6\n      3\n      1\n      Side of Chips\n      NaN\n      $1.69\n    \n    \n      7\n      4\n      1\n      Steak Burrito\n      [Tomatillo Red Chili Salsa, [Fajita Vegetables...\n      $11.75\n    \n    \n      8\n      4\n      1\n      Steak Soft Tacos\n      [Tomatillo Green Chili Salsa, [Pinto Beans, Ch...\n      $9.25\n    \n    \n      9\n      5\n      1\n      Steak Burrito\n      [Fresh Tomato Salsa, [Rice, Black Beans, Pinto...\n      $9.25\n    \n  \n\n\n\n\n\nWhat is the number of observations(rows) dataset?\n\n# Solution 1\n\ncount_row = df.shape[0]  # Gives number of rows\ncount_col = df.shape[1]  # Gives number of columns\n\nprint(count_row, count_col)\n\n4622 5\n\n\n\nr, c = df.shape \n\nprint(r,c) # r = row and c = column\n\n4622 5\n\n\n\nlen() function is used to compute the length of each element in the Series/Index.\n\n\nlen(df) #   \n\n4622\n\n\n\nThe info() method prints information about the DataFrame. The information contains the number of columns, column labels, column data types, memory usage, range index, and the number of cells in each column (non-null values)\n\n\ndf.info() # inf \n\n<class 'pandas.core.frame.DataFrame'>\nRangeIndex: 4622 entries, 0 to 4621\nData columns (total 5 columns):\n #   Column              Non-Null Count  Dtype \n---  ------              --------------  ----- \n 0   order_id            4622 non-null   int64 \n 1   quantity            4622 non-null   int64 \n 2   item_name           4622 non-null   object\n 3   choice_description  3376 non-null   object\n 4   item_price          4622 non-null   object\ndtypes: int64(2), object(3)\nmemory usage: 180.7+ KB\n\n\n\nPrint the name of all the columns.\n\n\ndf.columns # list available columns in dataframe\n\nIndex(['order_id', 'quantity', 'item_name', 'choice_description',\n       'item_price'],\n      dtype='object')\n\n\n\n\nWhich was the most-ordered item?\n\nmost_ordered = df.groupby('item_name').sum().sort_values(['quantity'], ascending=False)\n\nmost_ordered.head()\n\n\n\n\n\n  \n    \n      \n      order_id\n      quantity\n    \n    \n      item_name\n      \n      \n    \n  \n  \n    \n      Chicken Bowl\n      713926\n      761\n    \n    \n      Chicken Burrito\n      497303\n      591\n    \n    \n      Chips and Guacamole\n      449959\n      506\n    \n    \n      Steak Burrito\n      328437\n      386\n    \n    \n      Canned Soft Drink\n      304753\n      351\n    \n  \n\n\n\n\n\n\nFor the most-ordered item, how many items were ordered?\n\ndf.groupby('item_name').sum().sort_values(['quantity'], ascending=False).head(1)\n\n\n\n\n\n  \n    \n      \n      order_id\n      quantity\n    \n    \n      item_name\n      \n      \n    \n  \n  \n    \n      Chicken Bowl\n      713926\n      761\n    \n  \n\n\n\n\n\n\nWhat was the most ordered item in the choice_description column?\n\ndf.groupby('choice_description').sum().sort_values(['quantity'], ascending=False).head(1)\n\n\n\n\n\n  \n    \n      \n      order_id\n      quantity\n    \n    \n      choice_description\n      \n      \n    \n  \n  \n    \n      [Diet Coke]\n      123455\n      159\n    \n  \n\n\n\n\n\n\nHow many items were orderd in total?\n\ndf.quantity.sum()\n\n4972\n\n\n\n\nTurn the item price into a float\n\ndf\n\n\n\n\n\n  \n    \n      \n      order_id\n      quantity\n      item_name\n      choice_description\n      item_price\n    \n  \n  \n    \n      0\n      1\n      1\n      Chips and Fresh Tomato Salsa\n      NaN\n      $2.39\n    \n    \n      1\n      1\n      1\n      Izze\n      [Clementine]\n      $3.39\n    \n    \n      2\n      1\n      1\n      Nantucket Nectar\n      [Apple]\n      $3.39\n    \n    \n      3\n      1\n      1\n      Chips and Tomatillo-Green Chili Salsa\n      NaN\n      $2.39\n    \n    \n      4\n      2\n      2\n      Chicken Bowl\n      [Tomatillo-Red Chili Salsa (Hot), [Black Beans...\n      $16.98\n    \n    \n      ...\n      ...\n      ...\n      ...\n      ...\n      ...\n    \n    \n      4617\n      1833\n      1\n      Steak Burrito\n      [Fresh Tomato Salsa, [Rice, Black Beans, Sour ...\n      $11.75\n    \n    \n      4618\n      1833\n      1\n      Steak Burrito\n      [Fresh Tomato Salsa, [Rice, Sour Cream, Cheese...\n      $11.75\n    \n    \n      4619\n      1834\n      1\n      Chicken Salad Bowl\n      [Fresh Tomato Salsa, [Fajita Vegetables, Pinto...\n      $11.25\n    \n    \n      4620\n      1834\n      1\n      Chicken Salad Bowl\n      [Fresh Tomato Salsa, [Fajita Vegetables, Lettu...\n      $8.75\n    \n    \n      4621\n      1834\n      1\n      Chicken Salad Bowl\n      [Fresh Tomato Salsa, [Fajita Vegetables, Pinto...\n      $8.75\n    \n  \n\n4622 rows × 5 columns"
-  },
-  {
-    "objectID": "dailypython/labeled/daily0001.html",
-    "href": "dailypython/labeled/daily0001.html",
-    "title": "labelled vs labeled",
-    "section": "",
-    "text": "I often forget which one to use between labeled and labelled.\nLabeled is an American spelling while labelled is British spelling.\nI use labelled since I write in British English."
-  },
-  {
-    "objectID": "dailypython/labeled/daily0001.html#focus-vs-focused",
-    "href": "dailypython/labeled/daily0001.html#focus-vs-focused",
-    "title": "labelled vs labeled",
-    "section": "Focus vs focused",
-    "text": "Focus vs focused\nThere is a rule in the English language called the doubling up rule. Basically, if you add a vowel suffix to the end of a word, you typically want to double up the final letter to allow room for it.\nThe official requirements are that we ‘double a single consonant letter at the end of any base where the preceding vowel is spelled with a single letter and stressed’. For example: (bar, barring, barred), (beg, begging, begged), (occur, occurring, occurred).\nHowever, no doubling when the preceding vowel is unstressed. For example: panic becomes panicking, traffic becomes trafficking,\nNow is focus or focussing?\n\nThis word can take either double or single s, with the single option being highly preferred.\n\nfocusing/focussing and focused/focussed are all correct. !"
-  },
-  {
     "objectID": "dailypython/py0001/py0001.html",
     "href": "dailypython/py0001/py0001.html",
     "title": "Getting and Knowing your Data",
     "section": "",
     "text": "url = 'https://raw.githubusercontent.com/justmarkham/DAT8/master/data/chipotle.tsv'\n    \ndf = pd.read_csv(url, sep = '\\t')\n\nSee the first 10 entries\n\ndf.head(10)\n\n\n\n\n\n  \n    \n      \n      order_id\n      quantity\n      item_name\n      choice_description\n      item_price\n    \n  \n  \n    \n      0\n      1\n      1\n      Chips and Fresh Tomato Salsa\n      NaN\n      $2.39\n    \n    \n      1\n      1\n      1\n      Izze\n      [Clementine]\n      $3.39\n    \n    \n      2\n      1\n      1\n      Nantucket Nectar\n      [Apple]\n      $3.39\n    \n    \n      3\n      1\n      1\n      Chips and Tomatillo-Green Chili Salsa\n      NaN\n      $2.39\n    \n    \n      4\n      2\n      2\n      Chicken Bowl\n      [Tomatillo-Red Chili Salsa (Hot), [Black Beans...\n      $16.98\n    \n    \n      5\n      3\n      1\n      Chicken Bowl\n      [Fresh Tomato Salsa (Mild), [Rice, Cheese, Sou...\n      $10.98\n    \n    \n      6\n      3\n      1\n      Side of Chips\n      NaN\n      $1.69\n    \n    \n      7\n      4\n      1\n      Steak Burrito\n      [Tomatillo Red Chili Salsa, [Fajita Vegetables...\n      $11.75\n    \n    \n      8\n      4\n      1\n      Steak Soft Tacos\n      [Tomatillo Green Chili Salsa, [Pinto Beans, Ch...\n      $9.25\n    \n    \n      9\n      5\n      1\n      Steak Burrito\n      [Fresh Tomato Salsa, [Rice, Black Beans, Pinto...\n      $9.25\n    \n  \n\n\n\n\n\nWhat is the number of observations(rows) dataset?\n\n# Solution 1\n\ncount_row = df.shape[0]  # Gives number of rows\ncount_col = df.shape[1]  # Gives number of columns\n\nprint(count_row, count_col)\n\n4622 5\n\n\n\nr, c = df.shape \n\nprint(r,c) # r = row and c = column\n\n4622 5\n\n\n\nlen() function is used to compute the length of each element in the Series/Index.\n\n\nlen(df) #   \n\n4622\n\n\n\nThe info() method prints information about the DataFrame. The information contains the number of columns, column labels, column data types, memory usage, range index, and the number of cells in each column (non-null values)\n\n\ndf.info() # inf \n\n<class 'pandas.core.frame.DataFrame'>\nRangeIndex: 4622 entries, 0 to 4621\nData columns (total 5 columns):\n #   Column              Non-Null Count  Dtype \n---  ------              --------------  ----- \n 0   order_id            4622 non-null   int64 \n 1   quantity            4622 non-null   int64 \n 2   item_name           4622 non-null   object\n 3   choice_description  3376 non-null   object\n 4   item_price          4622 non-null   object\ndtypes: int64(2), object(3)\nmemory usage: 180.7+ KB\n\n\n\nPrint the name of all the columns.\n\n\ndf.columns # list available columns in dataframe\n\nIndex(['order_id', 'quantity', 'item_name', 'choice_description',\n       'item_price'],\n      dtype='object')\n\n\n\n\nWhich was the most-ordered item?\n\nmost_ordered = df.groupby('item_name').sum().sort_values(['quantity'], ascending=False)\n\nmost_ordered.head()\n\n\n\n\n\n  \n    \n      \n      order_id\n      quantity\n    \n    \n      item_name\n      \n      \n    \n  \n  \n    \n      Chicken Bowl\n      713926\n      761\n    \n    \n      Chicken Burrito\n      497303\n      591\n    \n    \n      Chips and Guacamole\n      449959\n      506\n    \n    \n      Steak Burrito\n      328437\n      386\n    \n    \n      Canned Soft Drink\n      304753\n      351\n    \n  \n\n\n\n\n\n\nFor the most-ordered item, how many items were ordered?\n\ndf.groupby('item_name').sum().sort_values(['quantity'], ascending=False).head(1)\n\n\n\n\n\n  \n    \n      \n      order_id\n      quantity\n    \n    \n      item_name\n      \n      \n    \n  \n  \n    \n      Chicken Bowl\n      713926\n      761\n    \n  \n\n\n\n\n\n\nWhat was the most ordered item in the choice_description column?\n\ndf.groupby('choice_description').sum().sort_values(['quantity'], ascending=False).head(1)\n\n\n\n\n\n  \n    \n      \n      order_id\n      quantity\n    \n    \n      choice_description\n      \n      \n    \n  \n  \n    \n      [Diet Coke]\n      123455\n      159\n    \n  \n\n\n\n\n\n\nHow many items were orderd in total?\n\ndf.quantity.sum()\n\n4972\n\n\n\n\nTurn the item price into a float\n\ndf\n\n\n\n\n\n  \n    \n      \n      order_id\n      quantity\n      item_name\n      choice_description\n      item_price\n    \n  \n  \n    \n      0\n      1\n      1\n      Chips and Fresh Tomato Salsa\n      NaN\n      $2.39\n    \n    \n      1\n      1\n      1\n      Izze\n      [Clementine]\n      $3.39\n    \n    \n      2\n      1\n      1\n      Nantucket Nectar\n      [Apple]\n      $3.39\n    \n    \n      3\n      1\n      1\n      Chips and Tomatillo-Green Chili Salsa\n      NaN\n      $2.39\n    \n    \n      4\n      2\n      2\n      Chicken Bowl\n      [Tomatillo-Red Chili Salsa (Hot), [Black Beans...\n      $16.98\n    \n    \n      ...\n      ...\n      ...\n      ...\n      ...\n      ...\n    \n    \n      4617\n      1833\n      1\n      Steak Burrito\n      [Fresh Tomato Salsa, [Rice, Black Beans, Sour ...\n      $11.75\n    \n    \n      4618\n      1833\n      1\n      Steak Burrito\n      [Fresh Tomato Salsa, [Rice, Sour Cream, Cheese...\n      $11.75\n    \n    \n      4619\n      1834\n      1\n      Chicken Salad Bowl\n      [Fresh Tomato Salsa, [Fajita Vegetables, Pinto...\n      $11.25\n    \n    \n      4620\n      1834\n      1\n      Chicken Salad Bowl\n      [Fresh Tomato Salsa, [Fajita Vegetables, Lettu...\n      $8.75\n    \n    \n      4621\n      1834\n      1\n      Chicken Salad Bowl\n      [Fresh Tomato Salsa, [Fajita Vegetables, Pinto...\n      $8.75\n    \n  \n\n4622 rows × 5 columns"
-  },
-  {
-    "objectID": "bookreading.html",
-    "href": "bookreading.html",
-    "title": "Book I am reading",
-    "section": "",
-    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\n\nDeep Work\n\n\nOct 15, 2022\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "bookreading/labeled/daily0001.html",
-    "href": "bookreading/labeled/daily0001.html",
-    "title": "labelled vs labeled",
-    "section": "",
-    "text": "I often forget which one to use between labeled and labelled.\nLabeled is an American spelling while labelled is British spelling.\nI use labelled since I write in British English."
-  },
-  {
-    "objectID": "bookreading/labeled/daily0001.html#focus-vs-focused",
-    "href": "bookreading/labeled/daily0001.html#focus-vs-focused",
-    "title": "labelled vs labeled",
-    "section": "Focus vs focused",
-    "text": "Focus vs focused\nThere is a rule in the English language called the doubling up rule. Basically, if you add a vowel suffix to the end of a word, you typically want to double up the final letter to allow room for it.\nThe official requirements are that we ‘double a single consonant letter at the end of any base where the preceding vowel is spelled with a single letter and stressed’. For example: (bar, barring, barred), (beg, begging, begged), (occur, occurring, occurred).\nHowever, no doubling when the preceding vowel is unstressed. For example: panic becomes panicking, traffic becomes trafficking,\nNow is focus or focussing?\n\nThis word can take either double or single s, with the single option being highly preferred.\n\nfocusing/focussing and focused/focussed are all correct. !"
-  },
-  {
-    "objectID": "bookreading/py0001/py0001.html",
-    "href": "bookreading/py0001/py0001.html",
-    "title": "Getting and Knowing your Data",
-    "section": "",
-    "text": "url = 'https://raw.githubusercontent.com/justmarkham/DAT8/master/data/chipotle.tsv'\n    \ndf = pd.read_csv(url, sep = '\\t')\n\nSee the first 10 entries\n\ndf.head(10)\n\n\n\n\n\n  \n    \n      \n      order_id\n      quantity\n      item_name\n      choice_description\n      item_price\n    \n  \n  \n    \n      0\n      1\n      1\n      Chips and Fresh Tomato Salsa\n      NaN\n      $2.39\n    \n    \n      1\n      1\n      1\n      Izze\n      [Clementine]\n      $3.39\n    \n    \n      2\n      1\n      1\n      Nantucket Nectar\n      [Apple]\n      $3.39\n    \n    \n      3\n      1\n      1\n      Chips and Tomatillo-Green Chili Salsa\n      NaN\n      $2.39\n    \n    \n      4\n      2\n      2\n      Chicken Bowl\n      [Tomatillo-Red Chili Salsa (Hot), [Black Beans...\n      $16.98\n    \n    \n      5\n      3\n      1\n      Chicken Bowl\n      [Fresh Tomato Salsa (Mild), [Rice, Cheese, Sou...\n      $10.98\n    \n    \n      6\n      3\n      1\n      Side of Chips\n      NaN\n      $1.69\n    \n    \n      7\n      4\n      1\n      Steak Burrito\n      [Tomatillo Red Chili Salsa, [Fajita Vegetables...\n      $11.75\n    \n    \n      8\n      4\n      1\n      Steak Soft Tacos\n      [Tomatillo Green Chili Salsa, [Pinto Beans, Ch...\n      $9.25\n    \n    \n      9\n      5\n      1\n      Steak Burrito\n      [Fresh Tomato Salsa, [Rice, Black Beans, Pinto...\n      $9.25\n    \n  \n\n\n\n\n\nWhat is the number of observations(rows) dataset?\n\n# Solution 1\n\ncount_row = df.shape[0]  # Gives number of rows\ncount_col = df.shape[1]  # Gives number of columns\n\nprint(count_row, count_col)\n\n4622 5\n\n\n\nr, c = df.shape \n\nprint(r,c) # r = row and c = column\n\n4622 5\n\n\n\nlen() function is used to compute the length of each element in the Series/Index.\n\n\nlen(df) #   \n\n4622\n\n\n\nThe info() method prints information about the DataFrame. The information contains the number of columns, column labels, column data types, memory usage, range index, and the number of cells in each column (non-null values)\n\n\ndf.info() # inf \n\n<class 'pandas.core.frame.DataFrame'>\nRangeIndex: 4622 entries, 0 to 4621\nData columns (total 5 columns):\n #   Column              Non-Null Count  Dtype \n---  ------              --------------  ----- \n 0   order_id            4622 non-null   int64 \n 1   quantity            4622 non-null   int64 \n 2   item_name           4622 non-null   object\n 3   choice_description  3376 non-null   object\n 4   item_price          4622 non-null   object\ndtypes: int64(2), object(3)\nmemory usage: 180.7+ KB\n\n\n\nPrint the name of all the columns.\n\n\ndf.columns # list available columns in dataframe\n\nIndex(['order_id', 'quantity', 'item_name', 'choice_description',\n       'item_price'],\n      dtype='object')\n\n\n\n\nWhich was the most-ordered item?\n\nmost_ordered = df.groupby('item_name').sum().sort_values(['quantity'], ascending=False)\n\nmost_ordered.head()\n\n\n\n\n\n  \n    \n      \n      order_id\n      quantity\n    \n    \n      item_name\n      \n      \n    \n  \n  \n    \n      Chicken Bowl\n      713926\n      761\n    \n    \n      Chicken Burrito\n      497303\n      591\n    \n    \n      Chips and Guacamole\n      449959\n      506\n    \n    \n      Steak Burrito\n      328437\n      386\n    \n    \n      Canned Soft Drink\n      304753\n      351\n    \n  \n\n\n\n\n\n\nFor the most-ordered item, how many items were ordered?\n\ndf.groupby('item_name').sum().sort_values(['quantity'], ascending=False).head(1)\n\n\n\n\n\n  \n    \n      \n      order_id\n      quantity\n    \n    \n      item_name\n      \n      \n    \n  \n  \n    \n      Chicken Bowl\n      713926\n      761\n    \n  \n\n\n\n\n\n\nWhat was the most ordered item in the choice_description column?\n\ndf.groupby('choice_description').sum().sort_values(['quantity'], ascending=False).head(1)\n\n\n\n\n\n  \n    \n      \n      order_id\n      quantity\n    \n    \n      choice_description\n      \n      \n    \n  \n  \n    \n      [Diet Coke]\n      123455\n      159\n    \n  \n\n\n\n\n\n\nHow many items were orderd in total?\n\ndf.quantity.sum()\n\n4972\n\n\n\n\nTurn the item price into a float\n\ndf\n\n\n\n\n\n  \n    \n      \n      order_id\n      quantity\n      item_name\n      choice_description\n      item_price\n    \n  \n  \n    \n      0\n      1\n      1\n      Chips and Fresh Tomato Salsa\n      NaN\n      $2.39\n    \n    \n      1\n      1\n      1\n      Izze\n      [Clementine]\n      $3.39\n    \n    \n      2\n      1\n      1\n      Nantucket Nectar\n      [Apple]\n      $3.39\n    \n    \n      3\n      1\n      1\n      Chips and Tomatillo-Green Chili Salsa\n      NaN\n      $2.39\n    \n    \n      4\n      2\n      2\n      Chicken Bowl\n      [Tomatillo-Red Chili Salsa (Hot), [Black Beans...\n      $16.98\n    \n    \n      ...\n      ...\n      ...\n      ...\n      ...\n      ...\n    \n    \n      4617\n      1833\n      1\n      Steak Burrito\n      [Fresh Tomato Salsa, [Rice, Black Beans, Sour ...\n      $11.75\n    \n    \n      4618\n      1833\n      1\n      Steak Burrito\n      [Fresh Tomato Salsa, [Rice, Sour Cream, Cheese...\n      $11.75\n    \n    \n      4619\n      1834\n      1\n      Chicken Salad Bowl\n      [Fresh Tomato Salsa, [Fajita Vegetables, Pinto...\n      $11.25\n    \n    \n      4620\n      1834\n      1\n      Chicken Salad Bowl\n      [Fresh Tomato Salsa, [Fajita Vegetables, Lettu...\n      $8.75\n    \n    \n      4621\n      1834\n      1\n      Chicken Salad Bowl\n      [Fresh Tomato Salsa, [Fajita Vegetables, Pinto...\n      $8.75\n    \n  \n\n4622 rows × 5 columns"
-  },
-  {
-    "objectID": "bookreading/Deep Work/daily0001.html",
-    "href": "bookreading/Deep Work/daily0001.html",
-    "title": "Deep Work",
-    "section": "",
-    "text": "I am currently reading Deep Work book by Cal NewPort"
-  },
-  {
-    "objectID": "bookreading/Deep Work/daily0001.html#focus-vs-focused",
-    "href": "bookreading/Deep Work/daily0001.html#focus-vs-focused",
-    "title": "Deep Work",
-    "section": "Focus vs focused",
-    "text": "Focus vs focused\nThere is a rule in the English language called the doubling up rule. Basically, if you add a vowel suffix to the end of a word, you typically want to double up the final letter to allow room for it.\nThe official requirements are that we ‘double a single consonant letter at the end of any base where the preceding vowel is spelled with a single letter and stressed’. For example: (bar, barring, barred), (beg, begging, begged), (occur, occurring, occurred).\nHowever, no doubling when the preceding vowel is unstressed. For example: panic becomes panicking, traffic becomes trafficking,\nNow is focus or focussing?\n\nThis word can take either double or single s, with the single option being highly preferred.\n\nfocusing/focussing and focused/focussed are all correct. !"
   }
 ]

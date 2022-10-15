@@ -9,12 +9,24 @@
     ]
   },
   {
+    "listing": "/bookreading.html",
+    "items": [
+      "/bookreading/Deep Work/daily0001.html"
+    ]
+  },
+  {
     "listing": "/til.html",
     "items": [
       "/til/git-rebasd/daily0001.html",
       "/til/labeled/daily0001.html",
       "/til/dailyML01 copy/daily0001.html",
       "/til/dailyML01/daily0001.html"
+    ]
+  },
+  {
+    "listing": "/dailyR.html",
+    "items": [
+      "/dailyR/exercises_chap1/daily0001.html"
     ]
   },
   {
@@ -33,37 +45,13 @@
     ]
   },
   {
-    "listing": "/dailywrite.html",
-    "items": []
-  },
-  {
-    "listing": "/dailycoding.html",
+    "listing": "/dailypython.html",
     "items": [
-      "/dailycoding/labeled/daily0001.html"
-    ]
-  },
-  {
-    "listing": "/dailyR.html",
-    "items": [
-      "/dailyR/py0001/py0001.html",
-      "/dailyR/labeled/daily0001.html"
+      "/dailypython/py0001/py0001.html"
     ]
   },
   {
     "listing": "/dailypaper.html",
     "items": []
-  },
-  {
-    "listing": "/dailypython.html",
-    "items": [
-      "/dailypython/py0001/py0001.html",
-      "/dailypython/labeled/daily0001.html"
-    ]
-  },
-  {
-    "listing": "/bookreading.html",
-    "items": [
-      "/bookreading/Deep Work/daily0001.html"
-    ]
   }
 ]

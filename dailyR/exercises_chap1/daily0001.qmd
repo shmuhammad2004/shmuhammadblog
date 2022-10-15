@@ -1,0 +1,64 @@
+---
+title: "R4DS Chapter 2 Exercises"
+date: '2022-10-15'
+output: html_document
+---
+
+## 2.2.4 Exercises
+
+```{r}
+library(tidyverse)
+```
+
+1. Run ggplot(data = mpg). What do you see?
+
+
+```{r}
+ggplot(data = mpg)
+```
+
+I see empty.
+
+2. How many rows are in mpg? How many columns?
+
+```{r}
+nrow(mpg)
+```
+
+There are 234 rows.
+
+3. What does the drv variable describe? Read the help for ?mpg to find out.
+
+```{r}
+?mpg
+```
+
+dv means:
+
+> "the type of drive train, where f = front-wheel drive, r = rear wheel drive, 4 = 4wd"
+
+
+4. Make a scatterplot of hwy vs cyl.
+
+
+```{r}
+ggplot(data = mpg)+
+geom_point(aes(hwy,cyl))
+```
+
+
+5. What happens if you make a scatterplot of class vs drv? Why is the plot not useful?
+
+```{r}
+ggplot(data = mpg)+
+geom_point(aes(class,drv))
+```
+
+
+<style>
+body {
+text-align: justify}
+</style>
+
+Make a scatterplot of hwy vs cyl.
+
