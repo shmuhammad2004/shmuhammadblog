@@ -118,5 +118,4 @@ body {
 text-align: justify}
 </style>
 
-Make a scatterplot of hwy vs cyl.
 
