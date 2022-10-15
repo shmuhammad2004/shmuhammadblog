@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2022-05-13">
 
-<title>Shamsuddeen Hassan Muhammad’s Blog - Daily Machine Learning</title>
+<title>Shamsuddeen Hassan Muhammad’s Blog - labelled vs labeled</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +24,21 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -59,35 +58,6 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 
 <script type="text/javascript">
 
@@ -104,21 +74,22 @@ ga('send', {
 </script>
 <script defer="" data-domain="ivelasq.rbind.io" src="https://plausible.io/js/plausible.js"></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<meta name="twitter:title" content="Shamsuddeen Hassan Muhammad’s Blog - Daily Machine Learning">
+<meta name="twitter:title" content="Shamsuddeen Hassan Muhammad’s Blog - labelled vs labeled">
+<meta name="twitter:description" content="I often forget which one to use between labeled and labelled.">
+<meta name="twitter:image" content="https://shmuhammadblog.github.io/dailyR/labeled/aca_02.jpeg">
 <meta name="twitter:creator" content="Shamsuddeen Hassan Muhammad">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Shamsuddeen Hassan Muhammad</span>
     </a>
   </div>
@@ -132,42 +103,38 @@ ga('send', {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">Blog</a>
+    <a class="nav-link" href="../../index.html">Blog</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./til.html">Today I Learned</a>
+    <a class="nav-link" href="../../til.html">Today I Learned</a>
   </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-daily" role="button" data-bs-toggle="dropdown" aria-expanded="false">Daily</a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-daily">    
         <li>
-    <a class="dropdown-item" href="./bookreading.html">
- <span class="dropdown-text">Book I am reading and Summary</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./dailyml.html">
- <span class="dropdown-text">Daily Machine Learning Practice</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./dailypython.html">
- <span class="dropdown-text">Daily Python Practice</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./dailyR.html">
- <span class="dropdown-text">DailyR Practice</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./dailypaper.html">
- <span class="dropdown-text">Daily Paper Summary</span></a>
-  </li>  
-        <li>
     <a class="dropdown-item" href="https://shmuhammad2004.github.io/bigbookofphd/intro.html">
  <span class="dropdown-text">The Big Book of My PhD</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../dailyml.html">
+ <span class="dropdown-text">DailyPython</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../dailycoding.qmd">
+ <span class="dropdown-text">DailyPython</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../dailyR.html">
+ <span class="dropdown-text">DailyR</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../dailypaper.html">
+ <span class="dropdown-text">DailyPaper Summary</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./about.html">About</a>
+    <a class="nav-link" href="../../about.html">About</a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/Shmuhammadd"><i class="bi bi-twitter" role="img">
@@ -185,7 +152,7 @@ ga('send', {
  </a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="./index.xml"><i class="bi bi-rss" role="img">
+    <a class="nav-link" href="../../index.xml"><i class="bi bi-rss" role="img">
 </i> 
  </a>
   </li>  
@@ -196,16 +163,16 @@ ga('send', {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Daily Machine Learning</h1>
+<h1 class="title">labelled vs labeled</h1>
 </div>
 
 
@@ -213,52 +180,43 @@ ga('send', {
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 13, 2022</p>
+    </div>
+  </div>
     
   </div>
   
 
 </header>
 
+<section id="labelled-vs-labelled" class="level2">
+<h2 class="anchored" data-anchor-id="labelled-vs-labelled">Labelled vs labelled</h2>
+<p>I often forget which one to use between labeled and labelled.</p>
+<p>Labeled is an American spelling while labelled is British spelling.</p>
+<p>I use labelled since I write in British English.</p>
+</section>
+<section id="focus-vs-focused" class="level2">
+<h2 class="anchored" data-anchor-id="focus-vs-focused">Focus vs focused</h2>
+<p>There is a rule in the English language called the doubling up rule. Basically, if you add a vowel suffix to the end of a word, you typically want to double up the final letter to allow room for it.</p>
+<p>The official requirements are that we ‘double a single consonant letter at the end of any base where the preceding vowel is spelled with a single letter and stressed’. For example: (bar, barring, barred), (beg, begging, begged), (occur, occurring, occurred).</p>
+<p>However, no doubling when the preceding vowel is unstressed. For example: panic becomes panicking, traffic becomes trafficking,</p>
+<p>Now is focus or focussing?</p>
+<blockquote class="blockquote">
+<p>This word can take either double or single s, with the single option being highly preferred.</p>
+</blockquote>
+<p>focusing/focussing and focused/focussed are all correct. !</p>
+<style>
+body {
+text-align: justify}
+</style>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
-
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-</th>
-<th>
-Title
-</th>
-<th>
-Date
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-date-sort="1652137200000" data-listing-file-modified-sort="1664306794554" data-listing-reading-time-sort="1.655" data-listing-title-sort="Bias and Varience in Machine Learning Algorithms" data-listing-filename-sort="dailyml_0022.md">
-<td class="listing-image">
-<div class="table-img" style="height: 40px;">
-&nbsp;
-</div>
-</td>
-<td class="listing-title">
-<a href="./dailyml/dailyml0001/dailyml_0022.html" class="title">Bias and Varience in Machine Learning Algorithms</a>
-</td>
-<td class="listing-date">
-May 10, 2022
-</td>
-</tr>
-</tbody>
-
-</table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -365,7 +323,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="./license.html">License</a>
+    <a class="nav-link" href="../../license.html">License</a>
   </li>  
 </ul>
     </div>   

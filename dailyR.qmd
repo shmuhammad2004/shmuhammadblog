@@ -1,7 +1,7 @@
 ---
-title: "Daily coding"
+title: "Daily R Practice"
 listing:
-  contents: dailycoding
+  contents: dailyR
   type: table
   sort-ui: false
   filter-ui: false

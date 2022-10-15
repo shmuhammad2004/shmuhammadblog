@@ -20,7 +20,7 @@
   {
     "listing": "/dailyml.html",
     "items": [
-      "/dailyML/dailyml0001/dailyml_0022.html"
+      "/dailyml/dailyml0001/dailyml_0022.html"
     ]
   },
   {
@@ -40,6 +40,30 @@
     "listing": "/dailycoding.html",
     "items": [
       "/dailycoding/labeled/daily0001.html"
+    ]
+  },
+  {
+    "listing": "/dailyR.html",
+    "items": [
+      "/dailyR/py0001/py0001.html",
+      "/dailyR/labeled/daily0001.html"
+    ]
+  },
+  {
+    "listing": "/dailypaper.html",
+    "items": []
+  },
+  {
+    "listing": "/dailypython.html",
+    "items": [
+      "/dailypython/py0001/py0001.html",
+      "/dailypython/labeled/daily0001.html"
+    ]
+  },
+  {
+    "listing": "/bookreading.html",
+    "items": [
+      "/bookreading/Deep Work/daily0001.html"
     ]
   }
 ]

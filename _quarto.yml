@@ -33,10 +33,19 @@ website:
     right:
       - text: "Blog"
         file: index.qmd
-      - file: dailycoding.qmd
       - file: til.qmd
-      - text: "Daily"
+      - text: "Atomic Habit"
         menu:
+          - text : "Book I am reading and Summary"
+            file: bookreading.qmd
+          - text : "Daily Machine Learning Practice"
+            file:  dailyml.qmd 
+          - text : "Daily Python Practice"
+            file:  dailypython.qmd
+          - text : "DailyR Practice"
+            file: dailyR.qmd
+          - text : "Daily Paper Summary"
+            file:  dailypaper.qmd
           - text: "The Big Book of My PhD"
             file: https://shmuhammad2004.github.io/bigbookofphd/intro.html
       - text: "About"
