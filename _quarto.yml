@@ -40,6 +40,8 @@ website:
             file: bookreading.qmd
           - text : "Daily Machine Learning Practice"
             file:  dailyml.qmd 
+          - text : "Daily NLP"
+            file:  dailynlp.qmd 
           - text : "Daily Python Practice"
             file:  dailypython.qmd
           - text : "DailyR Practice"
