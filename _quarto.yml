@@ -42,9 +42,9 @@ website:
             file:  dailyml.qmd 
           - text : "Daily NLP"
             file:  dailynlp.qmd 
-          - text : "Daily Python Practice"
+          - text : "Daily Python"
             file:  dailypython.qmd
-          - text : "DailyR Practice"
+          - text : "Daily R"
             file: dailyR.qmd
           - text : "Daily Paper Summary"
             file:  dailypaper.qmd
