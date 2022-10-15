@@ -11,7 +11,7 @@
     "href": "daily.html",
     "title": "Today I Learned",
     "section": "",
-    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n \n\n\n\nFatal: Not possible to fast-forward, aborting\n\n\nSep 17, 2022\n\n\n\n\n\n\n\nlabelled vs labeled\n\n\nMay 13, 2022\n\n\n\n\n\n\n\nConnecting two Indpendent Clauses with Comma and Semicolons\n\n\nMay 11, 2022\n\n\n\n\n\n\n\nBias and Varience in Machine Learning Algorithms\n\n\nMay 10, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\n\nFormatting number with an underscore in Python\n\n\nOct 15, 2022\n\n\n\n\n\n \n\n\n\nFatal: Not possible to fast-forward, aborting\n\n\nSep 17, 2022\n\n\n\n\n\n\n\nlabelled vs labeled\n\n\nMay 13, 2022\n\n\n\n\n\n\n\nConnecting two Indpendent Clauses with Comma and Semicolons\n\n\nMay 11, 2022\n\n\n\n\n\n\n\nBias and Varience in Machine Learning Algorithms\n\n\nMay 10, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "bookreading.html",
@@ -32,7 +32,7 @@
     "href": "til.html",
     "title": "Today I Learned",
     "section": "",
-    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n \n\n\n\nFatal: Not possible to fast-forward, aborting\n\n\nSep 17, 2022\n\n\n\n\n\n\n\nlabelled vs labeled\n\n\nMay 13, 2022\n\n\n\n\n\n\n\nConnecting two Indpendent Clauses with Comma and Semicolons\n\n\nMay 11, 2022\n\n\n\n\n\n\n\nBias and Varience in Machine Learning Algorithms\n\n\nMay 10, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\n\nFormatting number with an underscore in Python\n\n\nOct 15, 2022\n\n\n\n\n\n \n\n\n\nFatal: Not possible to fast-forward, aborting\n\n\nSep 17, 2022\n\n\n\n\n\n\n\nlabelled vs labeled\n\n\nMay 13, 2022\n\n\n\n\n\n\n\nConnecting two Indpendent Clauses with Comma and Semicolons\n\n\nMay 11, 2022\n\n\n\n\n\n\n\nBias and Varience in Machine Learning Algorithms\n\n\nMay 10, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "dailyR.html",
@@ -341,6 +341,13 @@
     "title": "labelled vs labeled",
     "section": "Focus vs focused",
     "text": "Focus vs focused\nThere is a rule in the English language called the doubling up rule. Basically, if you add a vowel suffix to the end of a word, you typically want to double up the final letter to allow room for it.\nThe official requirements are that we ‘double a single consonant letter at the end of any base where the preceding vowel is spelled with a single letter and stressed’. For example: (bar, barring, barred), (beg, begging, begged), (occur, occurring, occurred).\nHowever, no doubling when the preceding vowel is unstressed. For example: panic becomes panicking, traffic becomes trafficking,\nNow is focus or focussing?\n\nThis word can take either double or single s, with the single option being highly preferred.\n\nfocusing/focussing and focused/focussed are all correct. !"
+  },
+  {
+    "objectID": "til/stringprinting/daily0001.html",
+    "href": "til/stringprinting/daily0001.html",
+    "title": "Formatting number with an underscore in Python",
+    "section": "",
+    "text": "In Python, you can format a large number with an underscore to make it more readable. For example, the following example shows the format of a number with an underscore:\n\ntemp = 1_000_00\nprint(temp)\n\n100000\n\n\nBut, printing a number with an underscore gives the number without the underscore. If you want to print a number with an underscore, you can use the following syntax:\n\nprint(f'{temp:_}')\nprint(f'{temp:,}')\n\n100_000\n100,000\n\n\nSee you tomorrow!"
   },
   {
     "objectID": "til/dailyML01 copy/daily0001.html",
