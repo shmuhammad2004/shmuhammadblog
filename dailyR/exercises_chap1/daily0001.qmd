@@ -12,7 +12,6 @@ library(tidyverse)
 
 1. Run ggplot(data = mpg). What do you see?
 
-
 ```{r}
 ggplot(data = mpg)
 ```
@@ -41,9 +40,8 @@ glimpse(mpg)
 ?mpg
 ```
 
-dv means:
 
-> "the type of drive train, where f = front-wheel drive, r = rear wheel drive, 4 = 4wd"
+> dv means: "the type of drive train, where f = front-wheel drive, r = rear wheel drive, 4 = 4wd"
 
 
 4. Make a scatterplot of hwy vs cyl.
@@ -110,10 +108,9 @@ ggplot(data = mpg) +
 ```
 
 and it is blow.
+
 <style>
 body {
 text-align: justify}
 </style>
-
-Make a scatterplot of hwy vs cyl.
 
