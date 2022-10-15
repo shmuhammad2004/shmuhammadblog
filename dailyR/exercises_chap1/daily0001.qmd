@@ -72,7 +72,6 @@ ggplot(mpg, aes(x = class, y = drv)) +
   geom_count()
 ```
 
-> 
 
 ```{r}
 mpg %>%
@@ -110,12 +109,11 @@ ggplot(data = mpg) +
 
 ```
 
-and it is blue now.
-
-
+and it is blow.
 <style>
 body {
 text-align: justify}
 </style>
 
+Make a scatterplot of hwy vs cyl.
 
