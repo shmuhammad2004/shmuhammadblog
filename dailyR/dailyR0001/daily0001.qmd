@@ -1,0 +1,34 @@
+---
+title: "Escaping a singe or double quote"
+date: '2022-10-16'
+output: html_document
+---
+
+## 2.2.4 Exercises
+
+```{r}
+library(tidyverse)
+library(janitor)
+```
+
+I have a 
+
+```{r}
+df <- structure(list(`Original sentence` = "'Yan sanda sun kama wanda ya sato tallafin korona na jihar Benue ya sayar a Kano.", 
+    `Annotated tokenized sentence` = "\" Yan sanda sun kama wanda ya sato tallafin korona na jihar Benue ya sayar a Kano ."), row.names = c(NA, 
+-1L), class = c("tbl_df", "tbl", "data.frame"))
+
+```
+
+
+```{r}
+df %>%
+clean_names()%>%
+
+
+```
+
+<style>
+body {
+text-align: justify}
+</style>
