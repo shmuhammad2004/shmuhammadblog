@@ -39,7 +39,7 @@ website:
         menu:
           - text : "Book I am reading and Summary"
             file: bookreading.qmd
-          - text : "Daily Machine Learning Practice"
+          - text : "Daily Machine Learning"
             file:  dailyml.qmd 
           - text : "Daily NLP"
             file:  dailynlp.qmd 
