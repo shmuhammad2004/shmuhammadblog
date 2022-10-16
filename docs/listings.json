@@ -32,12 +32,14 @@
   {
     "listing": "/dailyR.html",
     "items": [
+      "/dailyR/tidy01/daily0001.html",
       "/dailyR/exercises_chap1/daily0001.html"
     ]
   },
   {
     "listing": "/dailyml.html",
     "items": [
+      "/dailyml/dailyml0002/dailyml_0022.html",
       "/dailyml/dailyml0001/dailyml_0022.html"
     ]
   },
@@ -53,6 +55,7 @@
   {
     "listing": "/dailypython.html",
     "items": [
+      "/dailypython/py0002/py0001.html",
       "/dailypython/py0001/py0001.html"
     ]
   },

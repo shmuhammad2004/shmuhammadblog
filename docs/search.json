@@ -21,6 +21,13 @@
     "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\n\nDeep Work\n\n\nOct 15, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "dailyml/dailyml0002/dailyml_0022.html",
+    "href": "dailyml/dailyml0002/dailyml_0022.html",
+    "title": "Model Recall",
+    "section": "",
+    "text": "Answer\n\n\nRecommended Reading\n\nHow to Calculate Precision, Recall, and F-Measure for Imbalanced Classification"
+  },
+  {
     "objectID": "dailyml/dailyml0001/dailyml_0022.html",
     "href": "dailyml/dailyml0001/dailyml_0022.html",
     "title": "Active Learning",
@@ -39,7 +46,7 @@
     "href": "dailyR.html",
     "title": "Daily R Practice",
     "section": "",
-    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n \n\n\n\nR4DS Chapter 2 Exercises\n\n\nOct 15, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n \n\n\n\nR4DS Chapter 2 Exercises\n\n\nOct 15, 2022\n\n\n\n\n\n \n\n\n\nR4DS Chapter 2 Exercises\n\n\nOct 15, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "Quotes.html",
@@ -53,7 +60,7 @@
     "href": "dailyml.html",
     "title": "Daily Machine Learning",
     "section": "",
-    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n \n\n\n\nActive Learning\n\n\nOct 15, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\n\nModel Recall\n\n\nOct 16, 2022\n\n\n\n\n\n \n\n\n\nActive Learning\n\n\nOct 15, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "NLP.html",
@@ -81,7 +88,7 @@
     "href": "dailypython.html",
     "title": "Daily Python Practice",
     "section": "",
-    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n \n\n\n\nGetting and Knowing your Data\n\n\nOct 15, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n \n\n\n\nPython Strings Tips\n\n\nOct 15, 2022\n\n\n\n\n\n \n\n\n\nGetting and Knowing your Data\n\n\nOct 15, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "dailypaper.html",
@@ -301,6 +308,13 @@
     "text": "I am a PhD student at the University of Porto, Portugal. I am interested in low-resource natural language processing (NLP). I write stuff related to NLP and data science. You can reach out to me via shamsuddeen2004@gmail.com."
   },
   {
+    "objectID": "dailyR/tidy01/daily0001.html",
+    "href": "dailyR/tidy01/daily0001.html",
+    "title": "R4DS Chapter 2 Exercises",
+    "section": "",
+    "text": "library(tidyverse)\n\n── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──\n✔ ggplot2 3.3.6      ✔ purrr   0.3.5 \n✔ tibble  3.1.8      ✔ dplyr   1.0.10\n✔ tidyr   1.2.1      ✔ stringr 1.4.1 \n✔ readr   2.1.3      ✔ forcats 0.5.2 \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\n\nlibrary(tidytuesdayR)\ntheme_set(theme_light())\nlibrary(scales)\n\n\nAttaching package: 'scales'\n\nThe following object is masked from 'package:purrr':\n\n    discard\n\nThe following object is masked from 'package:readr':\n\n    col_factor\n\n\n\ntt <- tt_load(\"2021-02-02\")\n\n--- Compiling #TidyTuesday Information for 2021-02-02 ----\n\n\n--- There are 8 files available ---\n\n\n--- Starting Download ---\n\n\n\n    Downloading file 1 of 8: `bach_students.csv`\n    Downloading file 2 of 8: `female_bach_students.csv`\n    Downloading file 3 of 8: `female_hs_students.csv`\n    Downloading file 4 of 8: `hbcu_all.csv`\n    Downloading file 5 of 8: `hbcu_black.csv`\n    Downloading file 6 of 8: `hs_students.csv`\n    Downloading file 7 of 8: `male_bach_students.csv`\n    Downloading file 8 of 8: `male_hs_students.csv`\n\n\n--- Download complete ---"
+  },
+  {
     "objectID": "dailyR/exercises_chap1/daily0001.html",
     "href": "dailyR/exercises_chap1/daily0001.html",
     "title": "R4DS Chapter 2 Exercises",
@@ -397,6 +411,62 @@
     "title": "License",
     "section": "",
     "text": "This is my personal website. Content on this site is provided under a Creative Commons (CC-BY) 4.0 license. You may reuse this content as long as you indicate my authorship and provide a link back to the original material. Source code of the site is provided under the MIT license and may be reused without restriction."
+  },
+  {
+    "objectID": "dailypython/py0002/py0001.html",
+    "href": "dailypython/py0002/py0001.html",
+    "title": "Python Strings Tips",
+    "section": "",
+    "text": "Today our tips is using strings in Python"
+  },
+  {
+    "objectID": "dailypython/py0002/py0001.html#using-f-strings-to-limit-number-of-decimals",
+    "href": "dailypython/py0002/py0001.html#using-f-strings-to-limit-number-of-decimals",
+    "title": "Python Strings Tips",
+    "section": "Using f Strings to limit number of decimals",
+    "text": "Using f Strings to limit number of decimals\n\nnum = 5.45656\n\nprint(f'{num:.2f}') # Limit to 2 decimal\nprint(f'{num:.3f}') # Limit to 3 decimals\n\n5.46\n5.457"
+  },
+  {
+    "objectID": "dailypython/py0002/py0001.html#using-f-string-for-calculation",
+    "href": "dailypython/py0002/py0001.html#using-f-string-for-calculation",
+    "title": "Python Strings Tips",
+    "section": "Using f-String for Calculation",
+    "text": "Using f-String for Calculation\n\napple = 3\nbanana = 2\nprint(f'The total price is {apple + banana}.')\n\nThe total price is 5."
+  },
+  {
+    "objectID": "dailypython/py0002/py0001.html#debug-your-python-code-with-an-equal-sign-in-an-f-string",
+    "href": "dailypython/py0002/py0001.html#debug-your-python-code-with-an-equal-sign-in-an-f-string",
+    "title": "Python Strings Tips",
+    "section": "Debug Your Python Code with an Equal Sign in an f-String",
+    "text": "Debug Your Python Code with an Equal Sign in an f-String\n\nIt is common to use f”var={var}” to see which values are being printed.\n\n\nfrom itertools import permutations\n\nnums = [1, 2, 3]\n\nfor i, j in permutations(nums, 2):\n    print(f\"i={i}, j={j}\")\n\ni=1, j=2\ni=1, j=3\ni=2, j=1\ni=2, j=3\ni=3, j=1\ni=3, j=2\n\n\n\nIn Python 3.8 and above, you can get the same outputs using f”{var=}“.\n\n\nfor i, j in permutations(nums, 2):\n    print(f\"{i=}, {j=}\")\n\ni=1, j=2\ni=1, j=3\ni=2, j=1\ni=2, j=3\ni=3, j=1\ni=3, j=2"
+  },
+  {
+    "objectID": "dailypython/py0002/py0001.html#string-find-find-the-index-of-a-substring-in-a-python-string",
+    "href": "dailypython/py0002/py0001.html#string-find-find-the-index-of-a-substring-in-a-python-string",
+    "title": "Python Strings Tips",
+    "section": "String find: Find The Index of a Substring in a Python String",
+    "text": "String find: Find The Index of a Substring in a Python String\n\nfind() method can be used to find an index of a substring. If the substring is not found, the method returns -1. Otherwise, the method returns the index of the first occurrence of the substring\n\n\nmylove = \"I love this car\"\n\n# Find the index of first occurrence of the substring\nmylove.find(\"car\")\n\n12\n\n\n\nThe index for the first occurrence of the word car is 12\n\n\n# returns -1 since \"taxi\" is not present in the original string\nmylove.find(\"taxi\")\n\n-1"
+  },
+  {
+    "objectID": "dailypython/py0002/py0001.html#split-a-string-by-multiple-characters",
+    "href": "dailypython/py0002/py0001.html#split-a-string-by-multiple-characters",
+    "title": "Python Strings Tips",
+    "section": "Split a String by Multiple Characters",
+    "text": "Split a String by Multiple Characters\n\nstr.split allows us to split a string by only one character.\n\n\nsent = \"Today-is a nice_day\"\n\nsent.split('-')\n\n['Today', 'is a nice_day']\n\n\n\nWe can use re.split() to split string with multiple charaters\n\n\nimport re\n\n# split by space, -, or _\nre.split(\" |-|_\", sent)\n\n['Today', 'is', 'a', 'nice', 'day']"
+  },
+  {
+    "objectID": "dailypython/py0002/py0001.html#multiline-strings",
+    "href": "dailypython/py0002/py0001.html#multiline-strings",
+    "title": "Python Strings Tips",
+    "section": "Multiline Strings",
+    "text": "Multiline Strings\n\nIf your Python string gets very long, you can break it up using parentheses or a backslash.\n\nparentheses\n\ntext = (\n    \"This is a very \"\n    \"long sentence \"\n    \"that is made up.\"\n)\ntext\n\n'This is a very long sentence that is made up.'\n\n\nbackslash\n\ntext = \"This is a very \"\\\n    \"long sentence \"\\\n    \"that is made up.\"\n\ntext\n\n'This is a very long sentence that is made up.'"
+  },
+  {
+    "objectID": "dailypython/py0002/py0001.html#detect-almost-similar-articles-or-strings-using-difflib.sequencematcher",
+    "href": "dailypython/py0002/py0001.html#detect-almost-similar-articles-or-strings-using-difflib.sequencematcher",
+    "title": "Python Strings Tips",
+    "section": "Detect “Almost Similar” Articles or Strings using difflib.SequenceMatcher:",
+    "text": "Detect “Almost Similar” Articles or Strings using difflib.SequenceMatcher:\n\nWhen analyzing articles, different articles can be almost similar but not 100% identical, maybe because of the grammar, or because of the change in two or three words (such as cross-posting). How can we detect the “almost similar” articles and drop one of them? That is when difflib.SequenceMatcher comes in handy.\n\n\nfrom difflib import SequenceMatcher\n\ntext1 = 'I am shamsuddeen'\ntext2 = 'I am shamsu'\nprint(SequenceMatcher(a=text1, b=text2).ratio())\n\n0.8148148148148148\n\n\n\nYou can also find best matches using difflib.get_close_matches:\n\n\nfrom difflib import get_close_matches\n\ntools = ['pencil', 'pen', 'erasor', 'ink']\nget_close_matches('pencel', tools)\n\n['pencil', 'pen']\n\n\nTo get closer matches, increase the value of the argument cutoff (default 0.6).\n\nget_close_matches('pencel', tools, cutoff=0.8)\n\n['pencil']"
   },
   {
     "objectID": "dailypython/py0001/py0001.html",
