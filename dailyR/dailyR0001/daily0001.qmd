@@ -23,7 +23,7 @@ df <- structure(list(`Original sentence` = "'Yan sanda sun kama wanda ya sato ta
 
 ```{r}
 df %>%
-clean_names()%>%
+clean_names()
 
 
 ```

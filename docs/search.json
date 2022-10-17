@@ -4,7 +4,7 @@
     "href": "dailynlp.html",
     "title": "Daily NLP",
     "section": "",
-    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n \n\n\n\nTF_ID IF\n\n\nOct 16, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "daily.html",
@@ -14,11 +14,39 @@
     "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\n\nFormatting number with an underscore in Python\n\n\nOct 15, 2022\n\n\n\n\n\n \n\n\n\nFatal: Not possible to fast-forward, aborting\n\n\nSep 17, 2022\n\n\n\n\n\n\n\nlabelled vs labeled\n\n\nMay 13, 2022\n\n\n\n\n\n\n\nConnecting two Indpendent Clauses with Comma and Semicolons\n\n\nMay 11, 2022\n\n\n\n\n\n\n\nBias and Varience in Machine Learning Algorithms\n\n\nMay 10, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "dailynlp/py0002/py0002.html",
+    "href": "dailynlp/py0002/py0002.html",
+    "title": "TF_ID IF",
+    "section": "",
+    "text": "See you tomorrow !"
+  },
+  {
     "objectID": "bookreading.html",
     "href": "bookreading.html",
     "title": "Book I am reading",
     "section": "",
     "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\n\nDeep Work\n\n\nOct 15, 2022\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "dailyml/dailyml0003/0003.html",
+    "href": "dailyml/dailyml0003/0003.html",
+    "title": "Logistic regression",
+    "section": "",
+    "text": "There were four different exercises, but Jade only knew how to use logistic regression.\nLuckily, Jade only needed to choose one exercise and solve it. But she needs to ensure she can find a solution using logistic regression; she doesn’t have time to learn anything else.\nSelect every exercise that Jade could solve using logistic regression?\n\nThe first exercise is a regression problem.\nThe second exercise is a binary classification problem.\nThe third exercise is a 2-class classification problem.\nThe fourth exercise is a 3-class classification problem."
+  },
+  {
+    "objectID": "dailyml/dailyml0003/0003.html#answer",
+    "href": "dailyml/dailyml0003/0003.html#answer",
+    "title": "Logistic regression",
+    "section": "Answer",
+    "text": "Answer\nFortunately for Jade, she can tackle the second, third, and fourth exercises.\nLogistic regression estimates the probability of an event occurring by outputting a single value bounded between 0 and 1. The closer the result is to zero, the less likely the event will occur, while the closer is to 1, the more likely it is.\nThis structure makes logistic regression ideal for tackling binary or 2-class classification problems. Notice that we can formulate a binary classification task as a 2-class classification task and vice versa.\nJade can also work on the 3-class classification exercise using the One-vs-All method (also called “One-vs-Rest.”) She can train three different logistic regression models:\nModel 1: Identifying Class 1 vs. [Class 2, Class 3] Model 2: Identifying Class 2 vs. [Class 1, Class 3] Model 3: Identifying Class 3 vs. [Class 1, Class 2]\nThe final result would be the prediction from the model with the highest confidence.\nJade should stay away from the first exercise. Logistic regression will not help her solve a regression problem."
+  },
+  {
+    "objectID": "dailyml/dailyml0003/0003.html#recommended-reading",
+    "href": "dailyml/dailyml0003/0003.html#recommended-reading",
+    "title": "Logistic regression",
+    "section": "Recommended reading",
+    "text": "Recommended reading\n\nCheck out “Logistic Regression for Machine Learning” for an introduction to Logistic regression.\n“Essential Data Science Tips: How to Use One-Vs-Rest and One-Vs-One for Multi-Class Classification” is a great reference to understand how to use the One-vs-All method for multi-class classification.\n\nbody { text-align: justify}"
   },
   {
     "objectID": "dailyml/dailyml0002/dailyml_0022.html",
@@ -46,7 +74,7 @@
     "href": "dailyR.html",
     "title": "Daily R Practice",
     "section": "",
-    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n \n\n\n\nR4DS Chapter 2 Exercises\n\n\nOct 15, 2022\n\n\n\n\n\n \n\n\n\nR4DS Chapter 2 Exercises\n\n\nOct 15, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n \n\n\n\nEscaping a singe or double quote\n\n\nOct 16, 2022\n\n\n\n\n\n \n\n\n\nR4DS Chapter 2 Exercises\n\n\nOct 15, 2022\n\n\n\n\n\n \n\n\n\nR4DS Chapter 2 Exercises\n\n\nOct 15, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "Quotes.html",
@@ -60,7 +88,7 @@
     "href": "dailyml.html",
     "title": "Daily Machine Learning",
     "section": "",
-    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\n\nModel Recall\n\n\nOct 16, 2022\n\n\n\n\n\n \n\n\n\nActive Learning\n\n\nOct 15, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n \n\n\n\nLogistic regression\n\n\nOct 16, 2022\n\n\n\n\n\n\n\nModel Recall\n\n\nOct 16, 2022\n\n\n\n\n\n \n\n\n\nActive Learning\n\n\nOct 15, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "NLP.html",
@@ -327,6 +355,13 @@
     "title": "R4DS Chapter 2 Exercises",
     "section": "2.3.1 Exercises",
     "text": "2.3.1 Exercises\n\nWhat’s gone wrong with this code? Why are the points not blue?\n\n\nggplot(data = mpg) + \n  geom_point(mapping = aes(x = displ, y = hwy, color = \"blue\"))\n\n\n\n\n\nThe argument colour = “blue” is included within the mapping argument, and as such, it is treated as an aesthetic, which is a mapping between a variable and a value\n\nBelow is the correct format:\n\nggplot(data = mpg) + \n  geom_point(mapping = aes(x = displ, y = hwy), color = \"blue\")\n\n\n\n\nand it is blow."
+  },
+  {
+    "objectID": "dailyR/dailyR0001/daily0001.html",
+    "href": "dailyR/dailyR0001/daily0001.html",
+    "title": "Escaping a singe or double quote",
+    "section": "",
+    "text": "library(tidyverse)\n\n── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──\n✔ ggplot2 3.3.6      ✔ purrr   0.3.5 \n✔ tibble  3.1.8      ✔ dplyr   1.0.10\n✔ tidyr   1.2.1      ✔ stringr 1.4.1 \n✔ readr   2.1.3      ✔ forcats 0.5.2 \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\n\nlibrary(janitor)\n\n\nAttaching package: 'janitor'\n\nThe following objects are masked from 'package:stats':\n\n    chisq.test, fisher.test\n\n\nI have a\n\ndf <- structure(list(`Original sentence` = \"'Yan sanda sun kama wanda ya sato tallafin korona na jihar Benue ya sayar a Kano.\", \n    `Annotated tokenized sentence` = \"\\\" Yan sanda sun kama wanda ya sato tallafin korona na jihar Benue ya sayar a Kano .\"), row.names = c(NA, \n-1L), class = c(\"tbl_df\", \"tbl\", \"data.frame\"))\n\n\ndf %>%\nclean_names()\n\n# A tibble: 1 × 2\n  original_sentence                                                      annot…¹\n  <chr>                                                                  <chr>  \n1 'Yan sanda sun kama wanda ya sato tallafin korona na jihar Benue ya s… \"\\\" Ya…\n# … with abbreviated variable name ¹​annotated_tokenized_sentence"
   },
   {
     "objectID": "til/dailyML01/daily0001.html",

@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2022-10-15">
+<meta name="dcterms.date" content="2022-10-16">
 
-<title>Shamsuddeen Hassan Muhammad’s Blog - Deep Work</title>
+<title>Shamsuddeen Hassan Muhammad’s Blog - Logistic regression</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -75,11 +75,10 @@ ga('send', {
 <script defer="" data-domain="ivelasq.rbind.io" src="https://plausible.io/js/plausible.js"></script>
 
 
-<meta name="twitter:title" content="Shamsuddeen Hassan Muhammad’s Blog - Deep Work">
-<meta name="twitter:description" content="I am currently reading Deep Work book by Cal NewPort">
-<meta name="twitter:image" content="https://shmuhammadblog.github.io/bookreading/Deep Work/aca_02.jpeg">
+<meta name="twitter:title" content="Shamsuddeen Hassan Muhammad’s Blog - Logistic regression">
+<meta name="twitter:description" content="There were four different exercises, but Jade only knew how to use logistic regression.">
 <meta name="twitter:creator" content="Shamsuddeen Hassan Muhammad">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed">
@@ -184,7 +183,7 @@ ga('send', {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Deep Work</h1>
+<h1 class="title">Logistic regression</h1>
 </div>
 
 
@@ -195,7 +194,7 @@ ga('send', {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 15, 2022</p>
+      <p class="date">October 16, 2022</p>
     </div>
   </div>
     
@@ -204,14 +203,36 @@ ga('send', {
 
 </header>
 
-<section id="deep-work" class="level2">
-<h2 class="anchored" data-anchor-id="deep-work">Deep Work</h2>
-<p>I am currently reading Deep Work book by Cal NewPort</p>
-<p><img src="https://www.google.com/url?sa=i&amp;url=https%3A%2F%2Fembraceourcalling.com%2Fcal-newports-deep-work-rules-for-focused-success-in-a-distracted-world%2F&amp;psig=AOvVaw2Nx6YBxTTRqKsxOGtgYQ5b&amp;ust=1665903776682000&amp;source=images&amp;cd=vfe&amp;ved=0CA0QjRxqFwoTCMifvqrV4foCFQAAAAAdAAAAABAD" class="img-fluid"></p>
-<style>
-body {
-text-align: justify}
-</style>
+<section id="logistic-regression-exercises" class="level2">
+<h2 class="anchored" data-anchor-id="logistic-regression-exercises">Logistic regression exercises</h2>
+<p>There were four different exercises, but Jade only knew how to use logistic regression.</p>
+<p>Luckily, Jade only needed to choose one exercise and solve it. But she needs to ensure she can find a solution using logistic regression; she doesn’t have time to learn anything else.</p>
+<p>Select every exercise that Jade could solve using logistic regression?</p>
+<ol type="1">
+<li><p>The first exercise is a regression problem.</p></li>
+<li><p>The second exercise is a binary classification problem.</p></li>
+<li><p>The third exercise is a 2-class classification problem.</p></li>
+<li><p>The fourth exercise is a 3-class classification problem.</p></li>
+</ol>
+</section>
+<section id="answer" class="level2">
+<h2 class="anchored" data-anchor-id="answer">Answer</h2>
+<p>Fortunately for Jade, she can tackle the second, third, and fourth exercises.</p>
+<p>Logistic regression estimates the probability of an event occurring by outputting a single value bounded between 0 and 1. The closer the result is to zero, the less likely the event will occur, while the closer is to 1, the more likely it is.</p>
+<p>This structure makes logistic regression ideal for tackling binary or 2-class classification problems. Notice that we can formulate a binary classification task as a 2-class classification task and vice versa.</p>
+<p>Jade can also work on the 3-class classification exercise using the One-vs-All method (also called “One-vs-Rest.”) She can train three different logistic regression models:</p>
+<p>Model 1: Identifying Class 1 vs.&nbsp;[Class 2, Class 3] Model 2: Identifying Class 2 vs.&nbsp;[Class 1, Class 3] Model 3: Identifying Class 3 vs.&nbsp;[Class 1, Class 2]</p>
+<p>The final result would be the prediction from the model with the highest confidence.</p>
+<p>Jade should stay away from the first exercise. Logistic regression will not help her solve a regression problem.</p>
+</section>
+<section id="recommended-reading" class="level2">
+<h2 class="anchored" data-anchor-id="recommended-reading">Recommended reading</h2>
+<ol type="1">
+<li><p>Check out <a href="https://machinelearningmastery.com/logistic-regression-for-machine-learning/">“Logistic Regression for Machine Learning”</a> for an introduction to Logistic regression.</p></li>
+<li><p><a href="https://www.kdnuggets.com/2020/08/one-vs-rest-one-multi-class-classification.html">“Essential Data Science Tips: How to Use One-Vs-Rest and One-Vs-One for Multi-Class Classification”</a> is a great reference to understand how to use the One-vs-All method for multi-class classification.</p></li>
+</ol>
+body { text-align: justify}
+
 
 
 </section>

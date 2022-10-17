@@ -6,6 +6,7 @@ project:
 freeze: true
 
 website:
+  margin-header: subscribe.html
   comments:
     giscus:
       repo: "shmuhammad2004/shmuhammadblog"
@@ -71,4 +72,3 @@ format:
     theme: [litera, styles.scss]
     include-in-header: plausible.html
     highlight-style: nord
-  
