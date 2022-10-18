@@ -116,7 +116,7 @@
     "href": "dailypython.html",
     "title": "Daily Python Practice",
     "section": "",
-    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n \n\n\n\nPython Strings Tips\n\n\nOct 16, 2022\n\n\n\n\n\n \n\n\n\nGetting and Knowing your Data\n\n\nOct 15, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n \n\n\n\nTips on Python Numbers\n\n\nOct 18, 2022\n\n\n\n\n\n \n\n\n\nPython Strings Tips\n\n\nOct 16, 2022\n\n\n\n\n\n \n\n\n\nGetting and Knowing your Data\n\n\nOct 15, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "dailypaper.html",
@@ -446,6 +446,48 @@
     "title": "License",
     "section": "",
     "text": "This is my personal website. Content on this site is provided under a Creative Commons (CC-BY) 4.0 license. You may reuse this content as long as you indicate my authorship and provide a link back to the original material. Source code of the site is provided under the MIT license and may be reused without restriction."
+  },
+  {
+    "objectID": "dailypython/py0003/py0002.html",
+    "href": "dailypython/py0003/py0002.html",
+    "title": "Tips on Python Numbers",
+    "section": "",
+    "text": "Today our tips is using Numbers in Python"
+  },
+  {
+    "objectID": "dailypython/py0003/py0002.html#formatting-numbers-using-underscore",
+    "href": "dailypython/py0003/py0002.html#formatting-numbers-using-underscore",
+    "title": "Tips on Python Numbers",
+    "section": "Formatting Numbers using underscore",
+    "text": "Formatting Numbers using underscore\nWe sometime used to have large numbers\n\na = 1000000000\nprint(a)\n\n1000000000\n\n\nSometimes, for humans it is difficult to count how many digits in the number. Using underscore solves that problem\n\nb = 1_000_000_000\nprint(b)\n\n1000000000\n\n\nHowever, if you print the number, the underscore disappears. You cam still show the numbers with underscore using the following:\n\nb = 1_000_000_000\nprint(f\"{b:_}\")\n\n1_000_000_000"
+  },
+  {
+    "objectID": "dailypython/py0003/py0002.html#confirm-if-a-variable-is-a-number",
+    "href": "dailypython/py0003/py0002.html#confirm-if-a-variable-is-a-number",
+    "title": "Tips on Python Numbers",
+    "section": "Confirm if a variable is a number",
+    "text": "Confirm if a variable is a number\nIf you want to confirm whether a variable is a number without caring whether it is a float or an integer, numbers, use numbers.Number.\n\nfrom numbers import Number\n\na = 3\nb = 0.3\n\n# Check if a is a number\nprint(isinstance(a, Number))\nprint(isinstance(b, Number))\n\nTrue\nTrue\n\n\n\nnum = 5.45656\n\nprint(f'{num:.2f}') # Limit to 2 decimal\nprint(f'{num:.3f}') # Limit to 3 decimals\n\n5.46\n5.457"
+  },
+  {
+    "objectID": "dailypython/py0003/py0002.html#floor-division-with-double-forward-slash",
+    "href": "dailypython/py0003/py0002.html#floor-division-with-double-forward-slash",
+    "title": "Tips on Python Numbers",
+    "section": "Floor Division with Double Forward Slash",
+    "text": "Floor Division with Double Forward Slash\nNormal division gives decimals:\n\n3/2\n\n1.5\n\n\nIf you want to do floor division using //\n\n3//2\n\n1"
+  },
+  {
+    "objectID": "dailypython/py0003/py0002.html#displaying-floating-point-numbers",
+    "href": "dailypython/py0003/py0002.html#displaying-floating-point-numbers",
+    "title": "Tips on Python Numbers",
+    "section": "Displaying Floating-point numbers",
+    "text": "Displaying Floating-point numbers\nPython also uses E notation to display large floating-point numbers:\n\n2e4\n\n20000.0\n\n\n\n# for negative powers, we must use minus(-)\n1e-4\n\n0.0001\n\n\nWhen you reach the maximum floating-point number, Python returns a special float value, inf:\n\n2e400 # large numbers show infinite \n\ninf\n\n\n\nInf is of type float\n\n\nn = 2e400 \ntype(n) \n\nfloat"
+  },
+  {
+    "objectID": "dailypython/py0003/py0002.html#rounding-ties-to-even.",
+    "href": "dailypython/py0003/py0002.html#rounding-ties-to-even.",
+    "title": "Tips on Python Numbers",
+    "section": "Rounding ties to even.",
+    "text": "Rounding ties to even.\nWe use round function to round numbers to the nearest integer value\n\nround(2.3)\n\n2\n\n\nWe can also pass the number of digits we want round\n\nround(3.14159, 3)\n\n3.142\n\n\nBut, why the two outputs are different:\n\nprint(round(3.5)) # round to what?\nprint(round(2.5)) # round to what?\n\n4\n2\n\n\n2.5 is rounded down to 2, and 3.5 is rounded up to 4. Most people expect a number that ends in .5 to be rounded up, so let’s take a closer look at what’s going on here.\n\nPython 3 rounds numbers according to a strategy called rounding ties to even. A tie is any number whose last digit is five. 2.5 and 3.1415 are ties, but 1.37 is not. When you round ties to even, you first look at the digit one decimal place to the left of the last digit in the tie. If that digit is even, then you round down. If the digit is odd, then you round up. That’s why 2.5 rounds down to 2 and 3.5 rounds up to 4."
   },
   {
     "objectID": "dailypython/py0002/py0002.html",
