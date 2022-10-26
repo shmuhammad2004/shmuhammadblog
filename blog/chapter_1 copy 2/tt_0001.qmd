@@ -1,0 +1,78 @@
+---
+title: "Untitled"
+format: html
+---
+
+
+
+```{r}
+library(tidyverse)
+library(tidytuesdayR)
+theme_set(theme_light())
+library(scales)
+```
+
+Dowload the weekly data and make available in the `tt` object.
+    
+```{r}
+
+tt <- tt_load("2021-02-02")
+
+
+```
+
+```{r}
+print(tt)
+```
+
+```{r}
+tt$hbcu_black 
+```
+
+
+
+```{r}
+
+hbcu_black_long <- tt$hbcu_black %>%
+  gather(metric, black_enrollment, -Year) %>%
+  rename(year = Year)
+
+ #tt$hbcu_black%>% 
+#pivot_longer(!Year, names_to = "metric", values_to = "black_enrollment")
+```
+
+
+```{r}
+
+
+hbcu_compare_long <- hbcu_all_long %>%
+  full_join(hbcu_black_long, by = c("year", "metric")) %>%
+  mutate(pct_black = black_enrollment / enrollment)
+
+hbcu_compare_long %>%
+  filter(metric == "Total enrollment") %>%
+  ggplot(aes(year, pct_black)) +
+  geom_line() +
+  scale_y_continuous(labels = percent) +
+  expand_limits(y = 0) +
+  labs(y = "% of HBCU enrollment that is Black")
+
+hbcu_compare_long %>%
+  filter(metric %in% c("Males", "Females")) %>%
+  ggplot(aes(year, pct_black, color = metric)) +
+  geom_line() +
+  scale_y_continuous(labels = percent) +
+  expand_limits(y = 0) +
+  labs(y = "% of HBCU enrollment that is Black")
+
+hbcu_compare_long %>%
+  filter(str_detect(metric, "Total -")) %>%
+  mutate(metric = str_remove(metric, "Total - ")) %>%
+  ggplot(aes(year, pct_black, color = metric)) +
+  geom_line() +
+  scale_y_continuous(labels = percent) +
+  expand_limits(y = 0) +
+  labs(y = "% of HBCU enrollment that is Black",
+       color = "")
+```
+

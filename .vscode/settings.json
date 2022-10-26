@@ -1,11 +1,16 @@
 {
-    "grammarly.selectors": [
-        {
-            "language": "quarto",
-            "scheme": "file"
-        }
-    ],
-    "cSpell.words": [
-        "Shamsuddeen"
-    ]
+  "grammarly.selectors": [
+    {
+      "language": "quarto",
+      "scheme": "file"
+    }
+  ],
+  "cSpell.words": ["Shamsuddeen"],
+  "spellright.language": ["en"],
+  "spellright.documentTypes": ["markdown", "latex", "plaintext", "quarto"],
+  "spellright.parserByClass": {
+    "quarto": {
+      "parser": "markdown"
+    }
+  }
 }
