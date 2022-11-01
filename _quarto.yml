@@ -6,7 +6,6 @@ project:
 freeze: true
 
 website:
-  margin-header: subscribe.html
   comments:
     giscus:
       repo: "shmuhammad2004/shmuhammadblog"
