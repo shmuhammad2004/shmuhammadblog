@@ -88,7 +88,7 @@
     "href": "dailyml.html",
     "title": "Daily Machine Learning",
     "section": "",
-    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n \n\n\n\nLogistic regression\n\n\nOct 16, 2022\n\n\n\n\n\n\n\nModel Recall\n\n\nOct 16, 2022\n\n\n\n\n\n \n\n\n\nActive Learning\n\n\nOct 15, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n \n\n\n\nRegularizing a model\n\n\nNov 1, 2022\n\n\n\n\n\n \n\n\n\nLogistic regression\n\n\nOct 16, 2022\n\n\n\n\n\n\n\nModel Recall\n\n\nOct 16, 2022\n\n\n\n\n\n \n\n\n\nActive Learning\n\n\nOct 15, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "NLP.html",
@@ -116,7 +116,7 @@
     "href": "dailypython.html",
     "title": "Daily Python Practice",
     "section": "",
-    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n \n\n\n\nTips on Python Numbers\n\n\nOct 18, 2022\n\n\n\n\n\n \n\n\n\nPython Strings Tips\n\n\nOct 16, 2022\n\n\n\n\n\n \n\n\n\nGetting and Knowing your Data\n\n\nOct 15, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n \n\n\n\nTips on Python Numbers\n\n\nOct 18, 2022\n\n\n\n\n\n \n\n\n\nPython Strings Tips\n\n\nOct 16, 2022\n\n\n\n\n\n \n\n\n\nGetting and Knowing your Data\n\n\nOct 15, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "dailypaper.html",
@@ -557,6 +557,27 @@
     "href": "dailyR/dailyR0002/daily0001.html",
     "title": "Shuffling dataset",
     "section": "",
-    "text": "We can use slice to shuffle the dataset as shown below below:\n\nlibrary(tidyverse)\n\n── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──\n✔ ggplot2 3.3.6      ✔ purrr   0.3.5 \n✔ tibble  3.1.8      ✔ dplyr   1.0.10\n✔ tidyr   1.2.1      ✔ stringr 1.4.1 \n✔ readr   2.1.3      ✔ forcats 0.5.2 \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\n\n\n\nmtcars |> \nslice(sample(1:n())) |> \nhead()\n\n                   mpg cyl  disp  hp drat    wt  qsec vs am gear carb\nMaserati Bora     15.0   8 301.0 335 3.54 3.570 14.60  0  1    5    8\nMerc 450SL        17.3   8 275.8 180 3.07 3.730 17.60  0  0    3    3\nDatsun 710        22.8   4 108.0  93 3.85 2.320 18.61  1  1    4    1\nChrysler Imperial 14.7   8 440.0 230 3.23 5.345 17.42  0  0    3    4\nCamaro Z28        13.3   8 350.0 245 3.73 3.840 15.41  0  0    3    4\nMerc 450SLC       15.2   8 275.8 180 3.07 3.780 18.00  0  0    3    3"
+    "text": "We can use slice to shuffle the dataset as shown below below:\n\nlibrary(tidyverse)\n\n── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──\n✔ ggplot2 3.3.6      ✔ purrr   0.3.5 \n✔ tibble  3.1.8      ✔ dplyr   1.0.10\n✔ tidyr   1.2.1      ✔ stringr 1.4.1 \n✔ readr   2.1.3      ✔ forcats 0.5.2 \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\n\n\n\nmtcars |> \nslice(sample(1:n())) |> \nhead()\n\n                    mpg cyl  disp  hp drat    wt  qsec vs am gear carb\nChrysler Imperial  14.7   8 440.0 230 3.23 5.345 17.42  0  0    3    4\nDatsun 710         22.8   4 108.0  93 3.85 2.320 18.61  1  1    4    1\nCadillac Fleetwood 10.4   8 472.0 205 2.93 5.250 17.98  0  0    3    4\nMerc 450SLC        15.2   8 275.8 180 3.07 3.780 18.00  0  0    3    3\nAMC Javelin        15.2   8 304.0 150 3.15 3.435 17.30  0  0    3    2\nMazda RX4          21.0   6 160.0 110 3.90 2.620 16.46  0  1    4    4\n\n\n\n\nsummary of the book"
+  },
+  {
+    "objectID": "dailyml/dailyml0004/0003.html",
+    "href": "dailyml/dailyml0004/0003.html",
+    "title": "Regularizing a model",
+    "section": "",
+    "text": "Charlotte’s machine learning model is overfitting.\nShe needs to find a way to handle it, but before trying anything, she wants to understand her options.\nWhich of the following are regularization techniques that Charlotte could consider?\n\nValidation-based early stopping\nDropout\nData augmentation\nCross-validation"
+  },
+  {
+    "objectID": "dailyml/dailyml0004/0003.html#attempt",
+    "href": "dailyml/dailyml0004/0003.html#attempt",
+    "title": "Regularizing a model",
+    "section": "Attempt",
+    "text": "Attempt\nValidation-based early stopping is a regularization technique that stops the training process as soon as the generalization error of the model increases. In other words, if the model’s performance on the validation set starts degrading, the training process stops.\nDropout is a regularization method that works well and is vital for reducing overfitting. Dropout randomly removes a percentage of the nodes, forcing the network to learn in a balanced way, and tackling a phenomenon that we call “co-adaptation.”\nData augmentation has a regularization effect. Increasing the training data through data augmentation decreases the model’s variance and, in turn, increases the model’s generalization ability.\nFinally, cross-validation is a validation scheme and not a regularization method."
+  },
+  {
+    "objectID": "dailyml/dailyml0004/0003.html#recommended-reading",
+    "href": "dailyml/dailyml0004/0003.html#recommended-reading",
+    "title": "Regularizing a model",
+    "section": "Recommended reading",
+    "text": "Recommended reading\n\nCheck “Early Stopping” for an introduction to one of the most effective, easy-to-implement regularization techniques when training machine learning models.\n“A Gentle Introduction to Dropout for Regularizing Deep Neural Networks” is an excellent introduction to Dropout.\n“The Essential Guide to Data Augmentation in Deep Learning” is an excellent article discussing data augmentation in detail.\n\nbody { text-align: justify}"
   }
 ]
