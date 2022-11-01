@@ -46,7 +46,7 @@
     "href": "dailyml/dailyml0003/0003.html#recommended-reading",
     "title": "Logistic regression",
     "section": "Recommended reading",
-    "text": "Recommended reading\n\nCheck out “Logistic Regression for Machine Learning” for an introduction to Logistic regression.\n“Essential Data Science Tips: How to Use One-Vs-Rest and One-Vs-One for Multi-Class Classification” is a great reference to understand how to use the One-vs-All method for multi-class classification.\n\nbody { text-align: justify}"
+    "text": "Recommended reading\n\nCheck out “Logistic Regression for Machine Learning” for an introduction to Logistic regression.\n“Essential Data Science Tips: How to Use One-Vs-Rest and One-Vs-One for Multi-Class Classification” is a great reference to understand how to use the One-vs-All method for multi-class classification."
   },
   {
     "objectID": "dailyml/dailyml0002/dailyml_0022.html",
@@ -578,6 +578,6 @@
     "href": "dailyml/dailyml0004/0003.html#recommended-reading",
     "title": "Regularizing a model",
     "section": "Recommended reading",
-    "text": "Recommended reading\n\nCheck “Early Stopping” for an introduction to one of the most effective, easy-to-implement regularization techniques when training machine learning models.\n“A Gentle Introduction to Dropout for Regularizing Deep Neural Networks” is an excellent introduction to Dropout.\n“The Essential Guide to Data Augmentation in Deep Learning” is an excellent article discussing data augmentation in detail.\n\nbody { text-align: justify}"
+    "text": "Recommended reading\n\nCheck “Early Stopping” for an introduction to one of the most effective, easy-to-implement regularization techniques when training machine learning models.\n“A Gentle Introduction to Dropout for Regularizing Deep Neural Networks” is an excellent introduction to Dropout.\n“The Essential Guide to Data Augmentation in Deep Learning” is an excellent article discussing data augmentation in detail."
   }
 ]
