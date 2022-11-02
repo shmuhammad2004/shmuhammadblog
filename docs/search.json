@@ -88,7 +88,7 @@
     "href": "dailyml.html",
     "title": "Daily Machine Learning",
     "section": "",
-    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n \n\n\n\nRegularizing a model\n\n\nNov 1, 2022\n\n\n\n\n\n \n\n\n\nLogistic regression\n\n\nOct 16, 2022\n\n\n\n\n\n\n\nModel Recall\n\n\nOct 16, 2022\n\n\n\n\n\n \n\n\n\nActive Learning\n\n\nOct 15, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\n\nDropout and loss\n\n\nNov 2, 2022\n\n\n\n\n\n \n\n\n\nRegularizing a model\n\n\nNov 1, 2022\n\n\n\n\n\n \n\n\n\nLogistic regression\n\n\nOct 16, 2022\n\n\n\n\n\n\n\nModel Recall\n\n\nOct 16, 2022\n\n\n\n\n\n \n\n\n\nActive Learning\n\n\nOct 15, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "NLP.html",
@@ -593,5 +593,26 @@
     "title": "R4DS Chapter 2 Exercises",
     "section": "2.3.1 Exercises",
     "text": "2.3.1 Exercises\n\nWhat’s gone wrong with this code? Why are the points not blue?\n\n\nggplot(data = mpg) + \n  geom_point(mapping = aes(x = displ, y = hwy, color = \"blue\"))\n\n\n\n\n\nThe argument colour = “blue” is included within the mapping argument, and as such, it is treated as an aesthetic, which is a mapping between a variable and a value\n\nBelow is the correct format:\n\nggplot(data = mpg) + \n  geom_point(mapping = aes(x = displ, y = hwy), color = \"blue\")\n\n\n\n\nand it is blow."
+  },
+  {
+    "objectID": "dailyml/dailyml0005/0003.html",
+    "href": "dailyml/dailyml0005/0003.html",
+    "title": "Dropout and loss",
+    "section": "",
+    "text": "It’s the final round of interviews, and Savannah has done wonderfully well.\nThe final round is more technical. Savannah needs to answer a series of questions to demonstrate her understanding of different fundamental concepts.\nWhile talking about deep learning, the interviewer focuses on the use of Dropout and asks Savannah a question about something she hasn’t thought about before:\nHow would you expect the training loss to behave if you train your model several times, each using an increasing Dropout rate?\n\nThe training loss will be higher as we increase the Dropout rate.\nThe training loss will be lower as we increase the Dropout rate.\nThe training loss will start oscillating as we increase the Dropout rate.\nThe training loss will stay the same independently of the Dropout rate."
+  },
+  {
+    "objectID": "dailyml/dailyml0005/0003.html#attempt",
+    "href": "dailyml/dailyml0005/0003.html#attempt",
+    "title": "Dropout and loss",
+    "section": "Attempt",
+    "text": "Attempt\nStackoverflow : Validation loss when using Dropout\n\nDropout is a regularization method that works well and is vital for reducing overfitting.\nSometimes, the nodes in a neural network create strong dependencies on other nodes, which may lead to overfitting. An example is when a few nodes on a layer do most of the work, and the network ignores all the other nodes. Despite having many nodes on the layer, you only have a small percentage of those nodes contributing to predictions. We call this phenomenon “co-adaptation,” and we can tackle it using Dropout.\nDuring training, Dropout randomly removes a percentage of the nodes, forcing the network to learn in a balanced way. Now every node is on its own and can’t rely on other nodes to do their work. They have to work harder by themselves.\nOne crucial characteristic of Dropout will help Savanah answer the question correctly: Like most regularization methods, Dropout sacrifices training accuracy to improve generalization.\nIf we run a few training sessions, each using an increasing amount of Dropout, we should see the training loss trend higher. In other words, the more we regularize our model, the harder it will be to learn the training data."
+  },
+  {
+    "objectID": "dailyml/dailyml0005/0003.html#recommended-reading",
+    "href": "dailyml/dailyml0005/0003.html#recommended-reading",
+    "title": "Dropout and loss",
+    "section": "Recommended reading",
+    "text": "Recommended reading\n\nFor more information about co-adaptation and how to use Dropout, check “Improving neural networks by preventing co-adaptation of feature detectors”.\n“A Gentle Introduction to Dropout for Regularizing Deep Neural Networks” is an excellent introduction to Dropout."
   }
 ]
