@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2022-11-02">
+<meta name="dcterms.date" content="2022-11-03">
 
-<title>Shamsuddeen Hassan Muhammad’s Blog - Dropout and loss</title>
+<title>Shamsuddeen Hassan Muhammad’s Blog - A decision tree for that?</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -75,12 +75,12 @@ ga('send', {
 <script defer="" data-domain="ivelasq.rbind.io" src="https://plausible.io/js/plausible.js"></script>
 
 
-<meta name="twitter:title" content="Shamsuddeen Hassan Muhammad’s Blog - Dropout and loss">
-<meta name="twitter:description" content="It’s the final round of interviews, and Savannah has done wonderfully well.">
-<meta name="twitter:image" content="https://shmuhammadblog.github.io/dailyml/dailyml0005/2022-11-02-07-55-08.png">
+<meta name="twitter:title" content="Shamsuddeen Hassan Muhammad’s Blog - A decision tree for that?">
+<meta name="twitter:description" content="Gianna had the opportunity to meet some of her technical heroes at a conference, and of course, she peppered them with questions!">
+<meta name="twitter:image" content="https://shmuhammadblog.github.io/dailyml/dailyml0006/2022-11-03-06-09-39.png">
 <meta name="twitter:creator" content="Shamsuddeen Hassan Muhammad">
-<meta name="twitter:image-height" content="1396">
-<meta name="twitter:image-width" content="1160">
+<meta name="twitter:image-height" content="272">
+<meta name="twitter:image-width" content="542">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -182,7 +182,7 @@ ga('send', {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Dropout and loss</h1>
+<h1 class="title">A decision tree for that?</h1>
 </div>
 
 
@@ -193,7 +193,7 @@ ga('send', {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 2, 2022</p>
+      <p class="date">November 3, 2022</p>
     </div>
   </div>
     
@@ -202,34 +202,32 @@ ga('send', {
 
 </header>
 
-<section id="dropout-and-loss" class="level2">
-<h2 class="anchored" data-anchor-id="dropout-and-loss">Dropout and loss</h2>
-<p>It’s the final round of interviews, and Savannah has done wonderfully well.</p>
-<p>The final round is more technical. Savannah needs to answer a series of questions to demonstrate her understanding of different fundamental concepts.</p>
-<p>While talking about deep learning, the interviewer focuses on the use of Dropout and asks Savannah a question about something she hasn’t thought about before:</p>
-<p>How would you expect the training loss to behave if you train your model several times, each using an increasing Dropout rate?</p>
+<section id="a-decision-tree-for-that" class="level2">
+<h2 class="anchored" data-anchor-id="a-decision-tree-for-that">A decision tree for that?</h2>
+<p>Gianna had the opportunity to meet some of her technical heroes at a conference, and of course, she peppered them with questions!</p>
+<p>At some point, the conversation centered around a machine learning solution they implemented. Gianna was delighted to hear that they used a decision tree for their solution.</p>
+<p>The next day, she was still thinking about the conversation. She didn’t have much machine learning experience but knew enough about decision trees to feel validated. It was fantastic to find out that decision trees are useful!</p>
+<p>Which of the following machine learning problems can you solve with a decision tree?</p>
 <ol type="1">
-<li>The training loss will be higher as we increase the Dropout rate.</li>
-<li>The training loss will be lower as we increase the Dropout rate.</li>
-<li>The training loss will start oscillating as we increase the Dropout rate.</li>
-<li>The training loss will stay the same independently of the Dropout rate.</li>
+<li><p>Binary classification problems where you need to decide the correct category for a sample among two possible choices.</p></li>
+<li><p>Multi-class classification problems where you need to decide the correct category for a sample among multiple choices.</p></li>
+<li><p>Multi-label classification problems where you need to decide the correct categories for a sample among multiple choices.</p></li>
+<li><p>Regression problems where you need to predict a continuous output.</p></li>
 </ol>
 </section>
 <section id="attempt" class="level2">
 <h2 class="anchored" data-anchor-id="attempt">Attempt</h2>
-<p>Here is similar question asked on Stackoverflow : <a href="https://stackoverflow.com/questions/48393438/validation-loss-when-using-dropout">Validation loss when using Dropout</a></p>
-<p><img src="2022-11-02-07-55-08.png" class="img-fluid"></p>
-<p>Dropout is a regularization method that works well and is vital for reducing overfitting.</p>
-<p>Sometimes, the nodes in a neural network create strong dependencies on other nodes, which may lead to overfitting. An example is when a few nodes on a layer do most of the work, and the network ignores all the other nodes. Despite having many nodes on the layer, you only have a small percentage of those nodes contributing to predictions. We call this phenomenon “co-adaptation,” and we can tackle it using Dropout.</p>
-<p>During training, Dropout randomly removes a percentage of the nodes, forcing the network to learn in a balanced way. Now every node is on its own and can’t rely on other nodes to do their work. They have to work harder by themselves.</p>
-<p>One crucial characteristic of Dropout will help Savanah answer the question correctly: Like most regularization methods, Dropout sacrifices training accuracy to improve generalization.</p>
-<p>If we run a few training sessions, each using an increasing amount of Dropout, we should see the training loss trend higher. In other words, the more we regularize our model, the harder it will be to learn the training data.</p>
+<p>Every one of the choices is a correct answer: decision trees are really powerful!</p>
+<p>We usually discuss two types of decision trees in machine learning: classification and regression trees. The former covers the first three choices, while the latter covers the fourth choice.</p>
+<p>Binary classification problems aim to classify one sample into two different categories. Multi-class classification problems are similar, but they classify samples into more than two categories. Decision trees are a perfect fit for these problems.</p>
+<p><a href="https://en.wikipedia.org/wiki/Multi-label_classification">Multi-label classification</a> is somewhat different. Here we want to classify a sample into one or more categories. Decision trees can also solve these problems. <a href="https://scikit-learn.org/stable/modules/multiclass.html#multilabel-classification">Check out Scikit-Learn’s</a> implementation to see how they tackle multi-label classification.</p>
+<p>Finally, decision trees can also solve regression problems where we want to predict a continuous target variable. <a href="https://medium.com/analytics-vidhya/regression-trees-decision-tree-for-regression-machine-learning-e4d7525d8047">“How can Regression Trees be used for Solving Regression Problems?”</a> is an excellent introduction.</p>
 </section>
 <section id="recommended-reading" class="level2">
 <h2 class="anchored" data-anchor-id="recommended-reading">Recommended reading</h2>
 <ol type="1">
-<li><p>For more information about co-adaptation and how to use Dropout, check <a href="https://arxiv.org/pdf/1207.0580.pdf">“Improving neural networks by preventing co-adaptation of feature detectors”</a>.</p></li>
-<li><p><a href="https://machinelearningmastery.com/dropout-for-regularizing-deep-neural-networks/">“A Gentle Introduction to Dropout for Regularizing Deep Neural Networks”</a> is an excellent introduction to Dropout.</p></li>
+<li><p>Scikit-Learn’s <a href="https://scikit-learn.org/stable/modules/multiclass.html#multilabel-classification">“Multiclass and multioutput algorithms”</a> will introduce you to solve these problems using Scikit-Learn’s decision tree implementation.</p></li>
+<li><p><a href="https://medium.com/analytics-vidhya/regression-trees-decision-tree-for-regression-machine-learning-e4d7525d8047">“How can Regression Trees be used for Solving Regression Problems?”</a> is an excellent article about using decision trees for regression tasks.</p></li>
 </ol>
 <style>
 body {

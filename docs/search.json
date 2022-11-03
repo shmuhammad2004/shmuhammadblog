@@ -88,7 +88,7 @@
     "href": "dailyml.html",
     "title": "Daily Machine Learning",
     "section": "",
-    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\n\nDropout and loss\n\n\nNov 2, 2022\n\n\n\n\n\n \n\n\n\nRegularizing a model\n\n\nNov 1, 2022\n\n\n\n\n\n \n\n\n\nLogistic regression\n\n\nOct 16, 2022\n\n\n\n\n\n\n\nModel Recall\n\n\nOct 16, 2022\n\n\n\n\n\n \n\n\n\nActive Learning\n\n\nOct 15, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\n\nA decision tree for that?\n\n\nNov 3, 2022\n\n\n\n\n\n\n\nDropout and loss\n\n\nNov 2, 2022\n\n\n\n\n\n \n\n\n\nRegularizing a model\n\n\nNov 1, 2022\n\n\n\n\n\n \n\n\n\nLogistic regression\n\n\nOct 16, 2022\n\n\n\n\n\n\n\nModel Recall\n\n\nOct 16, 2022\n\n\n\n\n\n \n\n\n\nActive Learning\n\n\nOct 15, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "NLP.html",
@@ -606,7 +606,7 @@
     "href": "dailyml/dailyml0005/0003.html#attempt",
     "title": "Dropout and loss",
     "section": "Attempt",
-    "text": "Attempt\nStackoverflow : Validation loss when using Dropout\n\nDropout is a regularization method that works well and is vital for reducing overfitting.\nSometimes, the nodes in a neural network create strong dependencies on other nodes, which may lead to overfitting. An example is when a few nodes on a layer do most of the work, and the network ignores all the other nodes. Despite having many nodes on the layer, you only have a small percentage of those nodes contributing to predictions. We call this phenomenon “co-adaptation,” and we can tackle it using Dropout.\nDuring training, Dropout randomly removes a percentage of the nodes, forcing the network to learn in a balanced way. Now every node is on its own and can’t rely on other nodes to do their work. They have to work harder by themselves.\nOne crucial characteristic of Dropout will help Savanah answer the question correctly: Like most regularization methods, Dropout sacrifices training accuracy to improve generalization.\nIf we run a few training sessions, each using an increasing amount of Dropout, we should see the training loss trend higher. In other words, the more we regularize our model, the harder it will be to learn the training data."
+    "text": "Attempt\nHere is similar question asked on Stackoverflow : Validation loss when using Dropout\n\nDropout is a regularization method that works well and is vital for reducing overfitting.\nSometimes, the nodes in a neural network create strong dependencies on other nodes, which may lead to overfitting. An example is when a few nodes on a layer do most of the work, and the network ignores all the other nodes. Despite having many nodes on the layer, you only have a small percentage of those nodes contributing to predictions. We call this phenomenon “co-adaptation,” and we can tackle it using Dropout.\nDuring training, Dropout randomly removes a percentage of the nodes, forcing the network to learn in a balanced way. Now every node is on its own and can’t rely on other nodes to do their work. They have to work harder by themselves.\nOne crucial characteristic of Dropout will help Savanah answer the question correctly: Like most regularization methods, Dropout sacrifices training accuracy to improve generalization.\nIf we run a few training sessions, each using an increasing amount of Dropout, we should see the training loss trend higher. In other words, the more we regularize our model, the harder it will be to learn the training data."
   },
   {
     "objectID": "dailyml/dailyml0005/0003.html#recommended-reading",
@@ -614,5 +614,26 @@
     "title": "Dropout and loss",
     "section": "Recommended reading",
     "text": "Recommended reading\n\nFor more information about co-adaptation and how to use Dropout, check “Improving neural networks by preventing co-adaptation of feature detectors”.\n“A Gentle Introduction to Dropout for Regularizing Deep Neural Networks” is an excellent introduction to Dropout."
+  },
+  {
+    "objectID": "dailyml/dailyml0006/0003.html",
+    "href": "dailyml/dailyml0006/0003.html",
+    "title": "A decision tree for that?",
+    "section": "",
+    "text": "Gianna had the opportunity to meet some of her technical heroes at a conference, and of course, she peppered them with questions!\nAt some point, the conversation centered around a machine learning solution they implemented. Gianna was delighted to hear that they used a decision tree for their solution.\nThe next day, she was still thinking about the conversation. She didn’t have much machine learning experience but knew enough about decision trees to feel validated. It was fantastic to find out that decision trees are useful!\nWhich of the following machine learning problems can you solve with a decision tree?\n\nBinary classification problems where you need to decide the correct category for a sample among two possible choices.\nMulti-class classification problems where you need to decide the correct category for a sample among multiple choices.\nMulti-label classification problems where you need to decide the correct categories for a sample among multiple choices.\nRegression problems where you need to predict a continuous output."
+  },
+  {
+    "objectID": "dailyml/dailyml0006/0003.html#attempt",
+    "href": "dailyml/dailyml0006/0003.html#attempt",
+    "title": "A decision tree for that?",
+    "section": "Attempt",
+    "text": "Attempt\nEvery one of the choices is a correct answer: decision trees are really powerful!\nWe usually discuss two types of decision trees in machine learning: classification and regression trees. The former covers the first three choices, while the latter covers the fourth choice.\nBinary classification problems aim to classify one sample into two different categories. Multi-class classification problems are similar, but they classify samples into more than two categories. Decision trees are a perfect fit for these problems.\nMulti-label classification is somewhat different. Here we want to classify a sample into one or more categories. Decision trees can also solve these problems. Check out Scikit-Learn’s implementation to see how they tackle multi-label classification.\nFinally, decision trees can also solve regression problems where we want to predict a continuous target variable. “How can Regression Trees be used for Solving Regression Problems?” is an excellent introduction."
+  },
+  {
+    "objectID": "dailyml/dailyml0006/0003.html#recommended-reading",
+    "href": "dailyml/dailyml0006/0003.html#recommended-reading",
+    "title": "A decision tree for that?",
+    "section": "Recommended reading",
+    "text": "Recommended reading\n\nScikit-Learn’s “Multiclass and multioutput algorithms” will introduce you to solve these problems using Scikit-Learn’s decision tree implementation.\n“How can Regression Trees be used for Solving Regression Problems?” is an excellent article about using decision trees for regression tasks."
   }
 ]
