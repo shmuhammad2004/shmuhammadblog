@@ -11,7 +11,7 @@
     "href": "daily.html",
     "title": "Today I Learned",
     "section": "",
-    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\n\nFormatting number with an underscore in Python\n\n\nOct 15, 2022\n\n\n\n\n\n \n\n\n\nFatal: Not possible to fast-forward, aborting\n\n\nSep 17, 2022\n\n\n\n\n\n\n\nlabelled vs labeled\n\n\nMay 13, 2022\n\n\n\n\n\n\n\nConnecting two Indpendent Clauses with Comma and Semicolons\n\n\nMay 11, 2022\n\n\n\n\n\n\n\nBias and Varience in Machine Learning Algorithms\n\n\nMay 10, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\n\nFormatting number with an underscore in Python\n\n\nOct 15, 2022\n\n\n\n\n\n \n\n\n\nFatal: Not possible to fast-forward, aborting\n\n\nSep 17, 2022\n\n\n\n\n\n\n\nlabelled vs labeled\n\n\nMay 13, 2022\n\n\n\n\n\n\n\nConnecting two Indpendent Clauses with Comma and Semicolons\n\n\nMay 11, 2022\n\n\n\n\n\n\n\nBias and Varience in Machine Learning Algorithms\n\n\nMay 10, 2022\n\n\n\n\n\n\n\nBias and Varience in Machine Learning Algorithms\n\n\nMay 10, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "dailynlp/py0002/py0002.html",
@@ -67,7 +67,7 @@
     "href": "til.html",
     "title": "Today I Learned",
     "section": "",
-    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\n\nFormatting number with an underscore in Python\n\n\nOct 15, 2022\n\n\n\n\n\n \n\n\n\nFatal: Not possible to fast-forward, aborting\n\n\nSep 17, 2022\n\n\n\n\n\n\n\nlabelled vs labeled\n\n\nMay 13, 2022\n\n\n\n\n\n\n\nConnecting two Indpendent Clauses with Comma and Semicolons\n\n\nMay 11, 2022\n\n\n\n\n\n\n\nBias and Varience in Machine Learning Algorithms\n\n\nMay 10, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\n\nFormatting number with an underscore in Python\n\n\nOct 15, 2022\n\n\n\n\n\n \n\n\n\nFatal: Not possible to fast-forward, aborting\n\n\nSep 17, 2022\n\n\n\n\n\n\n\nlabelled vs labeled\n\n\nMay 13, 2022\n\n\n\n\n\n\n\nConnecting two Indpendent Clauses with Comma and Semicolons\n\n\nMay 11, 2022\n\n\n\n\n\n\n\nBias and Varience in Machine Learning Algorithms\n\n\nMay 10, 2022\n\n\n\n\n\n\n\nBias and Varience in Machine Learning Algorithms\n\n\nMay 10, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "dailyR.html",
@@ -88,7 +88,7 @@
     "href": "dailyml.html",
     "title": "Daily Machine Learning",
     "section": "",
-    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\n\nA decision tree for that?\n\n\nNov 3, 2022\n\n\n\n\n\n\n\nDropout and loss\n\n\nNov 2, 2022\n\n\n\n\n\n \n\n\n\nRegularizing a model\n\n\nNov 1, 2022\n\n\n\n\n\n \n\n\n\nLogistic regression\n\n\nOct 16, 2022\n\n\n\n\n\n\n\nModel Recall\n\n\nOct 16, 2022\n\n\n\n\n\n \n\n\n\nActive Learning\n\n\nOct 15, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\n\nWeather predictions\n\n\nNov 4, 2022\n\n\n\n\n\n\n\nA decision tree for that?\n\n\nNov 3, 2022\n\n\n\n\n\n\n\nDropout and loss\n\n\nNov 2, 2022\n\n\n\n\n\n \n\n\n\nRegularizing a model\n\n\nNov 1, 2022\n\n\n\n\n\n \n\n\n\nLogistic regression\n\n\nOct 16, 2022\n\n\n\n\n\n\n\nModel Recall\n\n\nOct 16, 2022\n\n\n\n\n\n \n\n\n\nActive Learning\n\n\nOct 15, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "NLP.html",
@@ -635,5 +635,47 @@
     "title": "A decision tree for that?",
     "section": "Recommended reading",
     "text": "Recommended reading\n\nScikit-Learn’s “Multiclass and multioutput algorithms” will introduce you to solve these problems using Scikit-Learn’s decision tree implementation.\n“How can Regression Trees be used for Solving Regression Problems?” is an excellent article about using decision trees for regression tasks."
+  },
+  {
+    "objectID": "dailyml/dailyml0007/0003.html",
+    "href": "dailyml/dailyml0007/0003.html",
+    "title": "Weather predictions",
+    "section": "",
+    "text": "For the first project, Cam wants to work with the weather dataset he found online.\nCam’s Machine Learning class was a ton of fun. Their professor let them choose a problem to solve to allow them to showcase what they’ve learned so far.\nCam wants to predict the probability of snowing based on four factors: the date, the air temperature, the location, and the air pressure.\nWhich of the following is the most appropriate algorithm that Cam should use to solve this problem?\n\nCam should use linear regression.\nCam should use logistic regression.\nCam should use K-means.\nCam should use DBSCAN."
+  },
+  {
+    "objectID": "dailyml/dailyml0007/0003.html#attempt",
+    "href": "dailyml/dailyml0007/0003.html#attempt",
+    "title": "Weather predictions",
+    "section": "Attempt",
+    "text": "Attempt\nLogistic Regression is used when the dependent variable(target) is categorical.For example,\n\nTo predict whether an email is spam (1) or (0)\nWhether the tumor is malignant (1) or not (0)\n\nConsider a scenario where we need to classify whether an email is spam or not. If we use linear regression for this problem, there is a need for setting up a threshold based on which classification can be done. Say if the actual class is malignant, predicted continuous value 0.4 and the threshold value is 0.5, the data point will be classified as not malignant which can lead to serious consequence in real time.\nFrom this example, it can be inferred that linear regression is not suitable for classification problem. Linear regression is unbounded, and this brings logistic regression into picture.\nWhen to use logistic regression?\nLogistic regression is applied to predict the categorical dependent variable. In other words, it’s used when the prediction is categorical, for example, yes or no, true or false, 0 or 1. The predicted probability or output of logistic regression can be either one of them, and there’s no middle ground.\nIn essence, logistic regression helps solve probability and classification problems. In other words, you can expect only classification and probability outcomes from logistic regression.\nWhile logistic regression predicts the categorical variable for one or more independent variables, linear regression predicts the continuous variable. In other words, logistic regression provides a constant output, whereas linear regression offers a continuous output.\nSince the outcome is continuous in linear regression, there are infinite possible values for the outcome. But for logistic regression, the number of possible outcome values is limited.\nCam’s problem has two possible outcomes: it will snow or it won’t, and Cam wants his model to return the probability of it. Logistic regression is an excellent fit for any problem with a binary outcome.\nLogistic regression estimates the probability of an event occurring based on a dataset of independent variables. Linear regression, on the other hand, predicts the continuous dependent variable using a dataset of independent variables.\nK-means and DBSCAN are clustering algorithms and are not a good approach for this problem."
+  },
+  {
+    "objectID": "dailyml/dailyml0007/0003.html#recommended-reading",
+    "href": "dailyml/dailyml0007/0003.html#recommended-reading",
+    "title": "Weather predictions",
+    "section": "Recommended reading",
+    "text": "Recommended reading\n\n“Linear Regression vs Logistic Regression” does a full comparison between linear and logistic regression.\nCheck “8 Clustering Algorithms in Machine Learning that All Data Scientists Should Know” for an explanation of K-Means and DBSCAN."
+  },
+  {
+    "objectID": "til/latex_comments_todo/daily0001.html",
+    "href": "til/latex_comments_todo/daily0001.html",
+    "title": "Bias and Varience in Machine Learning Algorithms",
+    "section": "",
+    "text": "Machine learning algorithm prediction error can be classified into three types: irreducible error, bias error, and variable error."
+  },
+  {
+    "objectID": "til/latex_comments_todo/daily0001.html#bias-error",
+    "href": "til/latex_comments_todo/daily0001.html#bias-error",
+    "title": "Bias and Varience in Machine Learning Algorithms",
+    "section": "Bias error",
+    "text": "Bias error\nA model bias is a prior assumption made by a model to make the target function easier to learn. For example, a linear algorithm assumes that the target function is linear. Hence, if the target function is non-linear, then the model will have a bias error. Though they are easy to learn and understand, they are not flexible and have lower predictive performance compared to complex or flexible algorithms. Therefore, less-flexible algorithms (e.g., linear regression, linear discriminant analysis, and logistic regression) have higher bias than complex or flexible algorithms (e.g., neural networks, decision trees, k-Nearest Neighbors, and support vector machines)."
+  },
+  {
+    "objectID": "til/latex_comments_todo/daily0001.html#variance-error",
+    "href": "til/latex_comments_todo/daily0001.html#variance-error",
+    "title": "Bias and Varience in Machine Learning Algorithms",
+    "section": "Variance error",
+    "text": "Variance error\nAssume we train the same model with two different training datasets: N and M. Variance refers to the changes in the model when different training data sets are used. Certainly, the model will have a variance error when the training dataset is different. But, the error should not be too high between different training datasets.Therefore, low-variance algorithms have small changes when a different training dataset is used, and high-variance algorithms have large changes when a different training dataset is used. Flexible or complex algorithms have a high variance (e.g. SVM, Decision Trees, Neural Networks, k-Nearest Neighbors). However, non-flexible algorithms have a low variance (e.g., linear regression, linear discriminant analysis, and logistic regression).\nFinally, the goal of any supervised learning algorithm is to achieve low-bias and low-variance errors. Achieving these goals is the key to the success of any supervised learning algorithm. But, how can we achieve these goals? That is where the idea of Bias-Variance Tradeoff comes into play.\nSummary:\n\nNon-complex machine learning algorithms have high bias and low variance.\nNn-complex/flexible machine learning algorithms have a low bias but a high variance."
   }
 ]
