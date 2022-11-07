@@ -88,7 +88,7 @@
     "href": "dailyml.html",
     "title": "Daily Machine Learning",
     "section": "",
-    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\n\nWeather predictions\n\n\nNov 4, 2022\n\n\n\n\n\n\n\nA decision tree for that?\n\n\nNov 3, 2022\n\n\n\n\n\n\n\nDropout and loss\n\n\nNov 2, 2022\n\n\n\n\n\n \n\n\n\nRegularizing a model\n\n\nNov 1, 2022\n\n\n\n\n\n \n\n\n\nLogistic regression\n\n\nOct 16, 2022\n\n\n\n\n\n\n\nModel Recall\n\n\nOct 16, 2022\n\n\n\n\n\n \n\n\n\nActive Learning\n\n\nOct 15, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\n\nSalary leak\n\n\nNov 7, 2022\n\n\n\n\n\n\n\nWeather predictions\n\n\nNov 4, 2022\n\n\n\n\n\n\n\nA decision tree for that?\n\n\nNov 3, 2022\n\n\n\n\n\n\n\nDropout and loss\n\n\nNov 2, 2022\n\n\n\n\n\n \n\n\n\nRegularizing a model\n\n\nNov 1, 2022\n\n\n\n\n\n \n\n\n\nLogistic regression\n\n\nOct 16, 2022\n\n\n\n\n\n\n\nModel Recall\n\n\nOct 16, 2022\n\n\n\n\n\n \n\n\n\nActive Learning\n\n\nOct 15, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "NLP.html",
@@ -677,5 +677,26 @@
     "title": "Bias and Varience in Machine Learning Algorithms",
     "section": "Variance error",
     "text": "Variance error\nAssume we train the same model with two different training datasets: N and M. Variance refers to the changes in the model when different training data sets are used. Certainly, the model will have a variance error when the training dataset is different. But, the error should not be too high between different training datasets.Therefore, low-variance algorithms have small changes when a different training dataset is used, and high-variance algorithms have large changes when a different training dataset is used. Flexible or complex algorithms have a high variance (e.g. SVM, Decision Trees, Neural Networks, k-Nearest Neighbors). However, non-flexible algorithms have a low variance (e.g., linear regression, linear discriminant analysis, and logistic regression).\nFinally, the goal of any supervised learning algorithm is to achieve low-bias and low-variance errors. Achieving these goals is the key to the success of any supervised learning algorithm. But, how can we achieve these goals? That is where the idea of Bias-Variance Tradeoff comes into play.\nSummary:\n\nNon-complex machine learning algorithms have high bias and low variance.\nNn-complex/flexible machine learning algorithms have a low bias but a high variance."
+  },
+  {
+    "objectID": "dailyml/dailyml0008/0003.html",
+    "href": "dailyml/dailyml0008/0003.html",
+    "title": "Salary leak",
+    "section": "",
+    "text": "There was a massive data leak, and for some mysterious reason, you came across a dataset full of compensation data from top tech companies in Silicon Valley.\nYou thought it wouldn’t hurt to play around with the data for a little bit. You could finally build a model to predict future compensation based on the different attributes of each employee.\nBut one thing becomes apparent from the start: You need to cut down useless features to build something useful.\nDimensionality reduction to the rescue. You haven’t done it before and want to ensure you are doing it correctly.\nHow should you apply dimensionality reduction to your data?\n\nReduce the dimensions of the training dataset. It’s unnecessary to use dimensionality reduction on the test dataset.\nReduce the dimensions of the entire dataset. Split your data into training and test right after.\nReduce the dimensions of the training dataset, then reduce the dimensions of the test dataset. We can use different dimensionality reduction techniques as long as both splits end up with the same features.\nReduce the dimensions of the training dataset, then apply the same transformations to the test dataset."
+  },
+  {
+    "objectID": "dailyml/dailyml0008/0003.html#attempt",
+    "href": "dailyml/dailyml0008/0003.html#attempt",
+    "title": "Salary leak",
+    "section": "Attempt",
+    "text": "Attempt\nDimensionality reduction is a technique that reduces the number of features in a dataset. It is used to reduce the complexity of a model and to reduce the training time.\nYou found there are too many features to create a useful model. The Curse of Dimensionality states that, as the dimensionality of the data increases, the amount of data needed to train a learning algorithm grows exponentially.\nThere are different techniques to reduce the dimensionality of a dataset. They all follow the same principle: you start with a dataset, reduce its dimensionality, and obtain a new dataset with fewer features. Depending on the technique, the final dataset may contain a subset of the initial features or even have entirely different columns not present in the initial dataset.\nThe first choice argues that you only need to worry about reducing the dimension of the training dataset. That’s incorrect. How can you test a model trained with a dataset containing different features?\nThe second choice argues for reducing the dimensionality of the entire dataset and splitting the data right after that. Dimensionality reduction algorithms like PCA will use information about the whole dataset to produce new features. If we apply this algorithm to all of our data—including the test data, which we aren’t supposed to know about— we’ll leak details from the test data into the training set.\nThe third choice is also incorrect. You need to apply dimensionality reduction separately to the training and test datasets and make sure you use the same transformations from the training data on the test data.\nFor example, imagine your dimensionality reduction technique creates a new feature based on the mean of another two columns. If you compute this mean separately on the train and test data, the resulting columns will come from different mean values. You need to avoid this problem by using what the fourth choice suggests: apply the same transformations and use the same information from the training and testing sets."
+  },
+  {
+    "objectID": "dailyml/dailyml0008/0003.html#recommended-reading",
+    "href": "dailyml/dailyml0008/0003.html#recommended-reading",
+    "title": "Salary leak",
+    "section": "Recommended reading",
+    "text": "Recommended reading\n\nCheck “What is the Curse of Dimensionality?” for an introduction to the Curse of Dimensionality.\nFor an explanation of data leakages, check “Data Leakage in Machine Learning”.\n“Introduction to Dimensionality Reduction for Machine Learning” covers different examples of dimensionality reduction."
   }
 ]
