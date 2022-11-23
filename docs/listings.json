@@ -2,12 +2,14 @@
   {
     "listing": "/dailynlp.html",
     "items": [
+      "/dailynlp/nlp0002/nlp0002.html",
       "/dailynlp/py0002/py0002.html"
     ]
   },
   {
     "listing": "/daily.html",
     "items": [
+      "/til/Python_module/py0002.html",
       "/til/stringprinting/daily0001.html",
       "/til/git-rebasd/daily0001.html",
       "/til/labeled/daily0001.html",
@@ -25,6 +27,7 @@
   {
     "listing": "/til.html",
     "items": [
+      "/til/Python_module/py0002.html",
       "/til/stringprinting/daily0001.html",
       "/til/git-rebasd/daily0001.html",
       "/til/labeled/daily0001.html",
@@ -43,6 +46,9 @@
   {
     "listing": "/dailyml.html",
     "items": [
+      "/dailyml/dailyml0010 copy/0003.html",
+      "/dailyml/dailyml0010/0003.html",
+      "/dailyml/dailyml0009/0003.html",
       "/dailyml/dailyml0008/0003.html",
       "/dailyml/dailyml0007/0003.html",
       "/dailyml/dailyml0006/0003.html",
@@ -58,6 +64,7 @@
     "items": [
       "/blog/chapter_1 copy 2/tt_0001.html",
       "/blog/tensor/tensor.html",
+      "/blog/Python_loop/py0002.html",
       "/blog/obtaining data/obtaininda.html",
       "/blog/movingfilestodocker/movinfiles.html",
       "/blog/whyblog/whyblog.html"

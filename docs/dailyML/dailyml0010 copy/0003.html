@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2022-10-15">
+<meta name="dcterms.date" content="2022-11-23">
 
-<title>Shamsuddeen Hassan Muhammad’s Blog - Shuffling dataset</title>
+<title>Shamsuddeen Hassan Muhammad’s Blog - Modify Learning rate vs Early stopping</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,69 +21,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-    color: #aaaaaa;
-  }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
-code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #7d9029; } /* Attribute */
-code span.bn { color: #40a070; } /* BaseN */
-code span.bu { color: #008000; } /* BuiltIn */
-code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #4070a0; } /* Char */
-code span.cn { color: #880000; } /* Constant */
-code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code span.dt { color: #902000; } /* DataType */
-code span.dv { color: #40a070; } /* DecVal */
-code span.er { color: #ff0000; font-weight: bold; } /* Error */
-code span.ex { } /* Extension */
-code span.fl { color: #40a070; } /* Float */
-code span.fu { color: #06287e; } /* Function */
-code span.im { color: #008000; font-weight: bold; } /* Import */
-code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code span.op { color: #666666; } /* Operator */
-code span.ot { color: #007020; } /* Other */
-code span.pp { color: #bc7a00; } /* Preprocessor */
-code span.sc { color: #4070a0; } /* SpecialChar */
-code span.ss { color: #bb6688; } /* SpecialString */
-code span.st { color: #4070a0; } /* String */
-code span.va { color: #19177c; } /* Variable */
-code span.vs { color: #4070a0; } /* VerbatimString */
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 
@@ -138,13 +75,16 @@ ga('send', {
 <script defer="" data-domain="ivelasq.rbind.io" src="https://plausible.io/js/plausible.js"></script>
 
 
-<meta name="twitter:title" content="Shamsuddeen Hassan Muhammad’s Blog - Shuffling dataset">
-<meta name="twitter:description" content="How can you shuffle dataset using dplyr?">
+<meta name="twitter:title" content="Shamsuddeen Hassan Muhammad’s Blog - Modify Learning rate vs Early stopping">
+<meta name="twitter:description" content="“There’s something wrong with your network.”">
+<meta name="twitter:image" content="https://shmuhammadblog.github.io/dailyml/dailyml0010 copy/2022-11-03-06-09-39.png">
 <meta name="twitter:creator" content="Shamsuddeen Hassan Muhammad">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:image-height" content="272">
+<meta name="twitter:image-width" content="542">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -236,17 +176,13 @@ ga('send', {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
-<p>subscribe.html</p>
-</div></div>
-        
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Shuffling dataset</h1>
+<h1 class="title">Modify Learning rate vs Early stopping</h1>
 </div>
 
 
@@ -257,7 +193,7 @@ ga('send', {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 15, 2022</p>
+      <p class="date">November 23, 2022</p>
     </div>
   </div>
     
@@ -266,41 +202,37 @@ ga('send', {
 
 </header>
 
-<p>How can you shuffle dataset using dplyr?</p>
-<p>We can use <code>slice</code> to shuffle the dataset as shown below below:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
-✔ ggplot2 3.3.6      ✔ purrr   0.3.5 
-✔ tibble  3.1.8      ✔ dplyr   1.0.10
-✔ tidyr   1.2.1      ✔ stringr 1.4.1 
-✔ readr   2.1.3      ✔ forcats 0.5.2 
-── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-✖ dplyr::filter() masks stats::filter()
-✖ dplyr::lag()    masks stats::lag()</code></pre>
-</div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>mtcars <span class="sc">|&gt;</span> </span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">slice</span>(<span class="fu">sample</span>(<span class="dv">1</span><span class="sc">:</span><span class="fu">n</span>())) <span class="sc">|&gt;</span> </span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>                    mpg cyl  disp  hp drat    wt  qsec vs am gear carb
-Chrysler Imperial  14.7   8 440.0 230 3.23 5.345 17.42  0  0    3    4
-Datsun 710         22.8   4 108.0  93 3.85 2.320 18.61  1  1    4    1
-Cadillac Fleetwood 10.4   8 472.0 205 2.93 5.250 17.98  0  0    3    4
-Merc 450SLC        15.2   8 275.8 180 3.07 3.780 18.00  0  0    3    3
-AMC Javelin        15.2   8 304.0 150 3.15 3.435 17.30  0  0    3    2
-Mazda RX4          21.0   6 160.0 110 3.90 2.620 16.46  0  1    4    4</code></pre>
-</div>
-</div>
+<section id="something-wrong" class="level2">
+<h2 class="anchored" data-anchor-id="something-wrong">Something wrong</h2>
+<p>“There’s something wrong with your network.”</p>
+<p>That was the start of a message Camille received from her friend. She posted the plot of a neural network training loss online, and Camilla’s friend reached out to let her know.</p>
+<p>Camille is using gradient descent for the first time, so she appreciated the help.</p>
+<p>“Do you see what happened around the ninety epoch? The loss increases for a moment before coming back down again until the end. You don’t want that,”—concluded the message.</p>
+<p>What would you do if you were in Camille’s shoes?</p>
+<ul>
+<li><p>Camille should decrease the learning rate. That should stop the loss from increasing during training.</p></li>
+<li><p>Camille should increase the learning rate. That should stop the loss from increasing during training.</p></li>
+<li><p>Camille should use Early Stopping at around the ninety epoch.</p></li>
+<li><p>Camille shouldn’t do anything because her network has no problem.</p></li>
+</ul>
+</section>
+<section id="attempt" class="level2">
+<h2 class="anchored" data-anchor-id="attempt">Attempt</h2>
+<p>Gradient descent moves downhill on average, so a network that learns appropriately should see the loss decrease over the training session. However, individual updates can move in the opposite direction, causing the loss to fluctuate up and down.</p>
+<p>Camille’s plot shows the loss increasing momentarily, but it immediately starts decreasing. That’s normal, and Camille shouldn’t worry about it.</p>
+<p>Since the training process seems to be working correctly, modifying the learning loss might improve the results, but there’s nothing Camille needs to fix. If she uses Early Stopping, she will prevent the network from improving further.</p>
+<p>In summary, Camille shouldn’t do anything at this point.</p>
+</section>
+<section id="recommended-reading" class="level2">
+<h2 class="anchored" data-anchor-id="recommended-reading">Recommended reading</h2>
+<ol type="1">
+<li><p>Check <a href="https://ruder.io/optimizing-gradient-descent/index.html#gradientdescentvariants">“An overview of gradient descent optimization algorithms”</a> for a deep dive into gradient descent and every one of its variants.</p></li>
+<li><p>Check <a href="https://articles.bnomial.com/early-stopping">“Early Stopping”</a> for an introduction to one of the most effective, easy-to-implement regularization techniques when training machine learning models</p></li>
+</ol>
 <style>
 body {
 text-align: justify}
 </style>
-<section id="summary-of-the-book" class="level1">
-<h1>summary of the book</h1>
 
 
 </section>
