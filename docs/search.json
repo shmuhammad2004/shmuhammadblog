@@ -28,6 +28,27 @@
     "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\n\nDeep Work\n\n\nOct 15, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "dailyml/dailyml0011/0003.html",
+    "href": "dailyml/dailyml0011/0003.html",
+    "title": "KNN’s runtime",
+    "section": "",
+    "text": "Evangeline is working with a dataset with a single column of data.\nShe wants to run k-Nearest Neighbors (KNN), but only if the algorithm is fast enough when making predictions.\nAssuming there are n samples in the dataset, which of the following will be the runtime of Evangeline’s KNN at prediction time?\n\nThe runtime that Evangeline should expect is O(1)\nThe runtime that Evangeline should expect is O(n)\nThe runtime that Evangeline should expect is O(log n)\nThe runtime that Evangeline should expect is O(n²)"
+  },
+  {
+    "objectID": "dailyml/dailyml0011/0003.html#attempt",
+    "href": "dailyml/dailyml0011/0003.html#attempt",
+    "title": "KNN’s runtime",
+    "section": "Attempt",
+    "text": "Attempt\nk-Nearest Neighbors’ runtime is O(nd) because we need to compute the distance to each feature of every sample. Here n represents the number of instances, and d the number of features.\nEvangeline is working with a single feature, so d = 1. Therefore, in this case, the runtime of KNN is O(n)."
+  },
+  {
+    "objectID": "dailyml/dailyml0011/0003.html#recommended-reading",
+    "href": "dailyml/dailyml0011/0003.html#recommended-reading",
+    "title": "KNN’s runtime",
+    "section": "Recommended reading",
+    "text": "Recommended reading\nHere is a Stack Exchange answer that covers KNN’s runtime complexity in detail."
+  },
+  {
     "objectID": "dailyml/dailyml0010/0003.html",
     "href": "dailyml/dailyml0010/0003.html",
     "title": "Effect of Batch Size on Training Time",
@@ -126,22 +147,22 @@
     "text": "Answer\n\n\nRecommended Reading\n\nHow to Calculate Precision, Recall, and F-Measure for Imbalanced Classification"
   },
   {
-    "objectID": "dailyml/dailyml0010 copy/0003.html",
-    "href": "dailyml/dailyml0010 copy/0003.html",
+    "objectID": "dailyml/dailyml0012/0003.html",
+    "href": "dailyml/dailyml0012/0003.html",
     "title": "Modify Learning rate vs Early stopping",
     "section": "",
     "text": "“There’s something wrong with your network.”\nThat was the start of a message Camille received from her friend. She posted the plot of a neural network training loss online, and Camilla’s friend reached out to let her know.\nCamille is using gradient descent for the first time, so she appreciated the help.\n“Do you see what happened around the ninety epoch? The loss increases for a moment before coming back down again until the end. You don’t want that,”—concluded the message.\nWhat would you do if you were in Camille’s shoes?\n\nCamille should decrease the learning rate. That should stop the loss from increasing during training.\nCamille should increase the learning rate. That should stop the loss from increasing during training.\nCamille should use Early Stopping at around the ninety epoch.\nCamille shouldn’t do anything because her network has no problem."
   },
   {
-    "objectID": "dailyml/dailyml0010 copy/0003.html#attempt",
-    "href": "dailyml/dailyml0010 copy/0003.html#attempt",
+    "objectID": "dailyml/dailyml0012/0003.html#attempt",
+    "href": "dailyml/dailyml0012/0003.html#attempt",
     "title": "Modify Learning rate vs Early stopping",
     "section": "Attempt",
     "text": "Attempt\nGradient descent moves downhill on average, so a network that learns appropriately should see the loss decrease over the training session. However, individual updates can move in the opposite direction, causing the loss to fluctuate up and down.\nCamille’s plot shows the loss increasing momentarily, but it immediately starts decreasing. That’s normal, and Camille shouldn’t worry about it.\nSince the training process seems to be working correctly, modifying the learning loss might improve the results, but there’s nothing Camille needs to fix. If she uses Early Stopping, she will prevent the network from improving further.\nIn summary, Camille shouldn’t do anything at this point."
   },
   {
-    "objectID": "dailyml/dailyml0010 copy/0003.html#recommended-reading",
-    "href": "dailyml/dailyml0010 copy/0003.html#recommended-reading",
+    "objectID": "dailyml/dailyml0012/0003.html#recommended-reading",
+    "href": "dailyml/dailyml0012/0003.html#recommended-reading",
     "title": "Modify Learning rate vs Early stopping",
     "section": "Recommended reading",
     "text": "Recommended reading\n\nCheck “An overview of gradient descent optimization algorithms” for a deep dive into gradient descent and every one of its variants.\nCheck “Early Stopping” for an introduction to one of the most effective, easy-to-implement regularization techniques when training machine learning models"
@@ -270,7 +291,7 @@
     "href": "dailyml.html",
     "title": "Daily Machine Learning",
     "section": "",
-    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\n\nModify Learning rate vs Early stopping\n\n\nNov 23, 2022\n\n\n\n\n\n\n\nEffect of Batch Size on Training Time\n\n\nNov 7, 2022\n\n\n\n\n\n\n\nEffect of Batch Size on Training Time\n\n\nNov 7, 2022\n\n\n\n\n\n\n\nSalary leak\n\n\nNov 7, 2022\n\n\n\n\n\n\n\nWeather predictions\n\n\nNov 4, 2022\n\n\n\n\n\n\n\nA decision tree for that?\n\n\nNov 3, 2022\n\n\n\n\n\n\n\nDropout and loss\n\n\nNov 2, 2022\n\n\n\n\n\n \n\n\n\nRegularizing a model\n\n\nNov 1, 2022\n\n\n\n\n\n \n\n\n\nLogistic regression\n\n\nOct 16, 2022\n\n\n\n\n\n\n\nModel Recall\n\n\nOct 16, 2022\n\n\n\n\n\n \n\n\n\nActive Learning\n\n\nOct 15, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\n\nKNN’s runtime\n\n\nNov 24, 2022\n\n\n\n\n\n\n\nModify Learning rate vs Early stopping\n\n\nNov 23, 2022\n\n\n\n\n\n\n\nEffect of Batch Size on Training Time\n\n\nNov 7, 2022\n\n\n\n\n\n\n\nEffect of Batch Size on Training Time\n\n\nNov 7, 2022\n\n\n\n\n\n\n\nSalary leak\n\n\nNov 7, 2022\n\n\n\n\n\n\n\nWeather predictions\n\n\nNov 4, 2022\n\n\n\n\n\n\n\nA decision tree for that?\n\n\nNov 3, 2022\n\n\n\n\n\n\n\nDropout and loss\n\n\nNov 2, 2022\n\n\n\n\n\n \n\n\n\nRegularizing a model\n\n\nNov 1, 2022\n\n\n\n\n\n \n\n\n\nLogistic regression\n\n\nOct 16, 2022\n\n\n\n\n\n\n\nModel Recall\n\n\nOct 16, 2022\n\n\n\n\n\n \n\n\n\nActive Learning\n\n\nOct 15, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "NLP.html",
