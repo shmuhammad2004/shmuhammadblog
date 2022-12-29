@@ -14,5 +14,7 @@
     }
   },
   "r.rterm.mac": "/Users/shmuhammad/mambaforge/envs/datascience/bin/Radian",
-  "r.rpath.mac": "/opt/homebrew/bin/R"
+  "r.rpath.mac": "/opt/homebrew/bin/R",
+  "editor.tabCompletion": "on",
+  "diffEditor.codeLens": true
 }
