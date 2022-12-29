@@ -35,25 +35,8 @@ website:
       - text: "Blog"
         file: index.qmd
       - file: til.qmd
-      - text: "Atomic Habit"
-        menu:
-          - text : "Book I am reading and Summary"
-            file: bookreading.qmd
-          - text : "Daily Machine Learning"
-            file:  dailyml.qmd 
-          - text : "Daily NLP"
-            file:  dailynlp.qmd 
-          - text : "Daily Python"
-            file:  dailypython.qmd
-          - text : "Daily R"
-            file: dailyR.qmd
-          - text : "Daily Paper Summary"
-            file:  dailypaper.qmd
-          - text: "The Big Book of My PhD"
-            file: https://shmuhammad2004.github.io/bigbookofphd/intro.html
       - text: "About"
         file: about.qmd
-
       - icon: twitter
         href: https://twitter.com/Shmuhammadd
       - icon: github
